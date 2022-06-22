@@ -8,9 +8,10 @@ function TitleSkill() {
       <aside className="profile-card">
         <div className="abt-skill">
           {/* the skill */}
-          <h1>David Jones</h1>
+          <h1>Skill</h1>
 
           {/* tech stack */}
+          <h2>Technical Skills</h2>
           <ul className="profile-social-links">
             <li></li>
 
@@ -20,22 +21,20 @@ function TitleSkill() {
           </ul>
 
           {/* experience */}
-          <p>
-            Even when everything is perfect, you can always make it better.
-            Break barriers in your head, create something crazy and don't forget
-            Code is Poetry...
-          </p>
+          <h2>Experience</h2>
+          <p>Experience</p>
+
+          {/* projects */}
+          <h2>Projects</h2>
           <div className="projects">
             <Card />
             <Card />
           </div>
-
-
         </div>
 
         <div className="gif">
           {/* here’s the gif */}
-          <img />
+          <img alt="skill-gif" />
         </div>
       </aside>
     </div>

@@ -1,10 +1,8 @@
 .bg {
-    background-color: #bcdee7;
     padding: 0px;
     margin: 0px;
     width: 100%;
     height: 100%;
-    font-family: "Roboto", sans-serif;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -22,8 +20,6 @@
     content: "";
     height: 0px;
     padding: 0px;
-    border: 110em solid #313440;
-    position: absolute;
     left: 50%;
     top: 100%;
     z-index: 2;
@@ -43,7 +39,7 @@
     left: 50%;
     top: 50%;
     z-index: 2;
-    overflow: hidden;
+    display: flex;
     opacity: 0;
     margin-top: 70px;
     -webkit-transform: translate(-50%, -50%);
@@ -60,14 +56,13 @@
     width: 60%;
     height: 100%;
     padding: 40px 20px 30px 20px;
-    display: inline-block;
     border-right: 2px dashed #EEEEEE;
     background: #FFFFFF;
     color: #000000;
     margin-top: 50px;
     opacity: 0;
     -webkit-animation: moveIn 1s 2.8s ease forwards;
-    animation: moveIn 1s 2.8s ease forwards;
+    animation: moveIn 1s 2.4s ease forwards;
 }
 
 .profile-card .abt-skill .projects {
@@ -78,7 +73,6 @@
 .profile-card .gif {
     width: 40%;
     height: 100%;
-    display: inline-block;
     padding: 50px 20px 30px 20px;
     background: #FFFFFF;
     color: #333333;
@@ -109,21 +103,26 @@
     width: 12%;
 }
 
-.tech-skills li a {
-    display: inline-block;
-    width: 24px;
-    height: 24px;
-    padding: 6px;
-    position: relative;
-    overflow: hidden !important;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
+.tech-skills li img {
+    width: 3.6rem;
+    height: 3.6rem;
+    border-radius: 4px;
+    border: 2px solid rgba(220, 220, 220, 0.4);
+    padding: 0.2rem;
+    box-shadow: 0px 10px 40px 0px rgba(76, 70, 124, 0.2);
+    transition: all 0.4s ease;
 }
 
-.tech-skills li a img {
-    width: 24px;
+.tech-skills li img:hover {
+    box-shadow: 0px 10px 40px 0px rgba(76, 70, 124, 0.4);
+    width: 4rem;
+    height: 4rem;
 }
 
+.gif img {
+    width: 100%;
+    margin-top: 60px;
+}
 
 @media screen and (min-aspect-ratio: 4/3) {
     .bg {
@@ -374,7 +373,7 @@
 
     100% {
         width: 440px;
-        height: 88%;
+        height: 100%;
         background: #FFFFFF;
         -webkit-border-radius: 4px;
     }
@@ -391,7 +390,7 @@
 
     100% {
         width: 440px;
-        height: 88%;
+        height: 100%;
         background: #FFFFFF;
         border-radius: 4px;
     }
@@ -407,8 +406,8 @@
     }
 
     100% {
-        width: 88%;
-        height: 88%;
+        width: 100%;
+        height: 100%;
         background: #FFFFFF;
         -webkit-border-radius: 4px;
     }
@@ -424,8 +423,8 @@
     }
 
     100% {
-        width: 88%;
-        height: 88%;
+        width: 100%;
+        height: 100%;
         background: #FFFFFF;
         border-radius: 4px;
     }

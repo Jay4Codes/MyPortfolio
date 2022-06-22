@@ -6,7 +6,7 @@ import TitleSkill from "./components/TitleSkill";
 import DataAnal from "./components/DataAnal";
 import DeepEngg from "./components/DeepEngg";
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NoMatch from "./components/NoMatch";
 
 function App() {

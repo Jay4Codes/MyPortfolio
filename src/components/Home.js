@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
+import Footer from './Footer'
 
 function Home() {
   return (
@@ -25,6 +26,7 @@ function Home() {
           </div>
         </div>
       </header>
+      <Footer />
     </div>
   );
 }
