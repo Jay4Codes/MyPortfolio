@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
-import Footer from './Footer'
+import Footer from "./Footer";
 
 function Home() {
   return (
@@ -15,18 +15,24 @@ function Home() {
             <span className="line">I am</span>
             <span className="line">Jay Jain</span>
             <span className="line">
-              <span className="color">&</span> I code & design.
+              <span className="color">I</span> code & design
             </span>
           </h1>
           <div className="buttons">
             <nav>
-              <Link to="/skills"><button className="custom-btn btn-15">Skills</button></Link>
-              <Link to="/about"><button className="custom-btn btn-15">About</button></Link>
+              <Link to="/skills">
+                <button className="custom-btn btn-15 wall-btn">Skills</button>
+              </Link>
+              <Link to="/about">
+                <button className="custom-btn btn-15 wall-btn">About</button>
+              </Link>
             </nav>
           </div>
         </div>
       </header>
-      <Footer />
+      <div className="footer-div">
+        <Footer />
+      </div>
     </div>
   );
 }

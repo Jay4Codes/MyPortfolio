@@ -6,6 +6,7 @@ import tf from "../images/icons/tensorflow.svg";
 import keras from "../images/icons/keras.svg";
 import opencv from "../images/icons/opencv.svg";
 import jupyter from "../images/icons/jupyter.svg";
+import pytorch from "../images/icons/pytorch.svg";
 
 function DeepEngg() {
   return (
@@ -33,11 +34,17 @@ function DeepEngg() {
             <li>
               <img src={jupyter} alt="jupyter" />
             </li>
+
+            <li>
+              <img src={pytorch} alt="pytorch" />
+            </li>
           </ul>
 
           {/* experience */}
           <h2>Experience</h2>
           <p>None</p>
+
+          {/* projects */}
           <h2>Projects</h2>
           <div className="projects">
             <Card num="01" title="AI Virtual Mouse" desc="" />

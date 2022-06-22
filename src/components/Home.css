@@ -1,19 +1,17 @@
 #welcome-section {
-  background: #ffffff;
-  /* background: linear-gradient(to bottom, #181d23 0%, #202736 80%); */
+  background: #000000;
+  background: linear-gradient(to bottom, #181d23 0%, #202736 80%);
   background-size: cover;
-  position: relative;
-  min-height: 100vh;
-  margin: 0 auto;
+  width: 100%;
   z-index: 1;
 }
 
 #welcome-section::before {
   content: '';
-  /* background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Stars.svg?sanitize=true); */
+  background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Stars.svg?sanitize=true);
   width: 100%;
-  min-height: 100vh;
-  z-index: -1;
+  height: 100vh;
+  z-index: -2;
   opacity: 0;
   animation: stars-move-in 1000ms 300ms forwards;
 }
@@ -33,12 +31,13 @@
   position: absolute;
   bottom: 0px;
   left: 0;
-  background: white;
-  /* background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Trees.svg?sanitize=true) bottom left repeat-x; */
+  background: rgb(0, 0, 0);
+  background: url('../images/room.png') bottom left repeat-x;
   background-size: cover;
   width: 100%;
-  height: 80%;
+  height: 100%;
   opacity: 0;
+  z-index: -1;
   animation: forest-move-in 1000ms 500ms forwards;
 }
 
@@ -55,13 +54,13 @@
 
 .silhouette {
   position: absolute;
-  bottom: 0px;
   left: -200px;
-  background: url('../images/gifs/web-designer.gif') bottom left no-repeat;
+  /* background: url('../images/gifs/web-designer.gif') bottom left no-repeat; */
   background-size: contain;
   width: 80%;
   height: 80%;
   opacity: 0;
+  z-index: 0;
   animation: silhouette-move-in 1000ms 800ms forwards;
 }
 
@@ -78,13 +77,13 @@
 
 .moon {
   position: absolute;
-  top: 0;
-  right: 0;
-  /* background: url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Moon.svg?sanitize=true) right 150% no-repeat; */
+  top: 14%;
+  left: 24%;
+  background: url('../images/moon.png') right 100% no-repeat;
   background-size: 40% 40%;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
+  width: 1080px;
+  height: 1080px;
+  z-index: -3;
   opacity: 0;
   animation: moon-move-in 1.2s 1s forwards;
 }
@@ -103,32 +102,37 @@
 
 #welcome-section .home-container {
   position: absolute;
-  right: 0;
-  top: 50%;
-  left: 20px;
   opacity: 0;
-  transform: translate(0, -50%);
+  transform: translate(-72%, 48%);
   animation: text-fade-in 1000ms 800ms forwards;
 }
 
 @keyframes text-fade-in {
   from {
-    right: 0;
+    left: 100%;
   }
 
   to {
     opacity: 1;
-    right: 25%;
+    left: 60%;
   }
 }
 
 #welcome-section .home-container h1 {
-  color: rgb(0, 0, 0);
+  font-size: 2.4rem;
+  color: rgb(255, 255, 255);
+  text-align: right;
+  letter-spacing: 0.2rem;
+  transform: rotateY(-42deg);
+}
+
+#welcome-section .home-container h1 span {
+  margin: -0.4rem 0px;
 }
 
 #welcome-section .home-container .buttons {
   display: flex;
-  margin-top: 1rem;
+  margin-top: -0.2rem;
 }
 
 .line {

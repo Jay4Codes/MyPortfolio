@@ -1,3 +1,9 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .social-bar {
   display: flex;
   border-radius: 10px;

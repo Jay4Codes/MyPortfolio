@@ -44,6 +44,7 @@ function DataAnal() {
           <h2>Experience</h2>
           <p>None</p>
 
+          {/* projects */}
           <h2>Projects</h2>
           <div className="projects">
             <Card num="01" title="Solar Data Analysis" desc="" />

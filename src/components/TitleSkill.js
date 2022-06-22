@@ -30,6 +30,9 @@ function TitleSkill() {
             <Card />
             <Card />
           </div>
+
+          <h2>Certifications & Awards</h2>
+          <div className="awards"></div>
         </div>
 
         <div className="gif">

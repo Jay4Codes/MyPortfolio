@@ -84,18 +84,19 @@ function WebDev() {
           <h2>Experience</h2>
           <p>Markytics UniVoyage</p>
 
+          {/* projects */}
           <h2>Projects</h2>
           <div className="projects">
             <Card num="01" title="VLearn" desc="Visualising DSA Concepts" />
             <Card
               num="02"
               title="VCare"
-              desc="Fitness platform using AI techniques"
+              desc="Fitness platform using AI"
             />
             <Card
               num="03"
               title="SkyJack"
-              desc="Treasure Hunt Website for DJS S4DS"
+              desc="Treasure Hunt Website"
             />
           </div>
 
