@@ -1,7 +1,7 @@
 .progress-container {
-  color: var(--color-info-light);
+  color: var(--text-color);
   padding: 70px 50px;
-  background: var(--color-background-2);
+  background: var(--section-background);
 }
 
 .progress-row2 {
@@ -39,7 +39,7 @@
 .skill-bar {
   position: absolute;
   left: 0;
-  background: var(--color-button-hover);
+  background: var(--gradient-hover);
   height: 13px;
   bottom: 0;
   border-top-right-radius: 10px;
@@ -48,14 +48,14 @@
 }
 
 .skill-detail {
-  display: flex !important;
+  display: flex;
   flex-direction: row;
 }
 
 .skill-name {
   margin-left: 10px;
   text-transform: uppercase;
-  font-size: 12px !important;
+  font-size: 12px;
   letter-spacing: 1px;
 }
 
@@ -78,9 +78,9 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 10px;
-  color: var(--color-title);
+  color: var(--heading-text);
   letter-spacing: 3px;
-  color: var(--color-title);
+  color: var(--heading-text);
   font-weight: 600;
 }
 
@@ -120,7 +120,7 @@
 
 .progress-container .bxl-django {
   color: green;
-  font-size: 18px !important;
+  font-size: 18px;
   margin-top: 3px;
 }
 
@@ -155,5 +155,5 @@
 
 /*light theme  */
 .light .skill-bar {
-  background: var(--btn-background);
+  background: var(--gradient);
 }

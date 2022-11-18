@@ -1,9 +1,9 @@
 .service-container {
-  color: var(--color-info-light);
+  color: var(--text-color);
   max-width: 100%;
   z-index: 22;
   padding: 70px 60px;
-  background-color: var(--color-background);
+  background-color: var(--section-background);
 }
 
 .service-row {
@@ -14,11 +14,11 @@
 }
 
 .my-service {
-  background: var(--color-card-background);
+  background: var(--card-background);
   margin-bottom: 10px;
   position: relative;
   width: 300px;
-  border-radius: 10px !important;
+  border-radius: 10px;
   padding: 20px 20px;
   display: flex;
   height: 280px;
@@ -29,7 +29,7 @@
   align-items: center;
   text-align: center;
   justify-content: space-around;
-  box-shadow: 0px 30px 60px 0px rgb(0 0 0 / 10%) !important;
+  box-shadow: 0px 30px 60px 0px rgb(0 0 0 / 10%);
   transition: all 0.5s ease;
 
   border: 1px solid rgb(255 255 255 / 0.1);
@@ -37,7 +37,7 @@
 
 .my-service:hover {
   transform: scale(1.06);
-  box-shadow: 0px 30px 60px 0px rgb(0 0 0 / 20%) !important;
+  box-shadow: 0px 30px 60px 0px rgb(0 0 0 / 20%);
   transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .my-service:hover .web {
-  color: var(--color-button-hover) !important;
+  color: var(--gradient-hover);
 }
 
 .my-service span {
@@ -75,11 +75,11 @@
 .service-title h2 {
   font-size: 14px;
   font-weight: 300;
-  color: var(--color-title);
+  color: var(--heading-text);
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 10px;
-  color: var(--color-title);
+  color: var(--heading-text);
   font-weight: 600;
 }
 
@@ -90,7 +90,7 @@
 }
 
 .my-service .web {
-  color: #fff !important;
+  color: #fff;
   font-weight: 700;
 }
 
@@ -114,9 +114,9 @@
   }
 
   .my-service {
-    width: 500px !important;
-    padding: 40px 20px !important;
-    margin-bottom: 20px !important;
+    width: 500px;
+    padding: 40px 20px;
+    margin-bottom: 20px;
     height: 400px;
   }
 
@@ -179,29 +179,29 @@
 
 @media only screen and (max-width: 375px) {
   .service-container {
-    padding: 30px 20px !important;
+    padding: 30px 20px;
   }
 }
 
 /* light theme */
 .light .my-service {
-  box-shadow: 0px 30px 60px 0px rgb(0 0 0 / 10%) !important;
+  box-shadow: 0px 30px 60px 0px rgb(0 0 0 / 10%);
 }
 
 .light .my-service:hover {
   box-shadow: var(--card-box-shadow);
-  font-weight: 700 !important;
+  font-weight: 700;
 }
 
 .light .my-service .web {
-  color: black !important;
+  color: black;
   font-weight: 700;
 }
 
 .light .my-service:hover .web {
-  color: #fb7878 !important;
+  color: #fb7878;
 }
 
 .light .service-title h3 {
-  color: rgb(34, 34, 34) !important;
+  color: rgb(34, 34, 34);
 }

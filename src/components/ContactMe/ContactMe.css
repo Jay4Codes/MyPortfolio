@@ -1,5 +1,5 @@
 .contact-me2 {
-  color: var(--color-info-light);
+  color: var(--text-color);
   padding: 30px 60px 10px 60px;
   margin-top: 50px;
   position: relative;
@@ -14,13 +14,13 @@
   position: absolute;
   background-repeat: no-repeat;
   left: 0;
-  z-index: 1 !important;
+  z-index: 1;
   top: 0;
 }
 
 .contact-me2 .work-togater-text {
-  z-index: 200 !important;
-  position: relative !important;
+  z-index: 200;
+  position: relative;
 }
 
 .contact-title {
@@ -33,7 +33,7 @@
   letter-spacing: 3px;
   font-weight: 600;
   margin-bottom: 20px;
-  color: var(--color-title);
+  color: var(--heading-text);
 }
 
 .contact-title h3 {
@@ -54,8 +54,8 @@
 
 .contact-info {
   flex-basis: 24%;
-  min-width: 260px !important;
-  display: flex !important;
+  min-width: 260px;
+  display: flex;
   cursor: pointer;
   align-items: center;
   text-align: left;
@@ -72,7 +72,7 @@
 .work-togather-form {
   padding-left: 30px;
   display: flex;
-  font-size: 15px !important;
+  font-size: 15px;
   align-items: center;
   justify-content: space-between;
 }
@@ -109,7 +109,7 @@
 .footer-social span {
   font-family: "Jost", sans-serif;
   font-weight: 500;
-  font-size: 15px !important;
+  font-size: 15px;
 }
 
 .footer-social ul {
@@ -123,7 +123,7 @@
 
 .footer-social ul li {
   margin-left: 15px;
-  display: flex !important;
+  display: flex;
 }
 
 .footer-social ul li a {
@@ -137,10 +137,10 @@
   font-weight: 500;
   text-align: center;
   text-transform: uppercase;
-  color: #ffffff !important;
+  color: #ffffff;
   height: 60px;
   background: rgb(194, 120, 251);
-  background: var(--color-button-hover);
+  background: var(--gradient-hover);
   -webkit-box-shadow: 5px 5px 30px 0px rgb(195 120 251 / 35%);
   -moz-box-shadow: 5px 5px 30px 0px rgba(195, 120, 251, 0.35);
   box-shadow: 5px 5px 30px 0px rgb(195 120 251 / 35%);
@@ -154,12 +154,12 @@
 }
 
 .icon-name {
-  color: #ffffff !important;
+  color: #ffffff;
   font-size: 14px;
 }
 
 .d-name {
-  color: #cacaca !important;
+  color: #cacaca;
 }
 
 .icon-cont {
@@ -177,7 +177,7 @@
 }
 
 .contact-info {
-  text-align: left !important;
+  text-align: left;
 }
 
 .contact-info h4 {
@@ -193,21 +193,21 @@
   color: #fff;
   justify-content: center;
   align-items: center;
-  background: rgb(97 73 195) !important;
+  background: rgb(97 73 195);
   height: 40px;
   width: 40px;
   border-radius: 50px;
 }
 
 #msg {
-  color: #cacaca !important;
+  color: #cacaca;
   font-size: 15px;
 }
 
 .contact-details p {
   font-size: 13px;
   font-weight: 500;
-  /* color: #fff !important; */
+  /* color: #fff; */
 }
 
 /* resposiveness */
@@ -238,23 +238,23 @@
 }
 
 .light .contact-info {
-  color: #10161b !important;
+  color: #10161b;
 }
 
 .light .sec-btn {
-  background: var(--btn-background);
+  background: var(--gradient);
 }
 
 .light .contact-details p {
-  color: #242424 !important;
+  color: #242424;
 }
 
 .light .contact-details h4 {
-  color: #000000 !important;
+  color: #000000;
 }
 
 .light .footer-social i {
-  background: var(--btn-background) !important;
+  background: var(--gradient);
   color: #fff;
 }
 

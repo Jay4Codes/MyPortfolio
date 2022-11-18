@@ -1,22 +1,22 @@
 .aboutMe-container {
-  color: var(--color-info-light);
+  color: var(--text-color);
   width: 100%;
   padding: 0 40px;
   position: relative;
   padding: 100px 40px 20px 40px;
-  background: var(--color-background-2);
+  background: var(--section-background);
 }
 
 .abouMe-row {
-  display: flex !important;
-  align-items: center !important;
+  display: flex;
+  align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap-reverse !important;
+  flex-wrap: wrap-reverse;
 }
 
 .abouMe-row img {
   width: 80%;
-  margin-right: 0 !important;
+  margin-right: 0;
 }
 
 .lang {
@@ -80,9 +80,9 @@
 }
 
 .about_description {
-  padding: 0 40px !important;
+  padding: 0 40px;
   position: relative;
-  padding-left: 0 !important;
+  padding-left: 0;
 }
 
 .pt-2 {
@@ -139,7 +139,7 @@
 }
 
 .bxl-postgresql {
-  color: rgb(255, 196, 0) !important;
+  color: rgb(255, 196, 0);
 }
 
 .bxl-react {
@@ -164,16 +164,16 @@
   font-weight: 500;
   font-size: 13px;
   border: none;
-  color: var(--color-background-2);
+  color: var(--text-background);
   border-radius: 50px;
-  border: 1px solid var(--color-button);
-  background: var(--color-button-hover);
+  border: 1px solid var(--gradient);
+  background: var(--gradient-hover);
 }
 
 /* Responsiveness */
 @media only screen and (min-width: 2560px) {
   .abouMe-row img {
-    width: 50% !important;
+    width: 50%;
   }
 }
 
@@ -194,11 +194,11 @@
   }
 
   .about-img {
-    padding: 0 !important;
+    padding: 0;
   }
 
   .about-info {
-    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace !important;
+    font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
   }
 
   .abouMe-row {
@@ -207,7 +207,7 @@
   }
 
   .about-img img {
-    margin-right: 0 !important;
+    margin-right: 0;
     width: 90%;
   }
 
@@ -226,7 +226,7 @@
   }
 
   .download-cv {
-    margin-top: 0 !important;
+    margin-top: 0;
     width: 130px;
     font-size: 12px;
     height: 45px;
@@ -246,11 +246,11 @@
   }
 
   .about-img {
-    padding: 0 !important;
+    padding: 0;
   }
 
   .about-img img {
-    margin-right: 0 !important;
+    margin-right: 0;
     width: 100%;
   }
 
@@ -269,9 +269,9 @@
   }
 
   .download-cv {
-    margin-top: 0 !important;
+    margin-top: 0;
     width: 140px;
-    font-size: 12px !important;
+    font-size: 12px;
     height: 45px;
   }
 }
@@ -283,7 +283,7 @@
   }
 
   .about-img img {
-    margin-right: 0 !important;
+    margin-right: 0;
     width: 60%;
   }
 }
@@ -295,9 +295,9 @@
   }
 
   .about-img img {
-    margin-right: 0 !important;
+    margin-right: 0;
     width: 100%;
-    margin-right: 0 !important;
+    margin-right: 0;
   }
 }
 
@@ -307,7 +307,7 @@
   }
 
   .about_myinfo {
-    padding: 10px !important;
+    padding: 10px;
   }
 }
 
@@ -321,13 +321,13 @@
 }
 
 .light .abouMe-row h2 {
-  color: #ff5652 !important;
+  color: #ff5652;
 }
 
 .light .download-cv {
-  background: var(--btn-background);
+  background: var(--gradient);
 }
 
 .light .download-cv:hover {
-  background: var(--color-button);
+  background: var(--gradient);
 }

@@ -10,7 +10,7 @@
 
 #header.header-inner-pages,
 #header.header-scrolled {
-  background-color: rgb(15 23 42/ 0.8) !important;
+  background-color: rgb(15 23 42/ 0.8);
 }
 
 #header .logo {
@@ -20,15 +20,15 @@
   font-weight: 400;
   letter-spacing: 2px;
   font-family: "Mr Dafoe", cursive;
-  font-size: 20px !important;
+  font-size: 20px;
 }
 
 #header .logo:hover {
-  text-decoration: underline !important;
+  text-decoration: underline;
 }
 
 #header .logo a {
-  color: var(--color-white) !important;
+  color: var(--white);
 }
 
 #header .logo img {
@@ -36,42 +36,41 @@
 }
 
 .navi {
-  max-width: 2700px !important;
+  max-width: 2700px;
   margin: auto;
-  justify-content: space-between !important;
+  justify-content: space-between;
   padding-left: 60px;
   padding-right: 60px;
 }
 
 .lefty {
-  width: 100% !important;
-  margin: auto !important;
-  display: flex !important;
+  width: 100%;
+  margin: auto;
+  display: flex;
 }
 
 .navbur .myname {
-  font-family: "Playfair Display", serif !important;
+  font-family: "Playfair Display", serif;
 
   font-weight: 800;
   line-height: 1;
   color: var(--white);
-  background: var(--color-white);
+  background: var(--white);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .navbur {
-  background: var(--color-background) !important;
+  background: var(--black);
   box-shadow: rgb(0, 10, 24) 0px 0px 10px -10px;
   padding: 20px 0;
   position: relative;
-  border-bottom: 0.1px solid var(--color-background);
-
-  transition: all 0.5s ease !important;
+  border-bottom: 0.1px solid var(--section-background);
+  transition: all 0.5s ease;
 }
 
 nav {
-  display: flex !important;
+  display: flex;
   float: right;
   padding-right: 40px;
 }
@@ -93,14 +92,10 @@ nav {
 }
 
 .nav-menu>ul>li a {
-  font-size: 14px !important;
-  letter-spacing: 1px;
-  font-weight: 100;
-
+  font-size: 14px;
   position: relative;
   font-style: normal;
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
-
   font-size: 13px;
   font-weight: 400;
   letter-spacing: 0.05em;
@@ -108,17 +103,17 @@ nav {
 }
 
 .nav-menu>ul>li a:hover {
-  color: var(--color-primary-variant) !important;
+  color: var(--color-text-hover);
   font-weight: 800;
 }
 
 .nav-menu>ul>li span {
-  color: #7eeb7e !important;
+  color: #dd7eeb;
 }
 
 .descript {
-  margin-top: 160px !important;
-  /* padding-top: 4rem !important; */
+  margin-top: 160px;
+  /* padding-top: 4rem; */
 }
 
 .left-btns {
@@ -131,7 +126,7 @@ nav {
 }
 
 .CvMe button {
-  background: var(--color-button-hover) !important;
+  background: var(--gradient-hover);
   height: 50px;
   border-radius: 5px;
   width: 130px;
@@ -140,16 +135,16 @@ nav {
 }
 
 .active a {
-  color: var(--color-primary-variant) !important;
-  font-weight: 700 !important;
+  color: var(--section-text-color);
+  font-weight: 700;
 }
 
 .light .active a {
-  color: #ff5652 !important;
+  color: #ff5652;
 }
 
 .scrolled {
-  background: #04133a !important;
+  background: #04133a;
 }
 
 .myname {
@@ -161,23 +156,23 @@ nav {
 
 #header.header-inner-pages,
 #header.header-scrolled {
-  background: rgba(24, 6, 185, 0.8) !important;
+  background: rgba(24, 6, 185, 0.8);
 }
 
 #theme-button {
-  margin-bottom: -5px !important;
+  margin-bottom: -5px;
 }
 
 #theme-button i {
   cursor: pointer;
-  font-size: 30px !important;
+  font-size: 30px;
 
-  color: #cae1e4 !important;
+  color: #cae1e4;
 }
 
 #theme-button2 {
   position: fixed;
-  background: transparent !important;
+  background: transparent;
   width: 46px;
   border: 1px solid #adadad;
   height: 46px;
@@ -187,7 +182,7 @@ nav {
   border-radius: 50px;
   justify-content: center;
   right: 20px;
-  bottom: 80px !important;
+  bottom: 80px;
   margin-top: 20px;
 }
 
@@ -238,8 +233,8 @@ nav {
 /* mobile responsive */
 @media only screen and (max-width: 1024px) {
   .navi {
-    padding-left: 20px !important;
-    padding-right: 20px !important;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
@@ -254,7 +249,7 @@ nav {
   }
 
   .menuBtn>span {
-    background-color: var(--color-white);
+    background-color: var(--white);
     border-radius: 1px;
     height: 3px;
     width: 90%;
@@ -268,7 +263,7 @@ nav {
   .menuBtn>span:after,
   .menuBtn>span:before {
     content: "";
-    background-color: var(--color-white);
+    background-color: var(--white);
     border-radius: 1px;
     height: 3px;
     width: 70%;
@@ -305,11 +300,11 @@ nav {
   }
 
   nav {
-    padding: 10px !important;
+    padding: 10px;
   }
 
   .mainMenu {
-    background-color: var(--color-background);
+    background-color: var(--section-background);
     position: absolute;
     right: -20px;
     top: -20px;
@@ -357,7 +352,7 @@ nav {
   }
 
   .mainMenu li a:nth-child(even) {
-    transform: rotate(30deg) !important;
+    transform: rotate(30deg);
   }
 
   .mainMenu li:last-child {
@@ -365,14 +360,14 @@ nav {
   }
 
   .mainMenu a {
-    color: var(--color-white);
+    color: var(--white);
     display: inline-block;
-    text-decoration: none !important;
-    font-size: 1.2rem !important;
+    text-decoration: none;
+    font-size: 1.2rem;
     transition: all cubic-bezier(0.4, 0, 0.2, 1) 0.4s;
     -webkit-text-stroke: 1px;
     opacity: 0.8;
-    font-weight: 300 !important;
+    font-weight: 300;
   }
 
   .mainMenu li:hover a {
@@ -398,11 +393,11 @@ nav {
   }
 
   .lefty {
-    padding-left: 0 !important;
+    padding-left: 0;
   }
 
   .navi {
-    padding-left: 10px !important;
+    padding-left: 10px;
   }
 
   .CvMe {
@@ -411,7 +406,7 @@ nav {
 }
 
 .toggle:checked {
-  background: #ffffff !important;
+  background: #ffffff;
 }
 
 @media only screen and (max-width: 600px) {
@@ -435,7 +430,7 @@ nav {
 
   .mainMenu {
     width: 100%;
-    right: 0px !important;
+    right: 0px;
   }
 
   #theme-button2 {
@@ -456,15 +451,15 @@ nav {
 }
 
 .devman {
-  color: var(--color-white) !important;
-  font-size: 1.6rem !important;
+  color: var(--white);
+  font-size: 1.6rem;
   display: flex;
   justify-content: center;
-  margin-bottom: 0 !important;
+  margin-bottom: 0;
 
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
   align-items: center;
-  font-weight: 800 !important;
+  font-weight: 800;
 }
 
 .devman span {
@@ -503,11 +498,11 @@ nav {
 /* light theme settings */
 
 .light .scrolled {
-  background: lightblue !important;
+  background: lightblue;
 }
 
 .light .navbur {
-  background: #ffffff !important;
+  background: #ffffff;
 }
 
 .light .navbur nav ul li a {
@@ -515,9 +510,9 @@ nav {
 }
 
 .light .myname {
-  color: #000000 !important;
+  color: #000000;
 
-  font-family: "Playfair Display", serif !important;
+  font-family: "Playfair Display", serif;
   font-weight: 800;
   line-height: 1;
   color: var(--white);
@@ -527,18 +522,18 @@ nav {
 }
 
 .light .navbur {
-  border-bottom: none !important;
+  border-bottom: none;
   background: none;
 }
 
 .light .CvMe button {
-  background: var(--btn-background) !important;
+  background: var(--gradient);
 }
 
 .light #theme-button2 {
-  background-color: #fff !important;
+  background-color: #fff;
 }
 
 .light .devman {
-  color: #ff5652 !important;
+  color: #ff5652;
 }

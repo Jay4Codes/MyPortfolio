@@ -30,11 +30,11 @@
 }
 
 .intro-name {
-  font-family: "Jost", sans-serif !important;
+  font-family: "Jost", sans-serif;
 }
 
 .intro-row {
-  display: flex !important;
+  display: flex;
   align-items: center;
   padding-left: 40px;
   padding-right: 20px;
@@ -42,14 +42,14 @@
   padding-top: 50px;
   padding-bottom: 60px;
   flex-wrap: wrap;
-  justify-content: space-evenly !important;
+  justify-content: space-evenly;
 }
 
 .intro-img {
   width: 80%;
   border-radius: 10px;
   z-index: 50;
-  margin-right: 0px !important;
+  margin-right: 0px;
 }
 
 .ff {
@@ -59,7 +59,7 @@
 }
 
 .intro-name {
-  color: var(--color-info-light);
+  color: var(--text-color);
 }
 
 .hello {
@@ -69,7 +69,7 @@
   margin-bottom: 10px;
   font-weight: 800;
   color: var(--white);
-  background: var(--color-special-color);
+  background: var(--heading-text);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
@@ -87,10 +87,10 @@
 
 .intro-left .job {
   font-size: 4rem;
-  margin-bottom: 20px !important;
-  font-weight: 800 !important;
+  margin-bottom: 20px;
+  font-weight: 800;
   color: var(--white);
-  background: var(--color-button);
+  background: var(--gradient);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -108,12 +108,12 @@
 
 .intro-left .myinfo {
   font-size: 15px;
-  font-weight: 400 !important;
+  font-weight: 400;
   margin-bottom: 20px;
   font-weight: 300;
-  color: var(--color-white);
+  color: var(--white);
   font-size: 16px;
-  font-family: "Rubik", sans-serif !important;
+  font-family: "Rubik", sans-serif;
 }
 
 .intro-btns button {
@@ -126,8 +126,8 @@
   font-size: 13px;
   border: none;
   border-radius: 47px;
-  color: var(--color-white);
-  border: 1px solid var(--color-title);
+  color: var(--white);
+  border: 1px solid var(--heading-text);
   background: transparent;
 }
 
@@ -136,12 +136,12 @@
   border: none;
   font-weight: 500;
   color: var(--color-dark);
-  background: var(--color-button);
+  background: var(--gradient);
   transition: all 0.5s ease;
 }
 
 .intro-btns a:hover {
-  color: var(--color-dark) !important;
+  color: var(--color-dark);
 }
 
 .intro-btns .my-cv {
@@ -150,11 +150,11 @@
 
 .intro-btns .my-cv:hover {
   color: var(--color-dark);
-  background: var(--color-white);
+  background: var(--white);
 }
 
 .intro-btns .contact-me:hover {
-  background: var(--color-button-hover) !important;
+  background: var(--gradient-hover);
 }
 
 .intro-left .intro-links {
@@ -186,7 +186,7 @@
 .icon-link {}
 
 .intro-contact span {
-  color: #d6d6d6 !important;
+  color: #d6d6d6;
   font-size: 15px;
 }
 
@@ -229,7 +229,7 @@
 }
 
 .parcol {
-  position: absolute !important;
+  position: absolute;
   left: 0;
   bottom: 0;
 }
@@ -252,7 +252,7 @@
 
 .intro-links {
   position: absolute;
-  top: 270px !important;
+  top: 270px;
   transform: rotate(270deg);
   right: -100px;
   color: antiquewhite;
@@ -269,10 +269,10 @@
   align-items: center;
   justify-content: center;
   color: rgb(193, 248, 248);
-  background: var(--color-background-2);
+  background: var(--section-background);
   font-size: 19px;
   margin: 10px 10px;
-  right: 0 !important;
+  right: 0;
 }
 
 .fa-facebook {}
@@ -299,8 +299,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 !important;
-  margin: 0 !important;
+  padding: 0;
+  margin: 0;
 }
 
 .intro-contact {
@@ -315,9 +315,9 @@
 
 @media only screen and (max-width: 1070px) {
   .intro-btns button {
-    width: 180px !important;
+    width: 180px;
     margin-bottom: 10px;
-    height: 60px !important;
+    height: 60px;
   }
 
   .intro-left .job {
@@ -331,38 +331,38 @@
 
 @media only screen and (max-width: 768px) {
   .intro-img {
-    width: 120% !important;
+    width: 120%;
   }
 
   h3 {
-    width: 100% !important;
+    width: 100%;
   }
 
   .intro-row {
-    padding: 50px 0 !important;
-    margin-top: 60px !important;
+    padding: 50px 0;
+    margin-top: 60px;
   }
 
   .intro-name .name {
-    font-size: 2rem !important;
+    font-size: 2rem;
     margin-bottom: 10px;
   }
 
   .hello {
-    font-size: 12px !important;
+    font-size: 12px;
   }
 
   .job {
-    font-size: 3rem !important;
+    font-size: 3rem;
   }
 
   .myinfo {
-    font-size: 14px !important;
+    font-size: 14px;
   }
 
   .intro-btns button {
-    width: 150px !important;
-    height: 50px !important;
+    width: 150px;
+    height: 50px;
   }
 
   .intro-btns .contact-me i {
@@ -384,17 +384,17 @@
 
 @media only screen and (max-width: 767px) {
   .intro-page {
-    padding-top: 20px !important;
+    padding-top: 20px;
     text-align: center;
     padding-bottom: 20px;
   }
 
   .intro-row {
-    padding: 0 !important;
+    padding: 0;
   }
 
   .intro-img {
-    width: 45% !important;
+    width: 45%;
   }
 
   .intro-btns button {
@@ -409,16 +409,16 @@
   }
 
   .myinfo {
-    text-align: center !important;
+    text-align: center;
   }
 
   .job {
     text-align: center;
-    font-size: 2.5rem !important;
+    font-size: 2.5rem;
   }
 
   .intro-img {
-    width: 55% !important;
+    width: 55%;
   }
 
   .intro-btns .contact-me {}
@@ -426,11 +426,11 @@
 
 @media only screen and (max-width: 425px) {
   .intro-img {
-    width: 100% !important;
+    width: 100%;
   }
 
   .intro-left {
-    padding: 0 !important;
+    padding: 0;
   }
 
   .intro-contact span {
@@ -438,11 +438,11 @@
   }
 
   .intro-btns button {
-    width: 160px !important;
+    width: 160px;
   }
 
   .intro-btns .contact-me {
-    margin-left: 0 !important;
+    margin-left: 0;
   }
 
   .myinfo {
@@ -458,15 +458,15 @@
   .intro-contact {
     margin-top: 10px;
     display: flex;
-    margin-left: 0px !important;
-    justify-content: center !important;
+    margin-left: 0px;
+    justify-content: center;
     align-items: center;
   }
 }
 
 @media only screen and (max-width: 420px) {
   .intro-btns .contact-me {
-    margin-right: 0 !important;
+    margin-right: 0;
   }
 
   .intro-btns {
@@ -484,15 +484,15 @@
   .intro-btns button {
     width: 150px;
     height: 45px;
-    margin: 10px 10px !important;
+    margin: 10px 10px;
   }
 
   .intro-left p {
-    margin-bottom: 10px !important;
+    margin-bottom: 10px;
   }
 
   .intro-img {
-    width: 100% !important;
+    width: 100%;
   }
 }
 
@@ -505,7 +505,7 @@
 }
 
 .light .intro-links i:hover {
-  background: var(--color-button);
+  background: var(--gradient);
 }
 
 .light .name {
@@ -513,38 +513,38 @@
 }
 
 .light .intro-left .job {
-  background: var(--color-button);
+  background: var(--gradient);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .light .intro-name .hello {
-  color: #fb7878 !important;
-  background: var(--color-button);
+  color: #fb7878;
+  background: var(--gradient);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .light .my-cv:hover {
-  color: #d6d6d6 !important;
+  color: #d6d6d6;
 }
 
 .light .contact-me {
-  background: var(--btn-background) !important;
+  background: var(--gradient);
 }
 
 .light .contact-me:hover {
-  background: var(--color-button) !important;
-  color: #222222 !important;
+  background: var(--gradient);
+  color: #222222;
 }
 
 .light .hello {
   font-size: 15px;
   font-weight: 400;
   margin-bottom: 20px;
-  color: #2d2170 !important;
+  color: #2d2170;
 }
 
 .light .intro-left .icon-link i {
@@ -555,5 +555,5 @@
 }
 
 .light .intro-contact span {
-  color: #020222 !important;
+  color: #020222;
 }
