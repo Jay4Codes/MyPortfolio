@@ -1,44 +1,57 @@
-import Home from "./components/Home";
-import Skill from "./components/Skill";
-import WebDev from "./components/WebDev";
-import About from "./components/About";
-import TitleSkill from "./components/TitleSkill";
-import DataAnal from "./components/DataAnal";
-import DeepEngg from "./components/DeepEngg";
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import NoMatch from "./components/NoMatch";
+import $ from "jquery";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+import { BrowserRouter } from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./components/Home/Intro";
+import AboutMe from "./components/AboutMe/AboutMe";
+import Services from "./components/Services/Services";
+import Progress from "./components/SkillBars/progress";
+// import Projects from "./components/MyWork/projects";
+import ContactMe from "./components/ContactMe/ContactMe";
+import Footer from "./components/Footer/Footer";
 
 function App() {
+  // Preloader
+  $(window).on("load", function () {
+    if ($("#preloader").length) {
+      $("#preloader")
+        .delay(100)
+        .fadeOut("slow", function () {
+          $(this).remove();
+        });
+    }
+  });
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1500,
+      once: true,
+    });
+  }, []);
+
   return (
-    <div className="App">
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/home" element={<Home />} />
+    <>
+      <BrowserRouter>
+        <div id="preloader">
+          <h2 className="name-load  animate-charcter">L O A D I N G</h2>
+        </div>
 
-          <Route path="/skills" element={<Skill />} />
+        <div className="homepage">
+          <Navbar />
+          <Home />
+        </div>
 
-          <Route path="/skills/web-developer" element={<WebDev />} />
-
-          <Route path="/skills/data-analyst" element={<DataAnal />} />
-
-          <Route path="/skills/deeplearning-engg" element={<DeepEngg />} />
-
-          <Route path="/skills/graphic-designer" element={<TitleSkill />} />
-
-          <Route path="/skills/3d-artist" element={<TitleSkill />} />
-
-          <Route path="/skills/vfx-artist" element={<TitleSkill />} />
-
-          <Route path="/skills/ui-designer" element={<TitleSkill />} />
-
-          <Route path="/about" element={<About />} />
-
-          <Route path="*" element={<NoMatch />} />
-        </Routes>
-      </Router>
-    </div>
+        <AboutMe />
+        <Services />
+        <Progress />
+        {/* <Projects /> */}
+        <ContactMe />
+        <Footer />
+      </BrowserRouter>
+    </>
   );
 }
 

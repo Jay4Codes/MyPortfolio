@@ -1,39 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;600;800&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Manrope', sans-serif;
+.App {
+    text-align: center;
+    background: var(--color-background);
 }
 
-a {
-    text-decoration: none;
+.homepage {
+    height: 750px;
 }
 
-h1 {
-    font-weight: 800;
-    font-size: 4.8rem;
+.cursor-dot,
+.cursor-dot-outline {
+    z-index: 9000;
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
-h2 {
-    font-weight: 600;
-    font-size: 2.4rem;
+.cursor-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #dcc356;
 }
 
-h3 {
-    font-weight: 400;
-    font-size: 1.6rem;
+.cursor-dot-outline {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid #dcc356;
 }
 
-p {
-    font-size: 1rem;
+#theme-button3 {
+    position: relative;
 }
 
-ul {
-    list-style: none;
+#theme-button3 input {
+    position: absolute;
+    left: 50px;
+    top: 90px;
 }
 
-h1, h2, h3, h4, h5, h6, p {
-    margin: 0.08rem;
-    padding: 0.08rem;
+.homepage::before {
+    content: "";
+    background-image: url("/src/images/decoration/background.png");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 750px !important;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.2;
+}
+
+.load_app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 130px !important;
+    flex-direction: column;
+}
+
+@media only screen and (min-width: 768px) {
+    .homepage {
+        height: 610px;
+    }
+}
+
+.light .homepage::before {
+    background: none !important;
+    opacity: 0.2;
 }

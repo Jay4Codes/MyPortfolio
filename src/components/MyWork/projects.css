@@ -1,0 +1,247 @@
+.mywork {
+  color: var(--color-info-light);
+  width: 100%;
+  padding: 0 0 0 60px;
+  margin-top: 30px !important;
+  overflow: hidden;
+}
+
+.mywork-title {
+  margin-bottom: 30px;
+}
+
+.mywork-title h2 {
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: var(--color-title);
+  font-weight: 600;
+}
+
+.project-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mywork-title h3 {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  width: 490px;
+  margin-bottom: 40px;
+}
+
+.project {
+  overflow: hidden !important;
+  min-width: 300px;
+  background: var(--color-card-background);
+  border-top-left-radius: 10px;
+  border: 1px solid rgb(255 255 255 / 0.1);
+
+  border-top-right-radius: 10px;
+}
+
+.project-img {
+  overflow: hidden;
+  display: block;
+  position: relative;
+}
+
+.project-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.work-img {
+  width: 100%;
+  display: inline-block !important;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 20px;
+  transition: 0.5s;
+  height: 200px;
+
+  cursor: pointer;
+  transform: scale(1) !important;
+}
+
+.project:hover .work-img {
+  transform: scale(1.06) !important;
+}
+
+.project {}
+
+.date-posted {
+  display: flex !important;
+  align-items: center !important;
+  padding: 10px 0;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.work-details {
+  padding: 0px 20px 20px 20px;
+  position: relative;
+}
+
+.work-details h2 {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  color: var(--color-white) !important;
+  max-height: 100px;
+  font-weight: 700;
+}
+
+.work-details p {
+  font-size: 13px;
+  word-break: break-all;
+  font-weight: 300 !important;
+  line-height: 1.7rem;
+  white-space: normal;
+}
+
+.admin {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+}
+
+.who-post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-title) !important;
+}
+
+.who-post p {
+  margin: 0 !important;
+  margin-left: 5px !important;
+  text-transform: uppercase;
+  color: var(--color-button-hover) !important;
+  font-size: 12px !important;
+}
+
+.work-info {
+  font-size: 12px;
+}
+
+.project {
+  /* border-bottom: 1px solid var(--color-title); */
+}
+
+.project .learnmore {
+  background: transparent;
+
+  height: 30px;
+  width: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  font-weight: 100;
+  letter-spacing: 1px;
+  justify-content: center;
+  align-items: center;
+  background: rgb(32, 24, 77);
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #fff !important;
+  margin-top: 30px;
+  cursor: pointer;
+  /* border: 1px solid var(--color-button-hover) !important; */
+  color: var(--color-button);
+  border-radius: 4px;
+}
+
+.learnmore:hover {
+  background: var(--color-button-hover);
+}
+
+.project:hover {
+  border-bottom: 4px solid var(--color-button);
+}
+
+/*  */
+
+.light .project {
+  background: var(--color-card-background);
+  box-shadow: var(--card-box-shadow);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .project {
+    width: 250px;
+  }
+
+  .mywork .mywork-title h3 {
+    font-size: 1.5rem;
+  }
+
+  .work-togather-text {
+    padding-bottom: 20px;
+  }
+
+  .sec-btn {
+    font-size: 13px;
+  }
+
+  .work-togather-form {
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .mywork-title {
+    text-align: center;
+  }
+
+  .mywork-title h3 {
+    font-size: 1.3rem !important;
+    word-wrap: wrap;
+  }
+
+  .mywork {
+    padding: 0 0 0 20px;
+  }
+
+  .project {
+    margin: 0 0 0 18px;
+  }
+
+  .work-img {
+    padding: 10px;
+  }
+
+  .work-details {
+    padding: 0 10px 10px 10px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .project {
+    padding: 10px;
+    min-width: 280px !important;
+  }
+
+  .mywork {
+    padding-left: 20px !important;
+  }
+}
+
+.light .work-details h2 {
+  color: black;
+  font-family: "poppins", sans-serif !important;
+}
+
+.light .who-post p {
+  color: #ff5652 !important;
+}
+
+.light .project .learnmore {
+  background: var(--btn-background) !important;
+  font-size: 11px;
+  color: #fff;
+}

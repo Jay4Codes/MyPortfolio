@@ -1,0 +1,559 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext,vietnamese");
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap");
+
+.intro-page {
+  position: relative;
+  height: auto;
+}
+
+.decor-dot2 {
+  position: absolute;
+  top: 150px;
+  left: 40%;
+}
+
+.text-animate {
+  display: inline-block;
+  animation: bounceIn 1s 1s;
+  animation-fill-mode: forwards;
+  min-width: 10px;
+}
+
+.decor-dot2 img {
+  opacity: 0.2;
+  width: 130px;
+}
+
+.intro-container {
+  width: 100%;
+}
+
+.intro-name {
+  font-family: "Jost", sans-serif !important;
+}
+
+.intro-row {
+  display: flex !important;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 20px;
+  margin-top: 80px;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  flex-wrap: wrap;
+  justify-content: space-evenly !important;
+}
+
+.intro-img {
+  width: 80%;
+  border-radius: 10px;
+  z-index: 50;
+  margin-right: 0px !important;
+}
+
+.ff {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-name {
+  color: var(--color-info-light);
+}
+
+.hello {
+  font-size: 17px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  font-weight: 800;
+  color: var(--white);
+  background: var(--color-special-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+}
+
+.intro-left {
+  padding: 30px 0;
+}
+
+.intro-left .name {
+  font-size: 4rem;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.intro-left .job {
+  font-size: 4rem;
+  margin-bottom: 20px !important;
+  font-weight: 800 !important;
+  color: var(--white);
+  background: var(--color-button);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.intro-left p {
+  margin-bottom: 50px;
+  line-height: 1.9em;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.small-intro {
+  padding: 0 30px;
+}
+
+.intro-left .myinfo {
+  font-size: 15px;
+  font-weight: 400 !important;
+  margin-bottom: 20px;
+  font-weight: 300;
+  color: var(--color-white);
+  font-size: 16px;
+  font-family: "Rubik", sans-serif !important;
+}
+
+.intro-btns button {
+  height: 60px;
+  width: 180px;
+  outline: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 300;
+  font-size: 13px;
+  border: none;
+  border-radius: 47px;
+  color: var(--color-white);
+  border: 1px solid var(--color-title);
+  background: transparent;
+}
+
+.intro-left .intro-btns .contact-me {
+  margin-right: 30px;
+  border: none;
+  font-weight: 500;
+  color: var(--color-dark);
+  background: var(--color-button);
+  transition: all 0.5s ease;
+}
+
+.intro-btns a:hover {
+  color: var(--color-dark) !important;
+}
+
+.intro-btns .my-cv {
+  transition: all 0.5s ease;
+}
+
+.intro-btns .my-cv:hover {
+  color: var(--color-dark);
+  background: var(--color-white);
+}
+
+.intro-btns .contact-me:hover {
+  background: var(--color-button-hover) !important;
+}
+
+.intro-left .intro-links {
+  display: flex;
+  margin-top: 40px;
+}
+
+.intro-btns .contact-me {
+  position: relative;
+}
+
+.intro-btns .contact-me i {
+  position: absolute;
+  right: 30px;
+  top: 24px;
+}
+
+.intro-btns .my-cv {
+  position: relative;
+}
+
+.intro-btns .my-cv i {
+  position: absolute;
+  font-size: 18px;
+  right: 25px;
+  top: 20px;
+}
+
+.icon-link {}
+
+.intro-contact span {
+  color: #d6d6d6 !important;
+  font-size: 15px;
+}
+
+.intro-contact ul li {
+  display: flex;
+}
+
+.intro-contact ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-left .icon-link i {
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  width: 35px;
+  color: #f5f5f5;
+  border: 1.6px solid #be9292;
+  background: transparent;
+  height: 35px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#particles-js-dark.min-height {
+  height: calc(100% - 100px);
+}
+
+#particles-js-dark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.parcol {
+  position: absolute !important;
+  left: 0;
+  bottom: 0;
+}
+
+#tsparticles {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.left-img {
+  position: relative;
+}
+
+.intro-name {
+  position: relative;
+}
+
+.intro-links {
+  position: absolute;
+  top: 270px !important;
+  transform: rotate(270deg);
+  right: -100px;
+  color: antiquewhite;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.intro-links i {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  transform: rotate(90deg);
+  border-radius: 7px;
+  align-items: center;
+  justify-content: center;
+  color: rgb(193, 248, 248);
+  background: var(--color-background-2);
+  font-size: 19px;
+  margin: 10px 10px;
+  right: 0 !important;
+}
+
+.fa-facebook {}
+
+.intro-contact {
+  display: flex;
+  /* align-items: ; */
+  flex-direction: column;
+}
+
+.intro-links a {
+  text-decoration: none;
+  list-style: none;
+}
+
+.intro-links i:hover {
+  background: rgb(236, 197, 113);
+  border-radius: 7px;
+
+  color: var(--color-dark);
+}
+
+.intro-links h6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.intro-contact {
+  margin-top: 50px;
+}
+
+@media only screen and (min-width: 2560px) {
+  .intro-img {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 1070px) {
+  .intro-btns button {
+    width: 180px !important;
+    margin-bottom: 10px;
+    height: 60px !important;
+  }
+
+  .intro-left .job {
+    font-size: 3rem;
+  }
+
+  .intro-left .name {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .intro-img {
+    width: 120% !important;
+  }
+
+  h3 {
+    width: 100% !important;
+  }
+
+  .intro-row {
+    padding: 50px 0 !important;
+    margin-top: 60px !important;
+  }
+
+  .intro-name .name {
+    font-size: 2rem !important;
+    margin-bottom: 10px;
+  }
+
+  .hello {
+    font-size: 12px !important;
+  }
+
+  .job {
+    font-size: 3rem !important;
+  }
+
+  .myinfo {
+    font-size: 14px !important;
+  }
+
+  .intro-btns button {
+    width: 150px !important;
+    height: 50px !important;
+  }
+
+  .intro-btns .contact-me i {
+    right: 20px;
+    top: 20px;
+  }
+
+  .intro-btns .my-cv i {
+    right: 16px;
+    top: 16px;
+  }
+
+  .intro-links i {
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .intro-page {
+    padding-top: 20px !important;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .intro-row {
+    padding: 0 !important;
+  }
+
+  .intro-img {
+    width: 45% !important;
+  }
+
+  .intro-btns button {
+    width: 120px;
+    height: 45px;
+  }
+}
+
+@media only screen and (max-width: 625px) {
+  .intro-page {
+    text-align: center;
+  }
+
+  .myinfo {
+    text-align: center !important;
+  }
+
+  .job {
+    text-align: center;
+    font-size: 2.5rem !important;
+  }
+
+  .intro-img {
+    width: 55% !important;
+  }
+
+  .intro-btns .contact-me {}
+}
+
+@media only screen and (max-width: 425px) {
+  .intro-img {
+    width: 100% !important;
+  }
+
+  .intro-left {
+    padding: 0 !important;
+  }
+
+  .intro-contact span {
+    display: none;
+  }
+
+  .intro-btns button {
+    width: 160px !important;
+  }
+
+  .intro-btns .contact-me {
+    margin-left: 0 !important;
+  }
+
+  .myinfo {
+    margin-bottom: 30px;
+  }
+
+  .contact-me {}
+
+  .intro-btns {
+    margin-left: 40px;
+  }
+
+  .intro-contact {
+    margin-top: 10px;
+    display: flex;
+    margin-left: 0px !important;
+    justify-content: center !important;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .intro-btns .contact-me {
+    margin-right: 0 !important;
+  }
+
+  .intro-btns {
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 375px) {}
+
+@media only screen and (max-width: 330px) {
+  .intro-page {
+    padding-bottom: 50px;
+  }
+
+  .intro-btns button {
+    width: 150px;
+    height: 45px;
+    margin: 10px 10px !important;
+  }
+
+  .intro-left p {
+    margin-bottom: 10px !important;
+  }
+
+  .intro-img {
+    width: 100% !important;
+  }
+}
+
+/* light theme */
+
+.light .intro-links i {
+  color: #000000;
+  background: #d6d6d6;
+  transition: all 0.5s ease;
+}
+
+.light .intro-links i:hover {
+  background: var(--color-button);
+}
+
+.light .name {
+  font-size: 3.5rem;
+}
+
+.light .intro-left .job {
+  background: var(--color-button);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.light .intro-name .hello {
+  color: #fb7878 !important;
+  background: var(--color-button);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.light .my-cv:hover {
+  color: #d6d6d6 !important;
+}
+
+.light .contact-me {
+  background: var(--btn-background) !important;
+}
+
+.light .contact-me:hover {
+  background: var(--color-button) !important;
+  color: #222222 !important;
+}
+
+.light .hello {
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #2d2170 !important;
+}
+
+.light .intro-left .icon-link i {
+  border: none;
+  background: rgb(223, 223, 223);
+  font-size: 15px;
+  color: #2d2170;
+}
+
+.light .intro-contact span {
+  color: #020222 !important;
+}
