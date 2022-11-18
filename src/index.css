@@ -97,12 +97,12 @@ button {
 
 h1 {
     font-family: "Playfair Display", serif;
-
     font-size: 11vw;
     font-weight: 800;
     line-height: 1;
     color: var(--white);
     background: linear-gradient(160deg, var(--white), var(--yellow));
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -181,7 +181,7 @@ section>div {
 }
 
 .light h2 {
-    color: var(----white);
+    color: var(--white);
 }
 
 #preloader {
@@ -222,9 +222,7 @@ section>div {
     background-size: 200% auto;
     color: #fff;
     background-clip: text;
-    text-fill-color: transparent;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     animation: textclip 2s linear infinite;
     display: inline-block;
 }
@@ -270,6 +268,7 @@ section>div {
 }
 
 #style-2::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     background-color: var(--text-background);
@@ -282,6 +281,7 @@ section>div {
 
 #style-2::-webkit-scrollbar-thumb {
     border-radius: 10px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     background-color: #69687e;
 }
