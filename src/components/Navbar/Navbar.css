@@ -107,6 +107,11 @@ nav {
   text-transform: uppercase;
 }
 
+.nav-menu>ul>li a:hover {
+  color: var(--color-primary-variant) !important;
+  font-weight: 800;
+}
+
 .nav-menu>ul>li span {
   color: #7eeb7e !important;
 }
@@ -135,7 +140,7 @@ nav {
 }
 
 .active a {
-  color: var(--color-button-hover) !important;
+  color: var(--color-primary-variant) !important;
   font-weight: 700 !important;
 }
 
@@ -367,7 +372,6 @@ nav {
     transition: all cubic-bezier(0.4, 0, 0.2, 1) 0.4s;
     -webkit-text-stroke: 1px;
     opacity: 0.8;
-
     font-weight: 300 !important;
   }
 
@@ -452,7 +456,7 @@ nav {
 }
 
 .devman {
-  color: var(--color-button-hover) !important;
+  color: var(--color-white) !important;
   font-size: 1.6rem !important;
   display: flex;
   justify-content: center;

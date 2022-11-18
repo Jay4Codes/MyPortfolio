@@ -14,18 +14,18 @@
     --color-info-light: #dce1eb;
     --color-project-title: #2196f3;
     --color-light: rgba(132, 139, 200, 0.18);
-    --color-primary-variant: #111e88;
+    --color-primary-variant: #8400ff;
     --color-dark-variant: #677483;
     --color-background: #0d012c;
     --color-title: #2196f3;
 
-    --color-button: linear-gradient(to left, #17c0e9, #c96ddd, #f45162);
-    --color-special-color: #eff30e;
-    --color-button-hover: #59c378;
+    --color-button: linear-gradient(to left, #4400ff, #8800ff, #b300ff);
+    --color-special-color: rgb(244, 160, 255);
+    --color-button-hover: linear-gradient(to left, #d182ff, #df96ff, #f0bfff);
 
     --color-background-2: #0d012c;
     --color-icon-background: #464a68;
-    --color-card-background: #1f0a44 0;
+    --color-card-background: #240a44 0;
 
     --color-card: #313552;
     --card-border-radius: 2rem;
@@ -62,10 +62,14 @@ body {
     height: 100vh;
     font-family: poppins, sans-serif !important;
     background: var(--color-background) !important;
-    user-select: none;
     font-size: 0.88rem;
     overflow-x: hidden !important;
     transition: 0.5s background ease;
+}
+
+::selection {
+    color: #ffffff;
+    background: rgba(198, 123, 255, 0.8);
 }
 
 a {
@@ -96,7 +100,7 @@ h1 {
 
 h2 {
     font-size: 1.4rem;
-    color: #59c378 !important;
+    color: #df86ff !important;
 }
 
 h3 {

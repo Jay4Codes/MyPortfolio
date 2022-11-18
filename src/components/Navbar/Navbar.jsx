@@ -49,7 +49,13 @@ const Navbar = () => {
                 </ul>
               </nav>
               <div className="nav-social">
-                <i className="fa fa-github"></i>
+                <a
+                  href="https://github.com/Jay4Codes/MyPortfolio.git"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <i className="fa fa-github"></i>
+                </a>
               </div>
               <div className="left-btns">
                 <div class=" " id="theme-button2">
@@ -57,7 +63,13 @@ const Navbar = () => {
                 </div>
                 <div>
                   <div className="CvMe">
-                    <button className="my-cv">Contact Me</button>
+                    <a
+                      href="https://drive.google.com/file/d/1Za5o9YNhJXq6i30jTGEQ2cfXFdjdN1LE/view?usp=sharing"
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      <button className="my-cv">Resume</button>
+                    </a>
                   </div>
                 </div>
 

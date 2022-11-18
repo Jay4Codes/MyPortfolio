@@ -8,7 +8,6 @@ import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Intro";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Services from "./components/Services/Services";
-import Progress from "./components/SkillBars/progress";
 import Projects from "./components/MyWork/projects";
 import ContactMe from "./components/ContactMe/ContactMe";
 import Footer from "./components/Footer/Footer";
@@ -36,7 +35,7 @@ function App() {
     <>
       <BrowserRouter>
         <div id="preloader">
-          <h2 className="name-load  animate-charcter">L O A D I N G</h2>
+          <h2 className="name-load animate-charcter">L O A D I N G</h2>
         </div>
 
         <div className="homepage">
@@ -46,7 +45,6 @@ function App() {
 
         <AboutMe />
         <Services />
-        <Progress />
         <Projects />
         <ContactMe />
         <Footer />

@@ -22,7 +22,7 @@ const Intro = () => {
                   data-aos="fade-down"
                   data-aos-duration="1500"
                 >
-                  SOFTWARE DEVELOPER
+                  SOFTWARE DEVELOPER | DATA ANALYST
                 </h3>
                 <h3
                   className="name"
@@ -52,6 +52,15 @@ const Intro = () => {
                 data-aos="fade-up"
                 data-aos-duration="1900"
               >
+                <a
+                  href="https://drive.google.com/file/d/1Za5o9YNhJXq6i30jTGEQ2cfXFdjdN1LE/view?usp=sharing"
+                  className="contactMe"
+                  rel="noreferrer"
+                >
+                  <button className="contact-me">
+                    Resume <i className="bx bx-send "></i>
+                  </button>
+                </a>
                 <a href="mailto:jay4emails@gmail.com" className="contactMe">
                   <button className="contact-me">
                     Hire me <i className="bx bx-send "></i>
@@ -107,11 +116,7 @@ const Intro = () => {
               data-aos="fade-down-left"
             >
               <div className="ff">
-                <img
-                  className="intro-img"
-                  src={intro}
-                  alt=""
-                />
+                <img className="intro-img" src={intro} alt="" />
               </div>
             </div>
           </div>
