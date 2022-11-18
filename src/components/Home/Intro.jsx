@@ -1,4 +1,5 @@
 import decor3 from "../../images/decoration/Group-31.png";
+import intro from "../../images/intro.png";
 import "./Intro.css";
 
 const Intro = () => {
@@ -71,7 +72,31 @@ const Intro = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <i className=""></i>
+                      <i className="fa fa-twitter"></i>
+                    </a>
+                    <a
+                      href="social-link"
+                      className="icon-link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i className="fa fa-instagram"></i>
+                    </a>
+                    <a
+                      href="social-link"
+                      className="icon-link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i className="bx bxl-linkedin"></i>
+                    </a>
+                    <a
+                      href="social-link"
+                      className="icon-link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i className="bx bxl-whatsapp"></i>
                     </a>
                   </li>
                 </ul>
@@ -84,7 +109,7 @@ const Intro = () => {
               <div className="ff">
                 <img
                   className="intro-img"
-                  src="https://drive.google.com/uc?id=1iyVyaGyw5HniEugxd1-qZ54rpFpn2UTc"
+                  src={intro}
                   alt=""
                 />
               </div>

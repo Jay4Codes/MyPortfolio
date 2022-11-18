@@ -37,9 +37,9 @@ const Progress = () => {
                 <div className="skill-info pt-2">
                   <div className="skill-detail">
                     <div>
-                      <i className=""></i>
+                      <i className="bx bx-devices"></i>
                     </div>
-                    <div className="skill-name">Language - Percentage</div>
+                    <div className="skill-name">Backend Development</div>
                   </div>
                   <div className="skill-perct"></div>
                 </div>

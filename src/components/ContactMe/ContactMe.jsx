@@ -38,9 +38,30 @@ const ContactMe = () => {
           <div className="contact-row">
             <div className="contact-info">
               <div className="contact-details">
-                <i className=""></i>
-                <h4 className="icon-name">Contact Name:</h4>
-                <p className="d-name">Contact Info</p>
+                <i className="bx bx-phone"></i>
+                <h4 className="icon-name">Call Me:</h4>
+                <p className="d-name">+91 98674 66628</p>
+              </div>
+            </div>
+            <div className="contact-info">
+              <div className="contact-details">
+                <i className="bx bx-phone"></i>
+                <h4 className="icon-name">Email Me:</h4>
+                <p className="d-name">jay4emails@gmail.com</p>
+              </div>
+            </div>
+            <div className="contact-info">
+              <div className="contact-details">
+                <i className="bx bx-phone"></i>
+                <h4 className="icon-name">Location:</h4>
+                <p className="d-name">Mumbai, India</p>
+              </div>
+            </div>
+            <div className="contact-info">
+              <div className="contact-details">
+                <i className="bx bx-phone"></i>
+                <h4 className="icon-name">Instagram:</h4>
+                <p className="d-name">@jay4codes</p>
               </div>
             </div>
           </div>

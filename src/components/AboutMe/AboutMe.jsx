@@ -2,6 +2,7 @@ import "./AboutMe.css";
 import decor1 from "../../images/decoration/dots-1.png";
 import reactagle from "../../images/decoration/Rectangle-7.png";
 import shady from "../../images/decoration/dots.png";
+import about from "../../images/about.svg";
 
 const AboutMe = () => {
   return (
@@ -24,25 +25,30 @@ const AboutMe = () => {
               className=" col-lg-6 col-md-5 col-sm-12 about-img"
               data-aos="fade-up-right"
             >
-              <img src="" alt="about-avatar" />
+              <img src={about}alt="about-avatar" />
             </div>
             <div
               className=" col-lg-6 col-md-7  col-sm-12 about_myinfo"
               data-aos="fade-up-left"
             >
               <div className="title">
-                <h2>Title</h2>
-                <h3>Title2</h3>
+                <h2>About Me</h2>
+                <h3>Why hire me for your next project?</h3>
               </div>
               <div className="about-description">
-                <p className="about-info">Desc</p>
+                <p className="about-info">
+                  I'm 20 years old creative SOFTWARE DEVELOPER based in Mumbai,
+                  India specializing in User Interface Design and Development. I
+                  build clean, appealing, and functional interfaces which comply
+                  with the latest web standards.
+                </p>
                 {/* <p className="about-info-2">Desc2</p> */}
               </div>
 
               <div className="lang">
                 <div className="lang-info">
                   <i className=""></i>
-                  <p className="pt-2">Lang Name</p>
+                  <p className="pt-2">HTML</p>
                 </div>
               </div>
               <div className="itscv">

@@ -9,7 +9,7 @@ import Home from "./components/Home/Intro";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Services from "./components/Services/Services";
 import Progress from "./components/SkillBars/progress";
-// import Projects from "./components/MyWork/projects";
+import Projects from "./components/MyWork/projects";
 import ContactMe from "./components/ContactMe/ContactMe";
 import Footer from "./components/Footer/Footer";
 
@@ -47,7 +47,7 @@ function App() {
         <AboutMe />
         <Services />
         <Progress />
-        {/* <Projects /> */}
+        <Projects />
         <ContactMe />
         <Footer />
       </BrowserRouter>

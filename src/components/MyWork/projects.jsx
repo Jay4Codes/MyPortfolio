@@ -51,22 +51,29 @@ const Projects = () => {
         <OwlCarousel className="owl-theme" {...options}>
           <div className="project" data-aos="fade-up">
             <div className="project-img">
-              <img src="" alt="about-avatar" className="work-img" />
+              <img src="" alt="project" className="work-img" />
             </div>
 
             <div className="date-posted">
               <div className="who-post">
-                <p className="admin">language used</p>
+                <p className="admin">
+                  Streamlit | Matplotlib | Plotly | PyDeck | Excel | Python
+                </p>
               </div>
             </div>
             <div className="work-details">
-              <h2>Project Title</h2>
-              <p className="work-info">Project Info</p>
+              <h2>Baker Hughes Data Visualization</h2>
+              <p className="work-info">
+                Developed an interactive data visualization dashboard and
+                analysis for Baker Hughes Gas Turbine data. Created insightful
+                visualizations using python libraries including matplotlib,
+                plotly, streamlit, pydeck, etc.
+              </p>
               <div className="project-links">
                 <a href="demo-link" target="_blank" rel="noopener noreferrer">
                   <h6 className="learnmore">
-                    <i className="fa fa-laptop" aria-hidden="true"></i>&nbsp; Live
-                    Demo
+                    <i className="fa fa-laptop" aria-hidden="true"></i>&nbsp;
+                    Live Demo
                   </h6>
                 </a>
                 <a href="github-link" target="_blank" rel="noopener noreferrer">
