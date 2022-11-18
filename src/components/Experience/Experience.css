@@ -1,0 +1,235 @@
+.work-experience{
+  color: var(--text-color);
+  width: 100%;
+  padding: 0 0 0 60px;
+  margin-top: 30px;
+  overflow: hidden;
+}
+
+.mywork-title {
+  margin-bottom: 30px;
+}
+
+.mywork-title h2 {
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: var(--heading-text);
+  font-weight: 600;
+}
+
+.experience-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mywork-title h3 {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  width: 490px;
+  margin-bottom: 40px;
+}
+
+.experience {
+  overflow: hidden;
+  min-width: 300px;
+  background: var(--card-background);
+  border-top-left-radius: 10px;
+  border: 1px solid rgb(255 255 255 / 0.1);
+  border-top-right-radius: 10px;
+}
+
+.experience-img {
+  overflow: hidden;
+  display: block;
+  position: relative;
+}
+
+.experience-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.work-img {
+  width: 100%;
+  display: inline-block;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 20px;
+  transition: 0.5s;
+  height: 200px;
+  cursor: pointer;
+  transform: scale(1);
+}
+
+.experience:hover .work-img {
+  transform: scale(1.06);
+}
+
+.date-posted {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.work-details {
+  padding: 0px 20px 20px 20px;
+  position: relative;
+}
+
+.work-details h2 {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  color: var(--white);
+  max-height: 100px;
+  font-weight: 700;
+}
+
+.work-details p {
+  font-size: 13px;
+  word-break: break-all;
+  font-weight: 300;
+  line-height: 1.7rem;
+  white-space: normal;
+}
+
+.admin {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+}
+
+.who-post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--heading-text);
+}
+
+.who-post p {
+  margin: 0;
+  margin-left: 5px;
+  text-transform: uppercase;
+  color: var(--gradient-hover);
+  font-size: 12px;
+}
+
+.work-info {
+  font-size: 12px;
+}
+
+.experience .learnmore {
+  background: transparent;
+  height: 30px;
+  width: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  font-weight: 100;
+  letter-spacing: 1px;
+  justify-content: center;
+  align-items: center;
+  background: rgb(32, 24, 77);
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 300;
+  color: #fff;
+  margin-top: 30px;
+  cursor: pointer;
+  color: var(--gradient);
+  border-radius: 4px;
+}
+
+.learnmore:hover {
+  background: var(--gradient-hover);
+}
+
+.experience:hover {
+  border-bottom: 4px solid var(--gradient);
+}
+
+.light .experience {
+  background: var(--card-background);
+  box-shadow: var(--card-box-shadow);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .experience {
+    width: 250px;
+  }
+
+  .work-experience.mywork-title h3 {
+    font-size: 1.5rem;
+  }
+
+  .work-togather-text {
+    padding-bottom: 20px;
+  }
+
+  .sec-btn {
+    font-size: 13px;
+  }
+
+  .work-togather-form {
+    padding-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .mywork-title {
+    text-align: center;
+  }
+
+  .mywork-title h3 {
+    font-size: 1.3rem;
+    word-wrap: wrap;
+  }
+
+  .work-experience{
+    padding: 0 0 0 20px;
+  }
+
+  .experience {
+    margin: 0 0 0 18px;
+  }
+
+  .work-img {
+    padding: 10px;
+  }
+
+  .work-details {
+    padding: 0 10px 10px 10px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .experience {
+    padding: 10px;
+    min-width: 280px;
+  }
+
+  .work-experience{
+    padding-left: 20px;
+  }
+}
+
+.light .work-details h2 {
+  color: black;
+  font-family: "poppins", sans-serif;
+}
+
+.light .who-post p {
+  color: #ff5652;
+}
+
+.light .experience .learnmore {
+  background: var(--gradient);
+  font-size: 11px;
+  color: #fff;
+}

@@ -1,10 +1,10 @@
-import "./projects.css";
+import "./Experience.css";
 import React from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 
-const Projects = () => {
+const Experience = () => {
   const options = {
     margin: 30,
     responsiveClass: true,
@@ -42,16 +42,16 @@ const Projects = () => {
   };
 
   return (
-    <div className="mywork " id="work">
+    <div className="work-experience" id="experience">
       <div className="mywork-title">
         <h2>My Work</h2>
-        <h3>Check Out My Reacet Projects</h3>
+        <h3>Experience</h3>
       </div>
-      <div className="project-row">
+      <div className="experience-row">
         <OwlCarousel className="owl-theme" {...options}>
-          <div className="project" data-aos="fade-up">
-            <div className="project-img">
-              <img src="" alt="project" className="work-img" />
+          <div className="experience" data-aos="fade-up">
+            <div className="experience-img">
+              <img src="" alt="experience" className="work-img" />
             </div>
 
             <div className="date-posted">
@@ -69,7 +69,7 @@ const Projects = () => {
                 visualizations using python libraries including matplotlib,
                 plotly, streamlit, pydeck, etc.
               </p>
-              <div className="project-links">
+              <div className="experience-links">
                 <a href="demo-link" target="_blank" rel="noopener noreferrer">
                   <h6 className="learnmore">
                     <i className="fa fa-laptop" aria-hidden="true"></i>&nbsp;
@@ -91,4 +91,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Experience;

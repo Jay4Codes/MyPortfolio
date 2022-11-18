@@ -38,7 +38,6 @@
   background: var(--card-background);
   border-top-left-radius: 10px;
   border: 1px solid rgb(255 255 255 / 0.1);
-
   border-top-right-radius: 10px;
 }
 
@@ -62,7 +61,6 @@
   padding: 20px;
   transition: 0.5s;
   height: 200px;
-
   cursor: pointer;
   transform: scale(1);
 }
@@ -70,8 +68,6 @@
 .project:hover .work-img {
   transform: scale(1.06);
 }
-
-.project {}
 
 .date-posted {
   display: flex;
@@ -126,13 +122,8 @@
   font-size: 12px;
 }
 
-.project {
-  /* border-bottom: 1px solid var(--heading-text); */
-}
-
 .project .learnmore {
   background: transparent;
-
   height: 30px;
   width: auto;
   padding-left: 10px;
@@ -149,7 +140,6 @@
   color: #fff;
   margin-top: 30px;
   cursor: pointer;
-  /* border: 1px solid var(--gradient-hover); */
   color: var(--gradient);
   border-radius: 4px;
 }
@@ -161,8 +151,6 @@
 .project:hover {
   border-bottom: 4px solid var(--gradient);
 }
-
-/*  */
 
 .light .project {
   background: var(--card-background);

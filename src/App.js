@@ -7,10 +7,12 @@ import { BrowserRouter } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Intro";
 import AboutMe from "./components/AboutMe/AboutMe";
-import Services from "./components/Services/Services";
-import Projects from "./components/MyWork/projects";
+import Achievements from "./components/Achievements/Achievements";
+import Projects from "./components/Projects/Projects";
+import Experience from "./components/Experience/Experience";
 import ContactMe from "./components/ContactMe/ContactMe";
 import Footer from "./components/Footer/Footer";
+import Skills from "./components/Skills/Skills";
 
 function App() {
   // Preloader
@@ -43,9 +45,11 @@ function App() {
           <Home />
         </div>
 
-        <AboutMe />
-        <Services />
+        <Skills />
         <Projects />
+        <Experience />
+        <Achievements />
+        <AboutMe />
         <ContactMe />
         <Footer />
       </BrowserRouter>

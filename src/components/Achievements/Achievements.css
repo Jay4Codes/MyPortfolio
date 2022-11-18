@@ -1,4 +1,4 @@
-.service-container {
+.achievement-container {
   color: var(--text-color);
   max-width: 100%;
   z-index: 22;
@@ -6,14 +6,14 @@
   background-color: var(--section-background);
 }
 
-.service-row {
+.achievement-row {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
 
-.my-service {
+.my-achievement {
   background: var(--card-background);
   margin-bottom: 10px;
   position: relative;
@@ -23,7 +23,6 @@
   display: flex;
   height: 280px;
   overflow: hidden;
-
   flex-direction: column;
   cursor: pointer;
   align-items: center;
@@ -31,48 +30,47 @@
   justify-content: space-around;
   box-shadow: 0px 30px 60px 0px rgb(0 0 0 / 10%);
   transition: all 0.5s ease;
-
   border: 1px solid rgb(255 255 255 / 0.1);
 }
 
-.my-service:hover {
+.my-achievement:hover {
   transform: scale(1.06);
   box-shadow: 0px 30px 60px 0px rgb(0 0 0 / 20%);
   transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
 }
 
-.my-service .web {
+.my-achievement .web {
   margin: 10px 0;
   font-size: 17px;
 }
 
-.my-service img {
+.my-achievement img {
   margin: 10px 0;
   width: 100px;
 }
 
-.my-service:hover .web {
+.my-achievement:hover .web {
   color: var(--gradient-hover);
 }
 
-.my-service span {
+.my-achievement span {
   font-size: 3rem;
   margin-top: 30px;
   margin-bottom: 20px;
 }
 
-.service-info {
+.achievement-info {
   margin-bottom: 30px;
   font-size: 13px;
   font-weight: 400;
   color: #676a6a;
 }
 
-.service-title {
+.achievement-title {
   margin-bottom: 60px;
 }
 
-.service-title h2 {
+.achievement-title h2 {
   font-size: 14px;
   font-weight: 300;
   color: var(--heading-text);
@@ -83,13 +81,13 @@
   font-weight: 600;
 }
 
-.service-title h3 {
+.achievement-title h3 {
   font-size: 2.5rem;
   text-transform: capitalize;
   width: 260px;
 }
 
-.my-service .web {
+.my-achievement .web {
   color: #fff;
   font-weight: 700;
 }
@@ -105,37 +103,37 @@
 
 /* Responsive */
 @media only screen and (min-width: 1738px) {
-  .service-container {
+  .achievement-container {
     padding: 100px 100px;
   }
 
-  .service-title h2 {
+  .achievement-title h2 {
     font-size: 2rem;
   }
 
-  .my-service {
+  .my-achievement {
     width: 500px;
     padding: 40px 20px;
     margin-bottom: 20px;
     height: 400px;
   }
 
-  .my-service .web {
+  .my-achievement .web {
     margin: 10px 0;
     font-size: 2.4rem;
   }
 
-  .service-title h3 {
+  .achievement-title h3 {
     font-size: 4rem;
     width: 500px;
   }
 
-  .my-service img {
+  .my-achievement img {
     margin: 10px 0;
     width: 80px;
   }
 
-  .service-info {
+  .achievement-info {
     margin-bottom: 30px;
     font-size: 1.8rem;
     font-weight: 300;
@@ -143,7 +141,7 @@
 }
 
 @media only screen and (max-width: 1024px) {
-  .my-service {
+  .my-achievement {
     width: 200px;
     padding: 10px 10px;
     margin-right: 10px;
@@ -151,57 +149,56 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .service-title {
+  .achievement-title {
     text-align: center;
   }
 
-  .service-title h3 {
+  .achievement-title h3 {
     font-size: 2rem;
   }
 
-  .service-row {
+  .achievement-row {
     justify-content: space-around;
   }
 
-  .my-service {
+  .my-achievement {
     margin-bottom: 20px;
     width: 250px;
-
     margin-right: 20px;
   }
 }
 
 @media only screen and (max-width: 425px) {
-  .my-service {
+  .my-achievement {
     width: 300px;
   }
 }
 
 @media only screen and (max-width: 375px) {
-  .service-container {
+  .achievement-container {
     padding: 30px 20px;
   }
 }
 
 /* light theme */
-.light .my-service {
+.light .my-achievement {
   box-shadow: 0px 30px 60px 0px rgb(0 0 0 / 10%);
 }
 
-.light .my-service:hover {
+.light .my-achievement:hover {
   box-shadow: var(--card-box-shadow);
   font-weight: 700;
 }
 
-.light .my-service .web {
+.light .my-achievement .web {
   color: black;
   font-weight: 700;
 }
 
-.light .my-service:hover .web {
+.light .my-achievement:hover .web {
   color: #fb7878;
 }
 
-.light .service-title h3 {
+.light .achievement-title h3 {
   color: rgb(34, 34, 34);
 }
