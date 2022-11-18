@@ -4,35 +4,12 @@
 
 #header {
   transition: all 0.5s;
-
   z-index: 997;
 }
 
 #header.header-inner-pages,
 #header.header-scrolled {
   background-color: rgb(15 23 42/ 0.8);
-}
-
-#header .logo {
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 400;
-  letter-spacing: 2px;
-  font-family: "Mr Dafoe", cursive;
-  font-size: 20px;
-}
-
-#header .logo:hover {
-  text-decoration: underline;
-}
-
-#header .logo a {
-  color: var(--white);
-}
-
-#header .logo img {
-  max-height: 40px;
 }
 
 .navi {
@@ -47,17 +24,6 @@
   width: 100%;
   margin: auto;
   display: flex;
-}
-
-.navbur .myname {
-  font-family: "Playfair Display", serif;
-
-  font-weight: 800;
-  line-height: 1;
-  color: var(--white);
-  background: var(--white);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .navbur {
@@ -96,15 +62,13 @@ nav {
   position: relative;
   font-style: normal;
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
-  font-size: 13px;
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
 
 .nav-menu>ul>li a:hover {
-  color: var(--color-text-hover);
-  font-weight: 800;
+  color: var(--section-text-color);
 }
 
 .nav-menu>ul>li span {
@@ -113,7 +77,6 @@ nav {
 
 .descript {
   margin-top: 160px;
-  /* padding-top: 4rem; */
 }
 
 .left-btns {
@@ -126,32 +89,29 @@ nav {
 }
 
 .CvMe button {
-  background: var(--gradient-hover);
-  height: 50px;
+  background: var(--gradient);
+  height: 40px;
   border-radius: 5px;
-  width: 130px;
-  color: #fff;
-  font-size: 13px;
+  width: 120px;
+  color: var(--white);
+  font-size: 14px;
+}
+
+.CvMe button:hover {
+  background: var(--gradient-hover);
+  color: var(--black);
 }
 
 .active a {
   color: var(--section-text-color);
-  font-weight: 700;
 }
 
 .light .active a {
-  color: #ff5652;
+  color: var(--section-text-color)
 }
 
 .scrolled {
-  background: #04133a;
-}
-
-.myname {
-  font-size: 2vw;
-  font-family: "Playfair Display", Sans-serif;
-  text-transform: uppercase;
-  font-weight: 800;
+  background: var(--black);
 }
 
 #header.header-inner-pages,
@@ -166,7 +126,6 @@ nav {
 #theme-button i {
   cursor: pointer;
   font-size: 30px;
-
   color: #cae1e4;
 }
 
@@ -196,7 +155,6 @@ nav {
   width: var(--size);
   height: var(--size);
   border-radius: 999px;
-
   --ray-size: calc(var(--size) * -0.4);
   --offset-orthogonal: calc(var(--size) * 0.65);
   --offset-diagonal: calc(var(--size) * 0.45);
@@ -230,7 +188,7 @@ nav {
   z-index: 1;
 }
 
-/* mobile responsive */
+/* Responsive */
 @media only screen and (max-width: 1024px) {
   .navi {
     padding-left: 20px;
@@ -304,7 +262,7 @@ nav {
   }
 
   .mainMenu {
-    background-color: var(--section-background);
+    background-color: #000000;
     position: absolute;
     right: -20px;
     top: -20px;
@@ -367,11 +325,9 @@ nav {
     transition: all cubic-bezier(0.4, 0, 0.2, 1) 0.4s;
     -webkit-text-stroke: 1px;
     opacity: 0.8;
-    font-weight: 300;
   }
 
   .mainMenu li:hover a {
-    font-weight: 800;
     will-change: transform;
     opacity: 0.2;
     -webkit-text-fill-color: transparent;
@@ -415,10 +371,6 @@ nav {
     right: -20px;
     bottom: 30px;
   }
-
-  .myname {
-    font-size: 1.2rem;
-  }
 }
 
 @media only screen and (max-width: 425px) {
@@ -456,7 +408,6 @@ nav {
   display: flex;
   justify-content: center;
   margin-bottom: 0;
-
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
   align-items: center;
   font-weight: 800;
@@ -495,39 +446,29 @@ nav {
   }
 }
 
-/* light theme settings */
+/* light theme */
 
 .light .scrolled {
-  background: lightblue;
-}
-
-.light .navbur {
-  background: #ffffff;
-}
-
-.light .navbur nav ul li a {
-  font-weight: 500;
-}
-
-.light .myname {
-  color: #000000;
-
-  font-family: "Playfair Display", serif;
-  font-weight: 800;
-  line-height: 1;
-  color: var(--white);
-  background: rgb(26, 25, 25);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background: var(--black);
 }
 
 .light .navbur {
   border-bottom: none;
-  background: none;
+  background: var(--black);
+}
+
+.light .navbur nav ul li a {
+  font-weight: 600;
 }
 
 .light .CvMe button {
   background: var(--gradient);
+  color: var(--white);
+}
+
+.light .CvMe button:hover {
+  background: var(--gradient-hover);
+  color: var(--black);
 }
 
 .light #theme-button2 {
@@ -535,5 +476,5 @@ nav {
 }
 
 .light .devman {
-  color: #ff5652;
+  color: var(--white);
 }

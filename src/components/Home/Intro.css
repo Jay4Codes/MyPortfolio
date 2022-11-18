@@ -62,14 +62,15 @@
   color: var(--text-color);
 }
 
-.hello {
-  font-size: 17px;
+.role {
+  font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 10px;
   font-weight: 800;
   color: var(--white);
   background: var(--heading-text);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
@@ -91,6 +92,7 @@
   font-weight: 800;
   color: var(--white);
   background: var(--gradient);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -135,9 +137,14 @@
   margin-right: 30px;
   border: none;
   font-weight: 500;
-  color: var(--color-dark);
+  color: var(--white);
   background: var(--gradient);
   transition: all 0.5s ease;
+}
+
+.intro-left .intro-btns .contact-me:hover {
+  background: var(--gradient-hover);
+  color: var(--black);
 }
 
 .intro-btns a:hover {
@@ -183,8 +190,6 @@
   top: 20px;
 }
 
-.icon-link {}
-
 .intro-contact span {
   color: #d6d6d6;
   font-size: 15px;
@@ -205,14 +210,19 @@
   margin-top: 10px;
   font-size: 16px;
   width: 35px;
-  color: #f5f5f5;
-  border: 1.6px solid #be9292;
-  background: transparent;
   height: 35px;
+  color: var(--white);
+  background: var(--black);
+  border: 1.6px solid var(--heading-text);
   border-radius: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.intro-left .icon-link i:hover {
+  color: var(--black);
+  background: var(--white);
 }
 
 #particles-js-dark.min-height {
@@ -275,11 +285,8 @@
   right: 0;
 }
 
-.fa-facebook {}
-
 .intro-contact {
   display: flex;
-  /* align-items: ; */
   flex-direction: column;
 }
 
@@ -291,7 +298,6 @@
 .intro-links i:hover {
   background: rgb(236, 197, 113);
   border-radius: 7px;
-
   color: var(--color-dark);
 }
 
@@ -348,7 +354,7 @@
     margin-bottom: 10px;
   }
 
-  .hello {
+  .role {
     font-size: 12px;
   }
 
@@ -366,8 +372,8 @@
   }
 
   .intro-btns .contact-me i {
-    right: 20px;
-    top: 20px;
+    right: 8px;
+    top: 15px;
   }
 
   .intro-btns .my-cv i {
@@ -420,8 +426,6 @@
   .intro-img {
     width: 55%;
   }
-
-  .intro-btns .contact-me {}
 }
 
 @media only screen and (max-width: 425px) {
@@ -448,8 +452,6 @@
   .myinfo {
     margin-bottom: 30px;
   }
-
-  .contact-me {}
 
   .intro-btns {
     margin-left: 40px;
@@ -499,17 +501,13 @@
 /* light theme */
 
 .light .intro-links i {
-  color: #000000;
-  background: #d6d6d6;
+  color: var(--white);
+  background: var(--black);
   transition: all 0.5s ease;
 }
 
 .light .intro-links i:hover {
   background: var(--gradient);
-}
-
-.light .name {
-  font-size: 3.5rem;
 }
 
 .light .intro-left .job {
@@ -519,9 +517,9 @@
   -webkit-text-fill-color: transparent;
 }
 
-.light .intro-name .hello {
-  color: #fb7878;
-  background: var(--gradient);
+.light .intro-name .role {
+  color: var(--white);
+  background: var(--heading-text);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -540,18 +538,18 @@
   color: #222222;
 }
 
-.light .hello {
-  font-size: 15px;
-  font-weight: 400;
-  margin-bottom: 20px;
-  color: #2d2170;
+.light .role {
+  color: var(--white);
 }
 
 .light .intro-left .icon-link i {
-  border: none;
-  background: rgb(223, 223, 223);
-  font-size: 15px;
-  color: #2d2170;
+  background: var(--black);
+  color: var(--white);
+}
+
+.light .intro-left .icon-link i:hover {
+  background: var(--white);
+  color: var(--black);
 }
 
 .light .intro-contact span {

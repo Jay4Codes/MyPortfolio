@@ -10,6 +10,7 @@ import AboutMe from "./components/AboutMe/AboutMe";
 import Achievements from "./components/Achievements/Achievements";
 import Projects from "./components/Projects/Projects";
 import Experience from "./components/Experience/Experience";
+import Education from "./components/Education/Education";
 import ContactMe from "./components/ContactMe/ContactMe";
 import Footer from "./components/Footer/Footer";
 import Skills from "./components/Skills/Skills";
@@ -48,6 +49,7 @@ function App() {
         <Skills />
         <Projects />
         <Experience />
+        <Education />
         <Achievements />
         <AboutMe />
         <ContactMe />

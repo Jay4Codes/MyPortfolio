@@ -18,7 +18,7 @@ const Intro = () => {
             <div className="col-lg-5  col-md-6 col-sm-12 intro-left">
               <div className="intro-name">
                 <h3
-                  className="hello"
+                  className="role"
                   data-aos="fade-down"
                   data-aos-duration="1500"
                 >
@@ -32,7 +32,7 @@ const Intro = () => {
                   Hey! I Am
                 </h3>
                 <h3
-                  className="job  text-animate"
+                  className="job text-animate"
                   data-aos="fade-down"
                   data-aos-duration="1700"
                 >
@@ -76,23 +76,7 @@ const Intro = () => {
                 <ul>
                   <li>
                     <a
-                      href="social-link"
-                      className="icon-link"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="fa fa-twitter"></i>
-                    </a>
-                    <a
-                      href="social-link"
-                      className="icon-link"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="fa fa-instagram"></i>
-                    </a>
-                    <a
-                      href="social-link"
+                      href="https://www.linkedin.com/in/jay-ra-jain/"
                       className="icon-link"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -100,12 +84,12 @@ const Intro = () => {
                       <i className="bx bxl-linkedin"></i>
                     </a>
                     <a
-                      href="social-link"
+                      href="https://github.com/Jay4Codes"
                       className="icon-link"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <i className="bx bxl-whatsapp"></i>
+                      <i className="bx bxl-github"></i>
                     </a>
                   </li>
                 </ul>

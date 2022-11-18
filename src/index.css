@@ -10,9 +10,9 @@
     --text-background: #000000;
     --gradient: linear-gradient(to left, #6200ff, #8800ff, #b300ff);
     --gradient-hover: linear-gradient(to left, #d182ff, #df96ff, #f0bfff);
-    --heading-text: #f6c4ff;
+    --heading-text: #d064ff;
     --sub-heading-text: #11002b;
-    --section-text-color: #c849ff;
+    --section-text-color: #ae00ff;
     --background: #11002b;
     --section-background: linear-gradient(to left, #000000, #230039);
 
@@ -32,9 +32,9 @@
     --text-background: #ffffff;
     --gradient: linear-gradient(to left, #d182ff, #df96ff, #f0bfff);
     --gradient-hover: linear-gradient(to left, #6200ff, #8800ff, #b300ff);
-    --heading-text: #6f00ff;
+    --heading-text: #cc4aff;
     --sub-heading-text: #ffffff;
-    --section-text-color: #111e88;
+    --section-text-color: #ae00ff;
     --background: #f6c4ff;
     --section-background: linear-gradient(to left, #ffffff, #f0d8ff);
 
@@ -77,8 +77,8 @@ body {
 }
 
 ::selection {
-    color: #ffffff;
-    background: rgba(198, 123, 255, 0.8);
+    color: var(--white) !important;
+    background: rgba(198, 123, 255, 0.8) !important;
 }
 
 a {

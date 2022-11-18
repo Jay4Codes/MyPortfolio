@@ -1,25 +1,25 @@
 import web from "../../images/web.png";
-import "./Achievements.css";
+import "./Education.css";
 
-const Achievements = () => {
+const Education = () => {
   return (
     <>
-      <section id="achievements">
-        <div className="achievement-container">
-          <div className="achievement-title">
-            <h2>Achievements</h2>
-            <h3>Achievements</h3>
+      <section id="education">
+        <div className="education-container">
+          <div className="education-title">
+            <h2>Education</h2>
+            <h3>Education</h3>
           </div>
 
-          <div className="achievement-row">
+          <div className="education-row">
             <div
-              className=" my-achievement"
+              className=" my-education"
               data-aos="zoom-in-up"
               data-aos-duration="1500"
             >
-              <img src={web} alt="achievement-icon" />
+              <img src={web} alt="education-icon" />
               <h4 className="web">Web Development</h4>
-              <p className="achievement-info">
+              <p className="education-info">
                 As a Web developer use coding languages like HTML, CSS,
                 JavaScript, and Python to build websites and web applications.
               </p>
@@ -35,4 +35,4 @@ const Achievements = () => {
   );
 };
 
-export default Achievements;
+export default Education;
