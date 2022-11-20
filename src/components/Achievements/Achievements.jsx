@@ -1,5 +1,5 @@
-import web from "../../images/web.png";
 import "./Achievements.css";
+import { achievements } from "../../data/resume";
 
 const Achievements = () => {
   return (
@@ -10,24 +10,24 @@ const Achievements = () => {
             <h2>Achievements</h2>
             <h3>Achievements</h3>
           </div>
-
           <div className="achievement-row">
-            <div
-              className=" my-achievement"
-              data-aos="zoom-in-up"
-              data-aos-duration="1500"
-            >
-              <img src={web} alt="achievement-icon" />
-              <h4 className="web">Web Development</h4>
-              <p className="achievement-info">
-                As a Web developer use coding languages like HTML, CSS,
-                JavaScript, and Python to build websites and web applications.
-              </p>
-              {/* <h6 className="learn-more">Service Learn More</h6> */}
-              <div className="shadow-icon">
-                <i className=""></i>
+            {Object.entries(achievements.prize).map(([key, value]) => (
+              <div
+                className=" my-achievement"
+                data-aos="zoom-in-up"
+                data-aos-duration="1500"
+                key={key}
+              >
+                <a href={value[4]} target="_blank" rel="noreferrer">
+                  <img src={value[3]} alt="img" />
+                </a>
+                <h4 className="web">{value[0]}</h4>
+                <p className="achievement-info">{value[2]}</p>
+                <a href={value[4]} target="_blank" rel="noreferrer">
+                  <h6 className="learn-more">Learn More</h6>
+                </a>
               </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>

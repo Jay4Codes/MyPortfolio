@@ -23,7 +23,21 @@ const ContactMe = () => {
                   name="Email"
                   className="form-input-one subscribe-input"
                   placeholder="Email Address"
-                  required=""
+                  required
+                />
+                <input
+                  type="text"
+                  name="name"
+                  className="form-input-one subscribe-input"
+                  placeholder="Full Name"
+                  required
+                />
+                <input
+                  type="text"
+                  name="message"
+                  className="form-input-one subscribe-input"
+                  placeholder="Message"
+                  required
                 />
               </div>
             </div>

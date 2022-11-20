@@ -3,6 +3,7 @@ import React from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
+import { projects } from "../../data/resume";
 
 const Projects = () => {
   const options = {
@@ -49,42 +50,36 @@ const Projects = () => {
       </div>
       <div className="project-row">
         <OwlCarousel className="owl-theme" {...options}>
-          <div className="project" data-aos="fade-up">
-            <div className="project-img">
-              <img src="" alt="project" className="work-img" />
-            </div>
-
-            <div className="date-posted">
-              <div className="who-post">
-                <p className="admin">
-                  Streamlit | Matplotlib | Plotly | PyDeck | Excel | Python
-                </p>
+          {Object.entries(projects.project).map(([key, value]) => (
+            <div className="project" data-aos="fade-up" key={key}>
+              <div className="project-img">
+                <img src={value[3]} alt={value[0]} className="work-img" />
+              </div>
+              <div className="date-posted">
+                <div className="who-post">
+                  <p className="admin">{value[1]}</p>
+                </div>
+              </div>
+              <div className="work-details">
+                <h2>{value[0]}</h2>
+                <p className="work-info">{value[2]}</p>
+                <div className="project-links">
+                  <a href={value[4]} target="_blank" rel="noopener noreferrer">
+                    <h6 className="learnmore">
+                      <i className="fa fa-laptop" aria-hidden="true"></i>&nbsp;
+                      Live Demo
+                    </h6>
+                  </a>
+                  <a href={value[5]} target="_blank" rel="noopener noreferrer">
+                    <h6 className="learnmore">
+                      <i className="fa fa-github" aria-hidden="true"></i> &nbsp;
+                      Source Code
+                    </h6>
+                  </a>
+                </div>
               </div>
             </div>
-            <div className="work-details">
-              <h2>Baker Hughes Data Visualization</h2>
-              <p className="work-info">
-                Developed an interactive data visualization dashboard and
-                analysis for Baker Hughes Gas Turbine data. Created insightful
-                visualizations using python libraries including matplotlib,
-                plotly, streamlit, pydeck, etc.
-              </p>
-              <div className="project-links">
-                <a href="demo-link" target="_blank" rel="noopener noreferrer">
-                  <h6 className="learnmore">
-                    <i className="fa fa-laptop" aria-hidden="true"></i>&nbsp;
-                    Live Demo
-                  </h6>
-                </a>
-                <a href="github-link" target="_blank" rel="noopener noreferrer">
-                  <h6 className="learnmore">
-                    <i className="fa fa-github" aria-hidden="true"></i> &nbsp;
-                    Source Code
-                  </h6>
-                </a>
-              </div>
-            </div>
-          </div>
+          ))}
         </OwlCarousel>
       </div>
     </div>

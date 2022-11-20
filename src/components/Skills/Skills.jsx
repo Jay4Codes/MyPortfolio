@@ -2,9 +2,11 @@ import "./Skills.css";
 import decor1 from "../../images/decoration/dots-1.png";
 import reactagle from "../../images/decoration/Rectangle-7.png";
 import shady from "../../images/decoration/dots.png";
-import skills from "../../images/about.svg";
+import skill_img from "../../images/about.svg";
+import { skills } from "../../data/resume";
 
 const Skills = () => {
+  console.log(skills);
   return (
     <>
       <main id="skills">
@@ -25,7 +27,7 @@ const Skills = () => {
               className=" col-lg-6 col-md-5 col-sm-12 skills-img"
               data-aos="fade-up-right"
             >
-              <img src={skills} alt="skills-avatar" />
+              <img src={skill_img} alt="skills-avatar" />
             </div>
             <div
               className=" col-lg-6 col-md-7  col-sm-12 skills_myinfo"
@@ -35,11 +37,59 @@ const Skills = () => {
                 <h2>skills</h2>
                 <h3>Skills</h3>
               </div>
+              <h4>Languages</h4>
               <div className="lang">
-                <div className="lang-info">
-                  <i className=""></i>
-                  <p className="pt-2">HTML</p>
-                </div>
+                {Object.entries(skills.languages).map(([key, value]) => (
+                  <div className="lang-info" key={key}>
+                    <img src={value[1]} alt={value[0]} />
+                    {value[0]}
+                  </div>
+                ))}
+              </div>
+              <h4>Development</h4>
+              <div className="lang">
+                {Object.entries(skills.development).map(([key, value]) => (
+                  <div className="lang-info" key={key}>
+                    <img src={value[1]} alt={value[0]} />
+                    {value[0]}
+                  </div>
+                ))}
+              </div>
+              <h4>Databases</h4>
+              <div className="lang">
+                {Object.entries(skills.databases).map(([key, value]) => (
+                  <div className="lang-info" key={key}>
+                    <img src={value[1]} alt={value[0]} />
+                    {value[0]}
+                  </div>
+                ))}
+              </div>
+              <h4>Data Science</h4>
+              <div className="lang">
+                {Object.entries(skills.data_science).map(([key, value]) => (
+                  <div className="lang-info" key={key}>
+                    <img src={value[1]} alt={value[0]} />
+                    {value[0]}
+                  </div>
+                ))}
+              </div>
+              <h4>Machine Learning</h4>
+              <div className="lang">
+                {Object.entries(skills.machine_learning).map(([key, value]) => (
+                  <div className="lang-info" key={key}>
+                    <img src={value[1]} alt={value[0]} />
+                    {value[0]}
+                  </div>
+                ))}
+              </div>
+              <h4>Others</h4>
+              <div className="lang">
+                {Object.entries(skills.others).map(([key, value]) => (
+                  <div className="lang-info" key={key}>
+                    <img src={value[1]} alt={value[0]} />
+                    {value[0]}
+                  </div>
+                ))}
               </div>
             </div>
           </div>

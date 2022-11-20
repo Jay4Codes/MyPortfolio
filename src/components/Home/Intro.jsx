@@ -61,11 +61,6 @@ const Intro = () => {
                     Resume <i className="bx bx-send "></i>
                   </button>
                 </a>
-                <a href="mailto:jay4emails@gmail.com" className="contactMe">
-                  <button className="contact-me">
-                    Hire me <i className="bx bx-send "></i>
-                  </button>
-                </a>
               </div>
               <div
                 className="intro-contact"

@@ -87,6 +87,7 @@
 
 .pt-2 {
   font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  display: inline-flex;
 }
 
 .skills-description p {

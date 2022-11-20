@@ -25,7 +25,7 @@ const AboutMe = () => {
               className=" col-lg-6 col-md-5 col-sm-12 about-img"
               data-aos="fade-up-right"
             >
-              <img src={about}alt="about-avatar" />
+              <img src={about} alt="about-avatar" />
             </div>
             <div
               className=" col-lg-6 col-md-7  col-sm-12 about_myinfo"
@@ -43,13 +43,6 @@ const AboutMe = () => {
                   with the latest web standards.
                 </p>
                 {/* <p className="about-info-2">Desc2</p> */}
-              </div>
-
-              <div className="lang">
-                <div className="lang-info">
-                  <i className=""></i>
-                  <p className="pt-2">HTML</p>
-                </div>
               </div>
               <div className="itscv">
                 <a

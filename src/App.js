@@ -46,9 +46,9 @@ function App() {
           <Home />
         </div>
 
-        <Skills />
         <Projects />
         <Experience />
+        <Skills />
         <Education />
         <Achievements />
         <AboutMe />
