@@ -155,7 +155,7 @@
 }
 
 .download-cv {
-  margin-top: 20px;
+  margin: 20px 0px 40px 0px;
   height: 60px;
   width: 180px;
   outline: none;
@@ -164,10 +164,18 @@
   font-weight: 500;
   font-size: 13px;
   border: none;
-  color: var(--text-background);
-  border-radius: 50px;
-  border: 1px solid var(--gradient);
+  color: var(--white);
+  border-radius: 48px;
+  background: var(--gradient);
+}
+
+.download-cv:hover {
   background: var(--gradient-hover);
+  color: var(--black);
+}
+
+.hobbies {
+  font-size: 14px;
 }
 
 /* Responsiveness */

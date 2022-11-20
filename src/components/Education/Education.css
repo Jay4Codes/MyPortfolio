@@ -21,7 +21,7 @@
   border-radius: 10px;
   padding: 20px 20px;
   display: flex;
-  height: 280px;
+  height: max-content;
   overflow: hidden;
   flex-direction: column;
   cursor: pointer;
@@ -46,7 +46,7 @@
 
 .my-education img {
   margin: 10px 0;
-  width: 100px;
+  width: 100%;
 }
 
 .my-education:hover .web {

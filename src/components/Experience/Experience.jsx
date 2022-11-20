@@ -53,7 +53,9 @@ const Experience = () => {
           {Object.entries(works.work).map(([key, value]) => (
             <div className="experience" data-aos="fade-up" key={key}>
               <div className="experience-img">
-                <img src={value[1]} alt={value[2]} className="work-img" />
+                <a href={value[3]} target="_blank" rel="noreferrer">
+                  <img src={value[1]} alt={value[2]} className="work-img" />
+                </a>
               </div>
               <div className="date-posted">
                 <div className="who-post">
@@ -65,11 +67,11 @@ const Experience = () => {
                 <p className="work-info">{value[4]}</p>
                 <div className="experience-links">
                   <h6 className="learnmore">
-                    <i className="fa fa-laptop" aria-hidden="true"></i>&nbsp;
+                    <i className="fa fa-calendar" aria-hidden="true"></i>&nbsp;
                     {value[5]}
                   </h6>
                   <h6 className="learnmore">
-                    <i className="fa fa-github" aria-hidden="true"></i> &nbsp;
+                    <i className="fa fa-location" aria-hidden="true"></i> &nbsp;
                     {value[6]}
                   </h6>
                 </div>

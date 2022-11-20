@@ -122,12 +122,12 @@
 }
 
 .footer-social ul li {
-  margin-left: 15px;
+  margin-left: 10px;
   display: flex;
 }
 
 .footer-social ul li a {
-  margin-right: 15px;
+  margin-right: 10px;
 }
 
 .sec-btn {
@@ -207,7 +207,6 @@
 .contact-details p {
   font-size: 13px;
   font-weight: 500;
-  /* color: #fff; */
 }
 
 /* resposiveness */

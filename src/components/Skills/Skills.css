@@ -52,6 +52,10 @@
   align-items: center;
 }
 
+.lang-info img {
+  width: 40px;
+}
+
 .bxl-git {
   color: orangered;
 }
@@ -153,22 +157,6 @@
 
 .bxs-data {
   color: rgb(255, 238, 0);
-}
-
-.download-cv {
-  margin-top: 20px;
-  height: 60px;
-  width: 180px;
-  outline: none;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: 500;
-  font-size: 13px;
-  border: none;
-  color: var(--text-background);
-  border-radius: 50px;
-  border: 1px solid var(--gradient);
-  background: var(--gradient-hover);
 }
 
 /* Responsiveness */

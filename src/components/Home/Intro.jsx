@@ -53,7 +53,7 @@ const Intro = () => {
                 data-aos-duration="1900"
               >
                 <a
-                  href="https://drive.google.com/file/d/1Za5o9YNhJXq6i30jTGEQ2cfXFdjdN1LE/view?usp=sharing"
+                  href="https://docs.google.com/document/d/1Ep7OppV-X7o_bXbw_TiIAV-t1M0IGAudBJhZThfsxAI/edit?usp=sharing"
                   className="contactMe"
                   rel="noreferrer"
                 >

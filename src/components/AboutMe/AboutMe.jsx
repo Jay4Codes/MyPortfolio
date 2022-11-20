@@ -46,16 +46,22 @@ const AboutMe = () => {
               </div>
               <div className="itscv">
                 <a
-                  href="https://drive.google.com/file/d/127RCSy1lUZE2sS8IgkxxPcUqbw1rYMOR/view"
-                  download="RESUME.pdf"
+                  href="https://docs.google.com/document/d/1Ep7OppV-X7o_bXbw_TiIAV-t1M0IGAudBJhZThfsxAI/edit?usp=sharing"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noreferrer"
                 >
                   <button className="download-cv">
-                    Download Cv <i className="bx bx-download"></i>
+                    View CV <i className="bx bx-download"></i>
                   </button>
                 </a>
               </div>
+              <div className="title">
+                <h3>Hobbies</h3>
+              </div>
+              <p className="about-info hobbies">
+                Podcasts &nbsp; | &nbsp; Design &nbsp; | &nbsp; Music &nbsp; |
+                &nbsp; Dance &nbsp; | &nbsp; Video Games
+              </p>
             </div>
           </div>
         </div>

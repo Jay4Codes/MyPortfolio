@@ -14,10 +14,7 @@ const Navbar = () => {
           <div className="navi">
             <div className="col-xl-12 d-flex align-items-center lefty">
               <h5 className="ld-flex mr-auto devman">
-                <img
-                  src="https://code.google.com/images/developers.png"
-                  alt=""
-                />
+                <img src="./developer.png" alt="" />
                 Jay.Jain <span className="blink"> _</span>
               </h5>
               <nav className="nav-menu  mainMenu">
@@ -68,7 +65,7 @@ const Navbar = () => {
                 <div>
                   <div className="CvMe">
                     <a
-                      href="https://drive.google.com/file/d/1Za5o9YNhJXq6i30jTGEQ2cfXFdjdN1LE/view?usp=sharing"
+                      href="https://docs.google.com/document/d/1Ep7OppV-X7o_bXbw_TiIAV-t1M0IGAudBJhZThfsxAI/edit?usp=sharing"
                       rel="noreferrer"
                       target="_blank"
                     >
