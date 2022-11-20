@@ -6,7 +6,6 @@ import skill_img from "../../images/about.svg";
 import { skills } from "../../data/resume";
 
 const Skills = () => {
-  console.log(skills);
   return (
     <>
       <main id="skills">
