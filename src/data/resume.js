@@ -34,8 +34,8 @@ export const skills = {
   languages: [
     ["Python", "./icons/python.svg"],
     ["C++", "./icons/cpp.svg"],
-    ["JavaScript", ".icons/js.svg"],
-    ["SQL", "./icons/"],
+    ["JavaScript", "./icons/js.svg"],
+    ["SQL", "./icons/sql.png"],
     ["Java", "./icons/java.svg"],
     ["Prolog", "./icons/prolog.svg"],
   ],
@@ -70,10 +70,10 @@ export const skills = {
   machine_learning: [
     ["Computer Vision", "./icons/opencv.svg"],
     ["TensorFlow", "./icons/tensorflow.svg"],
-    ["Time Series Analysis", "./icons/tsa.svg"],
-    ["CNN", "./icons/cnn.svg"],
-    ["Deep Learning", "./icons/deep-learning.svg"],
-    ["Artifical Intelligence", "./icons/ai.svg"],
+    ["Time Series Analysis", "./icons/tsa.png"],
+    ["CNN", "./icons/cnn.png"],
+    ["Deep Learning", "./icons/dl.png"],
+    ["Artifical Intelligence", "./icons/artificial-intelligense.svg"],
   ],
   others: [
     ["Git", "./icons/git-icon.svg"],
