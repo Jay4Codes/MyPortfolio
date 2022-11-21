@@ -186,12 +186,10 @@
 
 .light .my-achievement:hover {
   box-shadow: var(--card-box-shadow);
-  font-weight: 700;
 }
 
 .light .my-achievement .web {
   color: black;
-  font-weight: 700;
 }
 
 .light .my-achievement:hover .web {

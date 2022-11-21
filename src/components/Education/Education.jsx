@@ -27,7 +27,7 @@ const Education = () => {
                   <br />
                   from {value[3]} in {value[4]}
                 </p>
-                <a href={value[6]} rel="norefferer" target="_blank">
+                <a href={value[6]} target="_blank" rel="noreferrer">
                   <h6 className="learn-more">Grade - {value[1]}</h6>
                 </a>
               </div>
@@ -54,7 +54,7 @@ const Education = () => {
                 <br />
                 {value[2]}
               </p>
-              <a href={value[4]} rel="norefferer" target="_blank">
+              <a href={value[4]} rel="noreferrer" target="_blank">
                 <h6 className="learn-more">Credential</h6>
               </a>
             </div>

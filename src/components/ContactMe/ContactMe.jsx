@@ -32,87 +32,129 @@ const ContactMe = () => {
           <div className="row align-items-center mb-5">
             <div className="col-lg-10 col-md-12">
               <div className="work-togather-text">
-                <h2 className="h2-title text-white ">Let's Work Together</h2>
+                <h2>Let's Work Together</h2>
                 <p>Let's Connect, give a call or email me any time.</p>
               </div>
             </div>
-            {/* <form ref={form} onSubmit={sendEmail}>
-              <div className="col-lg-4 col-md-7 work-togather-form">
-                <label>Name: </label>
-                <input
-                  type="text"
-                  name="user_name"
-                  className="form-input-one subscribe-input"
-                  placeholder="Name"
-                  required
-                />
-              </div>
-              <div className="col-lg-4 col-md-7 work-togather-form">
-                <label>Email: </label>
-                <input
-                  type="email"
-                  name="user_email"
-                  className="form-input-one subscribe-input"
-                  placeholder="Email Address"
-                  required
-                />
-              </div>
-              <div className="col-lg-4 col-md-7 work-togather-form">
-                <label>Message: </label>
-                <input
-                  type="text"
-                  name="message"
-                  className="form-input-one subscribe-input"
-                  placeholder="Message"
-                  required
-                />
-              </div>
-              <div className="col-lg-4 col-md-7 work-togather-form">
-                <div className="work-togather-form-btn">
-                  <button type="submit" className="sec-btn" value="Send">
-                    Send
-                  </button>
+            <div className="row row-2">
+              <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
+                <div className="footer-widget">
+                  <h3>Useful Links</h3>
+                  <ul>
+                    <li>
+                      <a href="#home">Home</a>
+                    </li>
+                    <li>
+                      <a href="#work">Projects</a>
+                    </li>
+                    <li>
+                      <a href="#experience">Experience</a>
+                    </li>
+                    <li>
+                      <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                      <a href="#education">Education</a>
+                    </li>
+                    <li>
+                      <a href="#achievements">Achievements</a>
+                    </li>
+                    <li>
+                      <a href="#about">About</a>
+                    </li>
+                    <li>
+                      <a href="#contact">Contact</a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://github.com/Jay4Codes/MyPortfolio.git"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        GitHub
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://docs.google.com/document/d/1Ep7OppV-X7o_bXbw_TiIAV-t1M0IGAudBJhZThfsxAI/edit?usp=sharing"
+                        rel="noreferrer"
+                        target="_blank"
+                      >
+                        Resume
+                      </a>
+                    </li>
+                  </ul>
                 </div>
               </div>
-            </form> */}
+              <div className="col-xl-8 col-lg-8 col-md-6 mb-50">
+                <div className="footer-widget">
+                  <h3>Message</h3>
+                  <form ref={form} onSubmit={sendEmail}>
+                    <div className="subscribe-form">
+                      <input
+                        type="text"
+                        name="user_name"
+                        placeholder="Name"
+                        required
+                      />
+                      <input
+                        type="email"
+                        name="user_email"
+                        placeholder="Email Address"
+                        required
+                      />
+                      <input
+                        type="text"
+                        name="message"
+                        placeholder="Message"
+                        required
+                      />
+                      <button type="submit" className="sec-btn" value="Send">
+                        Send
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="contact-row">
-            <div className="contact-info">
-              <a href="tel:+91 9867466628">
-                <div className="contact-details">
-                  <i className="bx bx-phone"></i>
-                  <h4 className="icon-name">Call Me:</h4>
-                  <p className="d-name">+91 98674 66628</p>
-                </div>
-              </a>
-            </div>
-            <div className="contact-info">
-              <a href="mailto:jay4emails@gmail.com">
-                <div className="contact-details">
-                  <i className="bx bx-phone"></i>
-                  <h4 className="icon-name">Email Me:</h4>
-                  <p className="d-name">jay4emails@gmail.com</p>
-                </div>
-              </a>
-            </div>
-            <div className="contact-info">
-              <a href="https://www.linkedin.com/in/jay-ra-jain/">
-                <div className="contact-details">
-                  <i className="bx bx-phone"></i>
-                  <h4 className="icon-name">LinkedIn:</h4>
-                  <p className="d-name">Jay Jain</p>
-                </div>
-              </a>
-            </div>
-            <div className="contact-info">
-              <a href="https://github.com/Jay4Codes">
-                <div className="contact-details">
-                  <i className="bx bx-phone"></i>
-                  <h4 className="icon-name">GitHub:</h4>
-                  <p className="d-name">@Jay4Codes</p>
-                </div>
-              </a>
-            </div>
+        </div>
+        <div className="contact-row">
+          <div className="contact-info">
+            <a href="tel:+91 9867466628">
+              <div className="contact-details">
+                <i className="bx bx-phone"></i>
+                <h4 className="icon-name">Call Me:</h4>
+                <p className="d-name">+91 98674 66628</p>
+              </div>
+            </a>
+          </div>
+          <div className="contact-info">
+            <a href="mailto:jay4emails@gmail.com">
+              <div className="contact-details">
+                <i className="bx bxl-gmail"></i>
+                <h4 className="icon-name">Email Me:</h4>
+                <p className="d-name">jay4emails@gmail.com</p>
+              </div>
+            </a>
+          </div>
+          <div className="contact-info">
+            <a href="https://www.linkedin.com/in/jay-ra-jain/">
+              <div className="contact-details">
+                <i className="bx bxl-linkedin"></i>
+                <h4 className="icon-name">LinkedIn:</h4>
+                <p className="d-name">Jay Jain</p>
+              </div>
+            </a>
+          </div>
+          <div className="contact-info">
+            <a href="https://github.com/Jay4Codes">
+              <div className="contact-details">
+                <i className="bx bxl-github"></i>
+                <h4 className="icon-name">GitHub:</h4>
+                <p className="d-name">@Jay4Codes</p>
+              </div>
+            </a>
           </div>
         </div>
       </section>

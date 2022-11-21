@@ -186,12 +186,10 @@
 
 .light .my-education:hover {
   box-shadow: var(--card-box-shadow);
-  font-weight: 700;
 }
 
 .light .my-education .web {
   color: black;
-  font-weight: 700;
 }
 
 .light .my-education:hover .web {

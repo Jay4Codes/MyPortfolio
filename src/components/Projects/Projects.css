@@ -151,8 +151,6 @@
 .light .project {
   background: var(--card-background);
   box-shadow: var(--card-box-shadow);
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 768px) {

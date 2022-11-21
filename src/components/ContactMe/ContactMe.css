@@ -13,7 +13,7 @@
   position: absolute;
   background-repeat: no-repeat;
   left: 0;
-  z-index: 1;
+  z-index: 0;
   top: 0;
 }
 
@@ -22,24 +22,19 @@
   position: relative;
 }
 
-.contact-title {
-  margin-bottom: 30px;
+.work-togather-text h2 {
+  font-size: 2.5rem;
+  margin-top: 20px;
+  color: var(--white);
 }
 
-.contact-title h2 {
-  font-size: 15px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-weight: 600;
-  margin-bottom: 20px;
-  color: var(--heading-text);
+.work-togather-text p {
+  font-size: 14px;
 }
 
-.contact-title h3 {
-  font-size: 2.2rem;
-  text-transform: uppercase;
-  font-family: "Playfair Display", Sans-serif;
-  margin-bottom: 40px;
+.contact-me2 .row {
+  z-index: 200;
+  margin-left: 0px;
 }
 
 .contact-row {
@@ -66,86 +61,24 @@
   margin-right: 30px;
 }
 
-.work-togather-form {
-  display: flex;
-  font-size: 15px;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.work-togather-text h2 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-}
-
-.work-togather-text p {
-  font-size: 14px;
-}
-
-.form-input-one {
-  height: 60px;
-  background: #ffffff;
-  font-size: 15px;
-  font-family: "Rubik", sans-serif;
-  color: #10161b;
-  border: none;
-  border-radius: 50px;
-  outline: none;
-  text-align: left;
-  padding: 12px 20px;
-  margin: 20px 80px 20px 40px;
-  box-shadow: none;
-}
-
-.footer-social {
-  display: flex;
-  align-items: center;
-}
-
-.footer-social span {
-  font-family: "Jost", sans-serif;
-  font-weight: 500;
-  font-size: 15px;
-}
-
-.footer-social ul {
-  text-decoration: none;
-  list-style: none;
-  padding-left: 0;
-  margin-bottom: 0;
-  display: flex;
-  align-items: center;
-}
-
-.footer-social ul li {
-  margin-left: 10px;
-  display: flex;
-}
-
-.footer-social ul li a {
-  margin-right: 10px;
-}
-
 .sec-btn {
   font-family: "Rubik", sans-serif;
   font-size: 15px;
-  line-height: 24px;
   font-weight: 500;
+  margin: 0px 12px;
   text-align: center;
   text-transform: uppercase;
   color: var(--white);
-  height: 60px;
-  background: rgb(194, 120, 251);
+  height: 48px;
   background: var(--gradient);
   -webkit-box-shadow: 5px 5px 30px 0px rgb(195 120 251 / 35%);
   -moz-box-shadow: 5px 5px 30px 0px rgba(195, 120, 251, 0.35);
   box-shadow: 5px 5px 30px 0px rgb(195 120 251 / 35%);
   display: inline-block;
   overflow: hidden;
-  padding: 18px 40px;
+  padding: 8px 40px;
   border-radius: 30px;
   position: relative;
-  z-index: 1;
   transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
 }
 
@@ -161,20 +94,6 @@
 
 .d-name {
   color: #cacaca;
-}
-
-.icon-cont {
-  background: rgba(82, 95, 165, 0.1);
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  justify-content: center;
-  margin-bottom: 20px;
-  align-items: center;
-  font-size: 1.5rem;
 }
 
 .contact-info {
@@ -205,23 +124,12 @@
   color: var(--black);
 }
 
-#msg {
-  color: #cacaca;
-  font-size: 15px;
-}
-
 .contact-details p {
   font-size: 13px;
   font-weight: 500;
 }
 
 /* resposiveness */
-@media only screen and (max-width: 768px) {
-  .contact-me2 .contact-title {
-    text-align: center;
-  }
-}
-
 @media only screen and (max-width: 425px) {
   .sec-btn {
     margin-top: 10px;
@@ -262,11 +170,45 @@
   color: #000000;
 }
 
-.light .footer-social i {
-  background: var(--gradient);
-  color: #fff;
+.footer-widget h3 {
+  font-size: 20px;
+  margin: 20px 0px;
 }
 
-.light .form-input-one {
-  background: #ebebeb;
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: var(--white);
+  line-height: 28px;
+}
+
+.footer-widget ul li {
+  display: inline-block;
+  width: 50%;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
+.footer-widget ul li a:hover {
+  color: var(--heading-text);
+}
+
+.footer-widget ul li a {
+  color: var(--white);
+  text-transform: capitalize;
+}
+
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+
+.subscribe-form input {
+  width: 42%;
+  padding: 14px 28px;
+  margin: 10px 10px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  color: rgb(0, 0, 0);
+  border-radius: 50px;
 }
