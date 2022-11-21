@@ -8,6 +8,7 @@
 .contact-me2-dec {
   content: "";
   height: 300px;
+  width: 300px;
   background: url("../../images/decoration/footer-left-dotted-img.png");
   position: absolute;
   background-repeat: no-repeat;
@@ -82,7 +83,6 @@
 }
 
 .form-input-one {
-  width: 100%;
   height: 60px;
   background: #ffffff;
   font-size: 15px;

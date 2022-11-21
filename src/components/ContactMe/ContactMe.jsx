@@ -29,47 +29,49 @@ const ContactMe = () => {
       <section id="contact">
         <div className="contact-me2">
           <div className="contact-me2-dec"></div>
-          <div className="row align-items-center">
-            <div className="col-lg-12">
+          <div className="row align-items-center mb-5">
+            <div className="col-lg-10 col-md-12">
               <div className="work-togather-text">
                 <h2 className="h2-title text-white ">Let's Work Together</h2>
                 <p>Let's Connect, give a call or email me any time.</p>
               </div>
             </div>
             <form ref={form} onSubmit={sendEmail}>
-              <div className="col-lg-8">
-                <div className="work-togather-form">
-                  <label>Name: </label>
-                  <input
-                    type="text"
-                    name="user_name"
-                    className="form-input-one subscribe-input"
-                    placeholder="Name"
-                    required
-                  />
-                  <label>Email: </label>
-                  <input
-                    type="email"
-                    name="user_email"
-                    className="form-input-one subscribe-input"
-                    placeholder="Email Address"
-                    required
-                  />
-                </div>
-                <div className="col-lg-8">
-                  <label>Message: </label>
-                  <input
-                    type="text"
-                    name="message"
-                    className="form-input-one subscribe-input"
-                    placeholder="Message"
-                    required
-                  />
-                  <div className="work-togather-form-btn">
-                    <button type="submit" className="sec-btn" value="Send">
-                      Send
-                    </button>
-                  </div>
+              <div className="col-lg-4 col-md-7 work-togather-form">
+                <label>Name: </label>
+                <input
+                  type="text"
+                  name="user_name"
+                  className="form-input-one subscribe-input"
+                  placeholder="Name"
+                  required
+                />
+              </div>
+              <div className="col-lg-4 col-md-7 work-togather-form">
+                <label>Email: </label>
+                <input
+                  type="email"
+                  name="user_email"
+                  className="form-input-one subscribe-input"
+                  placeholder="Email Address"
+                  required
+                />
+              </div>
+              <div className="col-lg-4 col-md-7 work-togather-form">
+                <label>Message: </label>
+                <input
+                  type="text"
+                  name="message"
+                  className="form-input-one subscribe-input"
+                  placeholder="Message"
+                  required
+                />
+              </div>
+              <div className="col-lg-4 col-md-7 work-togather-form">
+                <div className="work-togather-form-btn">
+                  <button type="submit" className="sec-btn" value="Send">
+                    Send
+                  </button>
                 </div>
               </div>
             </form>

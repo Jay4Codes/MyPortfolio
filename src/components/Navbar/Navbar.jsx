@@ -12,7 +12,7 @@ const Navbar = () => {
       <header id="header" className="fixed-top ">
         <div className="container-fluid navbur">
           <div className="navi">
-            <div className="col-xl-4 d-flex align-items-center lefty">
+            <div className="col-xl-12 d-flex align-items-center lefty">
               <h5 className="ld-flex mr-auto devman">
                 <img src="./developer.png" alt="" />
                 Jay.Jain <span className="blink"> _</span>
