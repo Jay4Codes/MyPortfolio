@@ -37,7 +37,7 @@ const AboutMe = () => {
               </div>
               <div className="about-description">
                 <p className="about-info">
-                  I am currently pursuing Data Science B.Tech in DJ Sanghvi
+                  I am currently pursuing CSE Data Science B.Tech in DJ Sanghvi
                   College of Engineering. Interests in fields of Cloud
                   Development & Machine Learning. I began my career in 2020 as a
                   young Graphic Designer and went on further to become a Visual
