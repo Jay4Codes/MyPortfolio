@@ -250,6 +250,10 @@
   background: var(--gradient);
 }
 
+.light .sec-btn:hover {
+  background: var(--gradient-hover);
+}
+
 .light .contact-details p {
   color: #242424;
 }

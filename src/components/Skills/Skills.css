@@ -39,16 +39,12 @@
   background: rgba(46, 33, 92, 0.5);
 }
 
-.bxl-bootstrap {
-  color: rgb(125, 32, 187);
-}
-
 .lang-info {
   display: flex;
   margin: 20px;
   padding: 4px;
   width: 64px;
-  height: 64px;
+  height: 80px;
   justify-content: center;
   flex-direction: column;
   text-align: center;
@@ -70,16 +66,8 @@
   padding: 10px;
 }
 
-.bxl-git {
-  color: orangered;
-}
-
 .lang-info p {
   font-size: 13px;
-}
-
-.bxl-django {
-  color: green;
 }
 
 .skills-row .title h2 {
@@ -149,26 +137,6 @@
   opacity: 0.8;
   width: 200px;
   z-index: 2;
-}
-
-.bxl-javascript {
-  color: yellow;
-}
-
-.bxl-postgresql {
-  color: rgb(255, 196, 0);
-}
-
-.bxl-react {
-  color: aqua;
-}
-
-.bxl-python {
-  color: #7c97ee;
-}
-
-.bxs-data {
-  color: rgb(255, 238, 0);
 }
 
 /* Responsiveness */
