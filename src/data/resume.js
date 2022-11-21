@@ -146,7 +146,7 @@ export const works = {
   work: [
     [
       "Cloud Backend Developer Intern",
-      "",
+      "./images/works/citjo_1.png",
       "CitJo",
       "https://www.citjo.in",
       "Deployed CI/CD pipeline for a local news-sharing app's backend on AWS & GitHub. Developed a sustainable cloud architecture for the cross-platform Flutter app using AWS Amplify, S3, Cognito, DynamoDB, AppSync, and GraphQL.",
