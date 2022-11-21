@@ -39,10 +39,6 @@
   background: rgba(46, 33, 92, 0.5);
 }
 
-.bxl-bootstrap {
-  color: rgb(125, 32, 187);
-}
-
 .lang-info {
   display: flex;
   margin-right: 15px;
@@ -52,16 +48,8 @@
   align-items: center;
 }
 
-.bxl-git {
-  color: orangered;
-}
-
 .lang-info p {
   font-size: 13px;
-}
-
-.bxl-django {
-  color: green;
 }
 
 .abouMe-row .title h2 {
@@ -132,26 +120,6 @@
   opacity: 0.8;
   width: 200px;
   z-index: 2;
-}
-
-.bxl-javascript {
-  color: yellow;
-}
-
-.bxl-postgresql {
-  color: rgb(255, 196, 0);
-}
-
-.bxl-react {
-  color: aqua;
-}
-
-.bxl-python {
-  color: #7c97ee;
-}
-
-.bxs-data {
-  color: rgb(255, 238, 0);
 }
 
 .download-cv {
@@ -329,7 +297,7 @@
 }
 
 .light .abouMe-row h2 {
-  color: #ff5652;
+  color: var(--heading-text);
 }
 
 .light .download-cv {
@@ -337,5 +305,5 @@
 }
 
 .light .download-cv:hover {
-  background: var(--gradient);
+  background: var(--gradient-hover);
 }

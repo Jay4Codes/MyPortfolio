@@ -1,4 +1,4 @@
-.work-experience{
+.work-experience {
   color: var(--text-color);
   width: 100%;
   padding: 0 0 0 60px;
@@ -14,7 +14,6 @@
   font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-weight: 400;
   margin-bottom: 20px;
   color: var(--heading-text);
   font-weight: 600;
@@ -28,7 +27,6 @@
 .mywork-title h3 {
   font-size: 2.2rem;
   text-transform: uppercase;
-  width: 490px;
   margin-bottom: 40px;
 }
 
@@ -122,29 +120,27 @@
 }
 
 .experience .learnmore {
-  background: transparent;
   height: 30px;
   width: auto;
   padding-left: 10px;
   padding-right: 10px;
   display: flex;
-  font-weight: 100;
   letter-spacing: 1px;
   justify-content: center;
   align-items: center;
-  background: rgb(32, 24, 77);
+  background: var(--gradient);
   font-size: 11px;
   text-transform: uppercase;
   font-weight: 300;
-  color: #fff;
+  color: var(--white);
   margin-top: 30px;
   cursor: pointer;
-  color: var(--gradient);
   border-radius: 4px;
 }
 
 .learnmore:hover {
   background: var(--gradient-hover);
+  color: var(--black);
 }
 
 .experience:hover {
@@ -187,10 +183,9 @@
 
   .mywork-title h3 {
     font-size: 1.3rem;
-    word-wrap: wrap;
   }
 
-  .work-experience{
+  .work-experience {
     padding: 0 0 0 20px;
   }
 
@@ -213,7 +208,7 @@
     min-width: 280px;
   }
 
-  .work-experience{
+  .work-experience {
     padding-left: 20px;
   }
 }
@@ -229,6 +224,10 @@
 
 .light .experience .learnmore {
   background: var(--gradient);
-  font-size: 11px;
-  color: #fff;
+  color: var(--white);
+}
+
+.light .experience .learnmore:hover {
+  background: var(--gradient-hover);
+  color: var(--black);
 }

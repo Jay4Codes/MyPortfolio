@@ -1,43 +1,76 @@
 import "./ContactMe.css";
+import emailjs from "@emailjs/browser";
+import React, { useRef } from "react";
 
 const ContactMe = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_5u50tp6",
+        "template_mddl1l8",
+        form.current,
+        "dl_3hfYXArwJqJqm8"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
   return (
     <>
       <section id="contact">
         <div className="contact-me2">
           <div className="contact-me2-dec"></div>
-          <div className="row align-items-center mb-5">
-            <div className="col-lg-5 col-md-12">
+          <div className="row align-items-center">
+            <div className="col-lg-12">
               <div className="work-togather-text">
                 <h2 className="h2-title text-white ">Let's Work Together</h2>
                 <p>Let's Connect, give a call or email me any time.</p>
               </div>
             </div>
-            <div className="col-lg-8 col-md-7">
-              <div className="work-togather-form">
-                <input
-                  type="email"
-                  name="Email"
-                  className="form-input-one subscribe-input"
-                  placeholder="Email Address"
-                  required
-                />
-                <input
-                  type="text"
-                  name="message"
-                  className="form-input-one subscribe-input"
-                  placeholder="Message"
-                  required
-                />
+            <form ref={form} onSubmit={sendEmail}>
+              <div className="col-lg-12">
+                <div className="work-togather-form">
+                  <label>Name: </label>
+                  <input
+                    type="text"
+                    name="user_name"
+                    className="form-input-one subscribe-input"
+                    placeholder="Name"
+                    required
+                  />
+                  <label>Email: </label>
+                  <input
+                    type="email"
+                    name="user_email"
+                    className="form-input-one subscribe-input"
+                    placeholder="Email Address"
+                    required
+                  />
+                  <label>Message: </label>
+                  <input
+                    type="text"
+                    name="message"
+                    className="form-input-one subscribe-input"
+                    placeholder="Message"
+                    required
+                  />
+                  <div className="work-togather-form-btn">
+                    <button type="submit" className="sec-btn" value="Send">
+                      Send
+                    </button>
+                  </div>
+                </div>
               </div>
-            </div>
-            <div className="col-lg-3 col-md-4">
-              <div className="work-togather-form-btn">
-                <button type="submit" className="sec-btn">
-                  Subscribe Now
-                </button>
-              </div>
-            </div>
+            </form>
           </div>
           <div className="contact-row">
             <div className="contact-info">

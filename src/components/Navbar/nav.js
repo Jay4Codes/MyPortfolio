@@ -1,7 +1,7 @@
 import $ from "jquery";
 
 const Main = () => {
-  // hambager menu
+  // hamburger menu
   $(document).ready(function () {
     $(".menuBtn").click(function () {
       $(this).toggleClass("act");

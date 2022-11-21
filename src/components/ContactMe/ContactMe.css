@@ -1,6 +1,5 @@
 .contact-me2 {
   color: var(--text-color);
-  padding: 30px 60px 10px 60px;
   margin-top: 50px;
   position: relative;
   background: #1b0031;
@@ -9,7 +8,6 @@
 .contact-me2-dec {
   content: "";
   height: 300px;
-  width: 300px;
   background: url("../../images/decoration/footer-left-dotted-img.png");
   position: absolute;
   background-repeat: no-repeat;
@@ -39,9 +37,7 @@
 .contact-title h3 {
   font-size: 2.2rem;
   text-transform: uppercase;
-  width: 390px;
   font-family: "Playfair Display", Sans-serif;
-
   margin-bottom: 40px;
 }
 
@@ -70,7 +66,6 @@
 }
 
 .work-togather-form {
-  padding-left: 30px;
   display: flex;
   font-size: 15px;
   align-items: center;
@@ -92,12 +87,13 @@
   background: #ffffff;
   font-size: 15px;
   font-family: "Rubik", sans-serif;
-  line-height: 24px;
   color: #10161b;
   border: none;
   border-radius: 50px;
   outline: none;
-  padding: 12px 30px;
+  text-align: left;
+  padding: 12px 20px;
+  margin: 20px 80px 20px 40px;
   box-shadow: none;
 }
 
@@ -137,10 +133,10 @@
   font-weight: 500;
   text-align: center;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--white);
   height: 60px;
   background: rgb(194, 120, 251);
-  background: var(--gradient-hover);
+  background: var(--gradient);
   -webkit-box-shadow: 5px 5px 30px 0px rgb(195 120 251 / 35%);
   -moz-box-shadow: 5px 5px 30px 0px rgba(195, 120, 251, 0.35);
   box-shadow: 5px 5px 30px 0px rgb(195 120 251 / 35%);
@@ -151,6 +147,11 @@
   position: relative;
   z-index: 1;
   transition: all 0.2s cubic-bezier(0.98, 0.57, 1, 1) 0s;
+}
+
+.sec-btn:hover {
+  background: var(--gradient-hover);
+  color: var(--black);
 }
 
 .icon-name {
@@ -190,13 +191,18 @@
   font-size: 20px;
   border-radius: 50%;
   display: flex;
-  color: #fff;
+  color: var(--white);
   justify-content: center;
   align-items: center;
-  background: rgb(97 73 195);
+  background: var(--gradient);
   height: 40px;
   width: 40px;
   border-radius: 50px;
+}
+
+.contact-info i:hover {
+  background: var(--gradient-hover);
+  color: var(--black);
 }
 
 #msg {

@@ -2,7 +2,6 @@ import "./Skills.css";
 import decor1 from "../../images/decoration/dots-1.png";
 import reactagle from "../../images/decoration/Rectangle-7.png";
 import shady from "../../images/decoration/dots.png";
-import skill_img from "../../images/about.svg";
 import { skills } from "../../data/resume";
 
 const Skills = () => {
@@ -23,13 +22,7 @@ const Skills = () => {
           </div>
           <div className="skills-row">
             <div
-              className=" col-lg-6 col-md-5 col-sm-12 skills-img"
-              data-aos="fade-up-right"
-            >
-              <img src={skill_img} alt="skills-avatar" />
-            </div>
-            <div
-              className=" col-lg-6 col-md-7  col-sm-12 skills_myinfo"
+              className=" col-lg-10 col-md-7 col-sm-12 skills_myinfo"
               data-aos="fade-up-left"
             >
               <div className="title">
@@ -40,8 +33,10 @@ const Skills = () => {
               <div className="lang">
                 {Object.entries(skills.languages).map(([key, value]) => (
                   <div className="lang-info" key={key}>
-                    <img src={value[1]} alt={value[0]} />
-                    {value[0]}
+                    <div className="skill-img">
+                      <img src={value[1]} alt={value[0]} />
+                    </div>
+                    <div className="skill-name">{value[0]}</div>
                   </div>
                 ))}
               </div>
@@ -49,8 +44,10 @@ const Skills = () => {
               <div className="lang">
                 {Object.entries(skills.development).map(([key, value]) => (
                   <div className="lang-info" key={key}>
-                    <img src={value[1]} alt={value[0]} />
-                    {value[0]}
+                    <div className="skill-img">
+                      <img src={value[1]} alt={value[0]} />
+                    </div>
+                    <div className="skill-name">{value[0]}</div>
                   </div>
                 ))}
               </div>
@@ -58,8 +55,10 @@ const Skills = () => {
               <div className="lang">
                 {Object.entries(skills.databases).map(([key, value]) => (
                   <div className="lang-info" key={key}>
-                    <img src={value[1]} alt={value[0]} />
-                    {value[0]}
+                    <div className="skill-img">
+                      <img src={value[1]} alt={value[0]} />
+                    </div>
+                    <div className="skill-name">{value[0]}</div>
                   </div>
                 ))}
               </div>
@@ -67,8 +66,10 @@ const Skills = () => {
               <div className="lang">
                 {Object.entries(skills.data_science).map(([key, value]) => (
                   <div className="lang-info" key={key}>
-                    <img src={value[1]} alt={value[0]} />
-                    {value[0]}
+                    <div className="skill-img">
+                      <img src={value[1]} alt={value[0]} />
+                    </div>
+                    <div className="skill-name">{value[0]}</div>
                   </div>
                 ))}
               </div>
@@ -76,8 +77,10 @@ const Skills = () => {
               <div className="lang">
                 {Object.entries(skills.machine_learning).map(([key, value]) => (
                   <div className="lang-info" key={key}>
-                    <img src={value[1]} alt={value[0]} />
-                    {value[0]}
+                    <div className="skill-img">
+                      <img src={value[1]} alt={value[0]} />
+                    </div>
+                    <div className="skill-name">{value[0]}</div>
                   </div>
                 ))}
               </div>
@@ -85,8 +88,10 @@ const Skills = () => {
               <div className="lang">
                 {Object.entries(skills.others).map(([key, value]) => (
                   <div className="lang-info" key={key}>
-                    <img src={value[1]} alt={value[0]} />
-                    {value[0]}
+                    <div className="skill-img">
+                      <img src={value[1]} alt={value[0]} />
+                    </div>
+                    <div className="skill-name">{value[0]}</div>
                   </div>
                 ))}
               </div>

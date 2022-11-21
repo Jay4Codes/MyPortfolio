@@ -30,9 +30,6 @@ const Education = () => {
                 <a href={value[6]} rel="norefferer" target="_blank">
                   <h6 className="learn-more">Grade - {value[1]}</h6>
                 </a>
-                <div className="shadow-icon">
-                  <i className=""></i>
-                </div>
               </div>
             ))}
           </div>
@@ -60,9 +57,6 @@ const Education = () => {
               <a href={value[4]} rel="norefferer" target="_blank">
                 <h6 className="learn-more">Credential</h6>
               </a>
-              <div className="shadow-icon">
-                <i className=""></i>
-              </div>
             </div>
           ))}
         </div>

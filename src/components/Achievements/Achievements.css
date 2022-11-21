@@ -84,7 +84,6 @@
 .achievement-title h3 {
   font-size: 2.5rem;
   text-transform: capitalize;
-  width: 260px;
 }
 
 .my-achievement .web {
@@ -196,7 +195,7 @@
 }
 
 .light .my-achievement:hover .web {
-  color: #fb7878;
+  color: var(--heading-text);
 }
 
 .light .achievement-title h3 {

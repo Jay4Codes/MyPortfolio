@@ -84,7 +84,6 @@
 .education-title h3 {
   font-size: 2.5rem;
   text-transform: capitalize;
-  width: 260px;
 }
 
 .my-education .web {
@@ -196,7 +195,7 @@
 }
 
 .light .my-education:hover .web {
-  color: #fb7878;
+  color: var(--heading-text);
 }
 
 .light .education-title h3 {

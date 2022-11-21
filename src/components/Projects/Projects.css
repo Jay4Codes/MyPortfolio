@@ -14,7 +14,6 @@
   font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-weight: 400;
   margin-bottom: 20px;
   color: var(--heading-text);
   font-weight: 600;
@@ -28,7 +27,6 @@
 .mywork-title h3 {
   font-size: 2.2rem;
   text-transform: uppercase;
-  width: 490px;
   margin-bottom: 40px;
 }
 
@@ -123,29 +121,27 @@
 }
 
 .project .learnmore {
-  background: transparent;
   height: 30px;
   width: auto;
   padding-left: 10px;
   padding-right: 10px;
   display: flex;
-  font-weight: 100;
   letter-spacing: 1px;
   justify-content: center;
   align-items: center;
-  background: rgb(32, 24, 77);
+  background: var(--gradient);
   font-size: 11px;
   text-transform: uppercase;
   font-weight: 300;
-  color: #fff;
+  color: var(--white);
   margin-top: 30px;
   cursor: pointer;
-  color: var(--gradient);
   border-radius: 4px;
 }
 
 .learnmore:hover {
   background: var(--gradient-hover);
+  color: var(--black);
 }
 
 .project:hover {
@@ -225,11 +221,15 @@
 }
 
 .light .who-post p {
-  color: #ff5652;
+  color: var(--heading-text);
 }
 
 .light .project .learnmore {
   background: var(--gradient);
-  font-size: 11px;
-  color: #fff;
+  color: var(--white);
+}
+
+.light .project .learnmore:hover {
+  background: var(--gradient-hover);
+  color: var(--black);
 }

@@ -42,7 +42,6 @@ const AboutMe = () => {
                   build clean, appealing, and functional interfaces which comply
                   with the latest web standards.
                 </p>
-                {/* <p className="about-info-2">Desc2</p> */}
               </div>
               <div className="itscv">
                 <a

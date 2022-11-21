@@ -19,7 +19,7 @@ const Achievements = () => {
                 key={key}
               >
                 <a href={value[4]} target="_blank" rel="noreferrer">
-                  <img src={value[3]} alt="img" />
+                  {value[3] ? <img src={value[3]} alt="img" /> : ""}
                 </a>
                 <h4 className="web">{value[0]}</h4>
                 <p className="achievement-info">{value[2]}</p>
