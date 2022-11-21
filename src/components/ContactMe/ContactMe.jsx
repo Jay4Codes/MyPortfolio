@@ -37,7 +37,7 @@ const ContactMe = () => {
               </div>
             </div>
             <form ref={form} onSubmit={sendEmail}>
-              <div className="col-lg-12">
+              <div className="col-lg-8">
                 <div className="work-togather-form">
                   <label>Name: </label>
                   <input
@@ -55,6 +55,8 @@ const ContactMe = () => {
                     placeholder="Email Address"
                     required
                   />
+                </div>
+                <div className="col-lg-8">
                   <label>Message: </label>
                   <input
                     type="text"

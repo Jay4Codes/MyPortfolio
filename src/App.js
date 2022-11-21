@@ -1,5 +1,5 @@
 import "./App.css";
-import $ from "jquery";
+// import $ from "jquery";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -52,7 +52,7 @@ function App() {
         <Education />
         <Achievements />
         <AboutMe />
-        <ContactMe />
+        {/* <ContactMe /> */}
         <Footer />
       </BrowserRouter>
     </>
