@@ -52,7 +52,7 @@ function App() {
         <Education />
         <Achievements />
         <AboutMe />
-        {/* <ContactMe /> */}
+        <ContactMe />
         <Footer />
       </BrowserRouter>
     </>

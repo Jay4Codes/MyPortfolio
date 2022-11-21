@@ -36,7 +36,7 @@ const ContactMe = () => {
                 <p>Let's Connect, give a call or email me any time.</p>
               </div>
             </div>
-            <form ref={form} onSubmit={sendEmail}>
+            {/* <form ref={form} onSubmit={sendEmail}>
               <div className="col-lg-4 col-md-7 work-togather-form">
                 <label>Name: </label>
                 <input
@@ -74,7 +74,7 @@ const ContactMe = () => {
                   </button>
                 </div>
               </div>
-            </form>
+            </form> */}
           </div>
           <div className="contact-row">
             <div className="contact-info">
