@@ -37,10 +37,17 @@ const AboutMe = () => {
               </div>
               <div className="about-description">
                 <p className="about-info">
-                  I'm 20 years old creative SOFTWARE DEVELOPER based in Mumbai,
-                  India specializing in User Interface Design and Development. I
-                  build clean, appealing, and functional interfaces which comply
-                  with the latest web standards.
+                  I am currently pursuing Data Science B.Tech in DJ Sanghvi
+                  College of Engineering. Interests in fields of Cloud
+                  Development & Machine Learning. I began my career in 2020 as a
+                  young Graphic Designer and went on further to become a Visual
+                  Effects Artist and gained some experience in 3D CGI. From
+                  there got into Engineering in 2021 and began gaining
+                  experience in UI/UX Design and Frontend Web Development. After
+                  a year in design, I started learning Backend Cloud Development
+                  and Machine Learning. I'm 20 years old SOFTWARE DEVELOPER
+                  based in Mumbai, India specializing in Development and Data
+                  Analysis.
                 </p>
               </div>
               <div className="itscv">
