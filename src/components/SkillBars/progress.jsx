@@ -43,12 +43,7 @@ const Progress = () => {
                   </div>
                   <div className="skill-perct"></div>
                 </div>
-
-                <div
-                  className="fullwidth clearfix"
-                  style={{}}
-                  data-percent="90%"
-                >
+                <div className="fullwidth clearfix" data-percent="90%">
                   <div className="skill-bar"></div>
                 </div>
               </div>

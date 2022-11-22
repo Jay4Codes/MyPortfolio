@@ -74,12 +74,9 @@
 
 .progress-title h2 {
   font-size: 14px;
-  font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 10px;
-  color: var(--heading-text);
-  letter-spacing: 3px;
   color: var(--heading-text);
   font-weight: 600;
 }
@@ -88,52 +85,6 @@
   width: 300px;
   text-transform: capitalize;
   font-size: 2.5rem;
-}
-
-.fa-html5 {
-  color: #f35f29;
-}
-
-.fa-css3 {
-  color: #00aeff;
-}
-
-.fa-js-square {
-  color: #e9b50a;
-}
-
-.fa-react {
-  color: #00aeff;
-}
-
-.fa-facebook {
-  color: #5656be;
-}
-
-.fa-python {
-  color: #57a4d1;
-}
-
-.fa-database {
-  color: #0cf;
-}
-
-.progress-container .bxl-django {
-  color: green;
-  font-size: 18px;
-  margin-top: 3px;
-}
-
-.bxl-firebase {
-  color: yellow;
-}
-
-.bxs-component {
-  color: rgb(115, 240, 84);
-}
-
-.bx-code-block {
-  color: rgb(255, 0, 179);
 }
 
 /* responsive */

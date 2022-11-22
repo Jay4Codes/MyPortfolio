@@ -63,7 +63,7 @@
   margin-bottom: 30px;
   font-size: 13px;
   font-weight: 400;
-  color: #676a6a;
+  color: #adadad;
 }
 
 .education-title {
@@ -72,7 +72,6 @@
 
 .education-title h2 {
   font-size: 14px;
-  font-weight: 300;
   color: var(--heading-text);
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -89,15 +88,6 @@
 .my-education .web {
   color: #fff;
   font-weight: 700;
-}
-
-.shadow-icon {
-  font-size: 195px;
-  position: absolute;
-  right: -90px;
-  bottom: -100px;
-  opacity: 0.05;
-  z-index: 0;
 }
 
 /* Responsive */
@@ -197,5 +187,5 @@
 }
 
 .light .education-title h3 {
-  color: rgb(34, 34, 34);
+  color: rgb(28, 28, 28);
 }

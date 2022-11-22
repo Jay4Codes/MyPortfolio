@@ -70,10 +70,8 @@
 .date-posted {
   display: flex;
   align-items: center;
-  padding: 10px 0;
+  padding: 10px 20px;
   justify-content: space-between;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 .work-details {
