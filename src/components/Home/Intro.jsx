@@ -56,6 +56,7 @@ const Intro = () => {
                   href="https://docs.google.com/document/d/1Ep7OppV-X7o_bXbw_TiIAV-t1M0IGAudBJhZThfsxAI/edit?usp=sharing"
                   className="contactMe"
                   rel="noreferrer"
+                  target="_blank"
                 >
                   <button className="contact-me">
                     Resume <i className="bx bx-send "></i>
