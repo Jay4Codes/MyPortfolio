@@ -7,7 +7,7 @@ export const education = {
       "2020 - 2024",
       "Mumbai, India",
       "./images/education/djsce_1.jpg",
-      "transcript",
+      "",
     ],
     [
       "Navneet Education Society",
@@ -16,7 +16,7 @@ export const education = {
       "2018 - 2020",
       "Mumbai, India",
       "./images/education/navneet_1.png",
-      "transcript",
+      "",
     ],
     [
       "Christ Church School",
@@ -25,7 +25,7 @@ export const education = {
       "2008 - 2018",
       "Mumbai, India",
       "./images/education/ccs_1.jpg",
-      "transcript",
+      "",
     ],
   ],
 };
@@ -172,14 +172,14 @@ export const achievements = {
       "TAMU Datathon",
       "Placed 2nd Runner-up from over 200 teams in the 24-hour Datathon",
       "./images/achievements/tamu.jpg",
-      "https://jay4codes-tamu-datathon-main-orrlds.streamlit.app/",
+      "https://devpost.com/software/gas-turbine-visualizer",
     ],
     [
       "Winner at KJSCE Hack 6.0",
       "KJSCE CodeCell",
       "Secured 1st place from over 400 teams in the 24-hour open innovation hackathon",
       "./images/achievements/kjsce.jpg",
-      "https://vlearn-mangodb.netlify.app/",
+      "https://devfolio.co/projects/vlearn-609e",
     ],
     [
       "Best UI/UX at HackOver 3.0",
