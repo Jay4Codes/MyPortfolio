@@ -64,12 +64,20 @@ const Projects = () => {
                 <h2>{value[0]}</h2>
                 <p className="work-info">{value[2]}</p>
                 <div className="project-links">
-                  <a href={value[4]} target="_blank" rel="noopener noreferrer">
-                    <h6 className="learnmore">
-                      <i className="fa fa-laptop" aria-hidden="true"></i>&nbsp;
-                      Live Demo
-                    </h6>
-                  </a>
+                  {value[4] ? (
+                    <a
+                      href={value[4]}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <h6 className="learnmore">
+                        <i className="fa fa-laptop" aria-hidden="true"></i>
+                        &nbsp; Live Demo
+                      </h6>
+                    </a>
+                  ) : (
+                    ""
+                  )}
                   <a href={value[5]} target="_blank" rel="noopener noreferrer">
                     <h6 className="learnmore">
                       <i className="fa fa-github" aria-hidden="true"></i> &nbsp;
