@@ -72,6 +72,14 @@ const Intro = () => {
                 <ul>
                   <li>
                     <a
+                      href="mailto:jay4emails@gmail.com"
+                      className="icon-link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i className="bx bxl-mail"></i>
+                    </a>
+                    <a
                       href="https://www.linkedin.com/in/jay-ra-jain/"
                       className="icon-link"
                       target="_blank"

@@ -131,14 +131,6 @@ export const projects = {
       "https://drive.google.com/file/d/1loSIA2QQPdo3JyzGIpqqane6tU4uY8W7/view?usp=sharing",
       "https://drive.google.com/file/d/1loSIA2QQPdo3JyzGIpqqane6tU4uY8W7/view?usp=sharing",
     ],
-    // [
-    //   "VCare: Using AI for Fitness",
-    //   "ReactJS | TensorFlowJS | Firebase",
-    //   "A fitness website that uses a Deep Learning model for posture detection that identifies postures from users' webcams and helps them correct their yoga postures. The website also comprised diet plans, live video sessions with trainers, and a user progress dashboard.",
-    //   "",
-    //   "",
-    //   "",
-    // ],
   ],
 };
 
