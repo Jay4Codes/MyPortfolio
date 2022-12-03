@@ -72,12 +72,20 @@ const Intro = () => {
                 <ul>
                   <li>
                     <a
+                      href="tel:+91 9867466628"
+                      className="icon-link"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i className="bx bxl-phone"></i>
+                    </a>
+                    <a
                       href="mailto:jay4emails@gmail.com"
                       className="icon-link"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <i className="bx bxl-mail"></i>
+                      <i className="bx bxl-mail-send"></i>
                     </a>
                     <a
                       href="https://www.linkedin.com/in/jay-ra-jain/"
