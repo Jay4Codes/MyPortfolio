@@ -77,7 +77,7 @@ const Intro = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <i className="bx bxl-phone"></i>
+                      <i className="bx bx-phone"></i>
                     </a>
                     <a
                       href="mailto:jay4emails@gmail.com"
@@ -85,7 +85,7 @@ const Intro = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      <i className="bx bxl-mail-send"></i>
+                      <i className="bx bxl-gmail"></i>
                     </a>
                     <a
                       href="https://www.linkedin.com/in/jay-ra-jain/"
