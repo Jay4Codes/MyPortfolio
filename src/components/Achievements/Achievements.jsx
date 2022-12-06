@@ -23,9 +23,13 @@ const Achievements = () => {
                 </a>
                 <h4 className="web">{value[0]}</h4>
                 <p className="achievement-info">{value[2]}</p>
-                <a href={value[4]} target="_blank" rel="noreferrer">
-                  <h6 className="learn-more">Learn More</h6>
-                </a>
+                {value[4] ? (
+                  <a href={value[4]} target="_blank" rel="noreferrer">
+                    <h6 className="learn-more">Learn More</h6>
+                  </a>
+                ) : (
+                  ""
+                )}
               </div>
             ))}
           </div>
