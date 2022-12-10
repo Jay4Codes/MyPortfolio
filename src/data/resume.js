@@ -36,7 +36,7 @@ export const skills = {
     ["C++", "./icons/cpp.svg"],
     ["JavaScript", "./icons/js.svg"],
     ["SQL", "./icons/sql.png"],
-    ["Java", "./icons/java.svg"],
+    // ["Java", "./icons/java.svg"],
     ["Prolog", "./icons/prolog.svg"],
   ],
   development: [
@@ -44,7 +44,7 @@ export const skills = {
     ["React.js", "./icons/react.svg"],
     ["Django", "./icons/django.svg"],
     ["Postman", "./icons/postman.svg"],
-    ["Node.js", "./icons/nodejs.svg"],
+    // ["Node.js", "./icons/nodejs.svg"],
     ["GCP", "./icons/gcp.svg"],
     ["Firebase", "./icons/firebase.svg"],
     ["Flask", "./icons/flask.svg"],
@@ -53,7 +53,7 @@ export const skills = {
   ],
   databases: [
     ["MySQL", "./icons/mysql.svg"],
-    ["NoSQL", "./icons/nosql.svg"],
+    // ["NoSQL", "./icons/nosql.svg"],
     ["GraphQL", "./icons/graphql.svg"],
     ["MongoDB", "./icons/mongodb-icon.svg"],
   ],
@@ -65,7 +65,7 @@ export const skills = {
     ["Scikit-Learn", "./icons/scikit.png"],
     ["Matplotlib", "./icons/matplotlib.svg"],
     ["Plotly", "./icons/plotly.svg"],
-    ["D3.js", "./icons/d3.svg"],
+    // ["D3.js", "./icons/d3.svg"],
   ],
   machine_learning: [
     ["Computer Vision", "./icons/opencv.svg"],
@@ -73,7 +73,7 @@ export const skills = {
     ["Time Series Analysis", "./icons/tsa.png"],
     ["CNN", "./icons/cnn.png"],
     ["Deep Learning", "./icons/dl.png"],
-    ["Artifical Intelligence", "./icons/artificial-intelligence.svg"],
+    // ["Artifical Intelligence", "./icons/artificial-intelligence.svg"],
   ],
   others: [
     ["Git", "./icons/git-icon.svg"],
@@ -136,6 +136,15 @@ export const projects = {
 
 export const works = {
   work: [
+    [
+      "Backend Developer Intern",
+      "./images/works/neyx_1.png",
+      "NeyX",
+      "https://neyx.in",
+      "Developing a scalable backend for a Chatbot that has the ability to bargain on e-commerce websites. The backend is built using Python, Django, and REST API Framework",
+      "Dec 2022 - Present",
+      "Remote",
+    ],
     [
       "Cloud Backend Developer Intern",
       "./images/works/citjo_1.png",

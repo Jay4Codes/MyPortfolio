@@ -1,5 +1,5 @@
 import decor3 from "../../images/decoration/Group-31.png";
-import intro from "../../images/intro.png";
+import intro from "../../images/banner.png";
 import "./Intro.css";
 
 const Intro = () => {
@@ -68,7 +68,7 @@ const Intro = () => {
                 data-aos="fade-up"
                 data-aos-duration="1800"
               >
-                <span>Follow Me:</span>
+                <span>Get In Touch:</span>
                 <ul>
                   <li>
                     <a
