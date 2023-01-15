@@ -156,7 +156,7 @@ export const works = {
       "./images/works/citjo_1.png",
       "CitJo",
       "https://www.citjo.in",
-      "Deployed CI/CD pipeline for a local news-sharing app's backend on AWS & GitHub. Developed a sustainable cloud architecture for the cross-platform Flutter app using AWS Amplify, S3, Cognito, DynamoDB, AppSync, and GraphQL.",
+      "Deployed CI/CD pipeline and a sustainable cloud architecture for the cross-platform Flutter app using AWS Amplify, S3, Cognito, DynamoDB, AppSync, GraphQL and Github for a local news-sharing app's backend.",
       "Jul 2022 - Oct 2022",
       "Mumbai, India",
     ],

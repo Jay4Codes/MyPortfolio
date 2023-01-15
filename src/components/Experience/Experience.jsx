@@ -10,10 +10,13 @@ const Experience = () => {
     margin: 30,
     responsiveClass: true,
     nav: true,
-    dots: true,
-    autoplay: false,
-    navText: false,
-    smartSpeed: 1000,
+    dots: false,
+    autoplay: true,
+    navText: true,
+    loop: true,
+    rewind: true,
+    autoplayTimeout: 6000,
+    smartSpeed: 8000,
     responsive: {
       0: {
         items: 1,
