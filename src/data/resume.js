@@ -36,7 +36,6 @@ export const skills = {
     ["C++", "./icons/cpp.svg"],
     ["JavaScript", "./icons/js.svg"],
     ["SQL", "./icons/sql.png"],
-    // ["Java", "./icons/java.svg"],
     ["Prolog", "./icons/prolog.svg"],
   ],
   development: [
@@ -53,7 +52,7 @@ export const skills = {
   ],
   databases: [
     ["MySQL", "./icons/mysql.svg"],
-    // ["NoSQL", "./icons/nosql.svg"],
+    ["NoSQL", "./icons/nosql.svg"],
     ["GraphQL", "./icons/graphql.svg"],
     ["MongoDB", "./icons/mongodb-icon.svg"],
   ],
@@ -65,7 +64,6 @@ export const skills = {
     ["Scikit-Learn", "./icons/scikit.png"],
     ["Matplotlib", "./icons/matplotlib.svg"],
     ["Plotly", "./icons/plotly.svg"],
-    // ["D3.js", "./icons/d3.svg"],
   ],
   machine_learning: [
     ["Computer Vision", "./icons/opencv.svg"],
@@ -73,7 +71,7 @@ export const skills = {
     ["Time Series Analysis", "./icons/tsa.png"],
     ["CNN", "./icons/cnn.png"],
     ["Deep Learning", "./icons/dl.png"],
-    // ["Artifical Intelligence", "./icons/artificial-intelligence.svg"],
+    ["Artifical Intelligence", "./icons/artificial-intelligence.svg"],
   ],
   others: [
     ["Git", "./icons/git-icon.svg"],
@@ -92,12 +90,12 @@ export const skills = {
 export const projects = {
   project: [
     [
-      "Baker Hughes: Data Visualization",
-      "Streamlit | Python | Excel",
-      "Developed an interactive data visualization dashboard and analysis for a Gas Turbine dataset using python libraries including matplotlib, pandas, plotly, streamlit, pydeck, etc.",
-      "./images/projects/bakerhughes.png",
-      "https://jay4codes-tamu-datathon-main-orrlds.streamlit.app/",
-      "https://github.com/Jay4Codes/BakerHughes-DataViz",
+      "GetFit",
+      "ReactJS | TensorflowJS | GCP | Django",
+      "Virtual Yoga and exercise sessions, Classification of food calories from images, Maintaining dietary plans, and displaying statistics of the user to help them track their fitness.",
+      "./images/projects/getfit.png",
+      "https://youtu.be/8BVNeJUq-vE",
+      "https://github.com/Jay4Codes/GetFit",
     ],
     [
       "VLearn: Visualizing Algorithms",
@@ -108,6 +106,14 @@ export const projects = {
       "https://github.com/Jay4Codes/VLearn",
     ],
     [
+      "Baker Hughes: Data Visualization",
+      "Streamlit | Python | Excel",
+      "Developed an interactive data visualization dashboard and analysis for a Gas Turbine dataset using python libraries including matplotlib, pandas, plotly, streamlit, pydeck, etc.",
+      "./images/projects/bakerhughes.png",
+      "https://jay4codes-tamu-datathon-main-orrlds.streamlit.app/",
+      "https://github.com/Jay4Codes/BakerHughes-DataViz",
+    ],
+    [
       "EnhanceAI: Enhancing Images",
       "OpenCV | CNN | Python | REST API | Streamlit",
       "An image editing website that along with the usual image editing also provides Low Light Enhancement, Denoising & Upscaling. The website uses a RESTful API created using Django to fetch the enhanced images from a CNN model.",
@@ -115,14 +121,14 @@ export const projects = {
       "",
       "https://github.com/Jay4Codes/EnhanceAI",
     ],
-    // [
-    //   "Air Touch: Virtual Mouse",
-    //   "OpenCV | Object Detection | C++ | Python | JavaScript Browser Extension",
-    //   "Built a virtual mouse that performs traditional mouse operations using hand gestures.",
-    //   "./images/projects/airtouch.png",
-    //   "",
-    //   "https://github.com/Jay4Codes/AirTouch",
-    // ],
+    [
+      "Air Touch: Virtual Mouse",
+      "OpenCV | Object Detection | C++ | Python | JavaScript Browser Extension",
+      "Built a virtual mouse that performs traditional mouse operations using hand gestures.",
+      "./images/projects/airtouch.png",
+      "",
+      "https://github.com/Jay4Codes/AirTouch",
+    ],
     [
       "Adobe: Analytics Challenge",
       "Customer Journey Analytics | Data Science | Python | Tableau",
@@ -169,6 +175,13 @@ export const works = {
 export const achievements = {
   prize: [
     [
+      "Winner at Cloudathon",
+      "Google Developer Student Clubs",
+      "Secured 1st place in the cloud innovation hackathon based on the Google Cloud Platform",
+      "./images/achievements/cloudathon.png",
+      "https://www.instagram.com/p/CnZnf97Pm4y/?utm_source=ig_web_copy_link",
+    ],
+    [
       "3rd Place at Baker Hughes Data Viz Challenge",
       "TAMU Datathon",
       "Placed 2nd Runner-up from over 200 teams in the 24-hour Datathon",
@@ -201,6 +214,13 @@ export const achievements = {
 
 export const courses = {
   course: [
+    [
+      "Google Cloud Practitioner",
+      "Google Cloud",
+      "Completed Google Cloud's Career Practitioner's Certifications",
+      "./images/courses/gccp.png",
+      "https://www.cloudskillsboost.google/public_profiles/e4f2dc2c-3617-4a50-8c22-56d9dbf01907",
+    ],
     [
       "AWS Cloud Foundations",
       "AWS Academy",

@@ -43,8 +43,7 @@ const Intro = () => {
                   data-aos="fade-down"
                   data-aos-duration="1800"
                 >
-                  Just another guy programming my life for 20 years living in
-                  the City of dreams.
+                  Just another guy programming my life for 20 years from Mumbai, India.
                 </p>
               </div>
               <div
