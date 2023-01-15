@@ -93,7 +93,7 @@ export const projects = {
       "GetFit",
       "ReactJS | TensorflowJS | GCP | Django",
       "Virtual Yoga and exercise sessions, Classification of food calories from images, Maintaining dietary plans, and displaying statistics of the user to help them track their fitness.",
-      "./images/projects/getfit.png",
+      "./images/projects/getfit.jpg",
       "https://youtu.be/8BVNeJUq-vE",
       "https://github.com/Jay4Codes/GetFit",
     ],
@@ -218,7 +218,7 @@ export const courses = {
       "Google Cloud Practitioner",
       "Google Cloud",
       "Completed Google Cloud's Career Practitioner's Certifications",
-      "./images/courses/gccp.png",
+      "./images/courses/gccp.jpg",
       "https://www.cloudskillsboost.google/public_profiles/e4f2dc2c-3617-4a50-8c22-56d9dbf01907",
     ],
     [
