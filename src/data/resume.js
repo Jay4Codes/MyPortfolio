@@ -175,6 +175,13 @@ export const works = {
 export const achievements = {
   prize: [
     [
+      "1st Place at Hackanova 2.0",
+      "Thakur College of Engineering",
+      "Secured 1st Place from over 400+ pan India participants",
+      "./images/achievements/hackanova.png",
+      "https://devfolio.co/projects/vlearn-visualizing-concepts-489d"
+    ],
+    [
       "Winner at Cloudathon",
       "Google Developer Student Clubs",
       "Secured 1st place in the cloud innovation hackathon based on the Google Cloud Platform",
@@ -182,7 +189,7 @@ export const achievements = {
       "https://www.instagram.com/p/CnZnf97Pm4y/?utm_source=ig_web_copy_link",
     ],
     [
-      "3rd Place at Baker Hughes Data Viz Challenge",
+      "3rd Place at Baker Hughes Data Visualization Challenge",
       "TAMU Datathon",
       "Placed 2nd Runner-up from over 200 teams in the 24-hour Datathon",
       "./images/achievements/tamu.jpg",
