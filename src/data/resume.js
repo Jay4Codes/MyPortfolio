@@ -43,7 +43,6 @@ export const skills = {
     ["React.js", "./icons/react.svg"],
     ["Django", "./icons/django.svg"],
     ["Postman", "./icons/postman.svg"],
-    ["Selenium", "./icons/selenium.png"],
     // ["Node.js", "./icons/nodejs.svg"],
     ["GCP", "./icons/gcp.svg"],
     ["Firebase", "./icons/firebase.svg"],
@@ -65,6 +64,7 @@ export const skills = {
     ["Scikit-Learn", "./icons/scikit.png"],
     ["Matplotlib", "./icons/matplotlib.svg"],
     ["Plotly", "./icons/plotly.svg"],
+    ["Selenium", "./icons/selenium.png"],
   ],
   machine_learning: [
     ["Computer Vision", "./icons/opencv.svg"],
