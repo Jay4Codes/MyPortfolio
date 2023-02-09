@@ -71,9 +71,9 @@
   color: var(--white);
   height: 48px;
   background: var(--gradient);
-  -webkit-box-shadow: 5px 5px 30px 0px rgb(195 120 251 / 35%);
-  -moz-box-shadow: 5px 5px 30px 0px rgba(195, 120, 251, 0.35);
-  box-shadow: 5px 5px 30px 0px rgb(195 120 251 / 35%);
+  -webkit-box-shadow: 0px 0px 20px 2px rgb(195 120 251 / 20%);
+  -moz-box-shadow: 0px 0px 20px 2px rgba(195, 120, 251, 0.20);
+  box-shadow: 0px 0px 20px 2px rgb(195 120 251 / 20%);
   display: inline-block;
   overflow: hidden;
   padding: 8px 40px;

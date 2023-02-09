@@ -43,6 +43,7 @@ export const skills = {
     ["React.js", "./icons/react.svg"],
     ["Django", "./icons/django.svg"],
     ["Postman", "./icons/postman.svg"],
+    ["Selenium", "./icons/selenium.png"],
     // ["Node.js", "./icons/nodejs.svg"],
     ["GCP", "./icons/gcp.svg"],
     ["Firebase", "./icons/firebase.svg"],
