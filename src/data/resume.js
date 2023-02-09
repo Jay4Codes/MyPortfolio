@@ -100,10 +100,10 @@ export const projects = {
     ],
     [
       "VLearn: Visualizing Algorithms",
-      "ReactJS | ChartJS | Firebase",
-      "A website to visualize algorithms like sorting, decision trees, neural network architectures, etc. The website also comprises links to upcoming competitions and mock AI interviews along with a student progress dashboard.",
+      "ReactJS | Blockly | GPT | Django",
+      "Build algorithms using blocks that auto generates code in various languages, visualize algorithms, get code explained line by line using using AI GPT model, along with competitions, and a student progress dashboard",
       "./images/projects/vlearn.png",
-      "https://vlearn-mangodb.netlify.app/",
+      "https://vlearn-project.netlify.app/",
       "https://github.com/Jay4Codes/VLearn",
     ],
     [
