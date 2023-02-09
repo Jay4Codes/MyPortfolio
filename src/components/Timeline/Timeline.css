@@ -1,0 +1,61 @@
+.main-container {
+    padding-right: 500px;
+    box-sizing: border-box;
+}
+
+.c-fixed_target {
+    position: absolute;
+    top: -100vh;
+    right: 0;
+    left: 0;
+    bottom: -100vh;
+}
+
+.scroll-container {
+    margin-right: 500px;
+}
+
+.content {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(50, 2%);
+    grid-template-rows: repeat(50, 2%);
+    width: 250vw;
+    padding-left: 12vw;
+    height: 100%;
+    position: relative;
+    align-items: center;
+    background-color: white;
+}
+
+.gallery-helper {
+    grid-area: 43 / span 2 / span 1;
+    font-size: 20px;
+}
+
+.behind-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 12em;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 50px;
+}
+
+.behind-text.fill {
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.behind-text.outline {
+    z-index: 2;
+    mix-blend-mode: overlay;
+}

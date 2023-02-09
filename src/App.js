@@ -1,10 +1,10 @@
 import "./App.css";
-// import $ from "jquery";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
+// import TimelineNavbar from "./components/Navbar/TimelineNavbar";
 import Home from "./components/Home/Intro";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Achievements from "./components/Achievements/Achievements";
@@ -14,19 +14,9 @@ import Education from "./components/Education/Education";
 import ContactMe from "./components/ContactMe/ContactMe";
 import Footer from "./components/Footer/Footer";
 import Skills from "./components/Skills/Skills";
+// import Timeline from "./components/Timeline/Timeline";
 
 function App() {
-  // Preloader
-  // $(window).on("load", function () {
-  //   if ($("#preloader").length) {
-  //     $("#preloader")
-  //       .delay(100)
-  //       .fadeOut("slow", function () {
-  //         $(this).remove();
-  //       });
-  //   }
-  // });
-
   useEffect(() => {
     AOS.init({
       duration: 1500,
@@ -37,23 +27,34 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        {/* <div id="preloader">
-          <h2 className="name-load animate-charcter">L O A D I N G</h2>
-        </div> */}
-
-        <div className="homepage">
-          <Navbar />
-          <Home />
-        </div>
-
-        <Projects />
-        <Experience />
-        <Skills />
-        <Education />
-        <Achievements />
-        <AboutMe />
-        <ContactMe />
-        <Footer />
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <Navbar />
+                <Home />
+                <Projects />
+                <Experience />
+                <Skills />
+                <Education />
+                <Achievements />
+                <AboutMe />
+                <ContactMe />
+                <Footer />
+              </>
+            }
+          />
+          {/* <Route
+            path="/timeline"
+            element={
+              <>
+                <TimelineNavbar />
+                <Timeline />
+              </>
+            }
+          /> */}
+        </Routes>
       </BrowserRouter>
     </>
   );

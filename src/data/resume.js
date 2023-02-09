@@ -2,7 +2,7 @@ export const education = {
   degree: [
     [
       "University Of Mumbai",
-      "9.44/10",
+      "9.35/10",
       "B.Tech Computer Science & Engineering Data Science",
       "2020 - 2024",
       "Mumbai, India",
@@ -142,6 +142,15 @@ export const projects = {
 
 export const works = {
   work: [
+    // [
+    //   "Software Engineer Intern",
+    //   "./images/works/neyx_1.png",
+    //   "ArbDossier",
+    //   "https://arbdossier.com/",
+    //   "Developing a scalable backend for a Chatbot that has the ability to bargain on e-commerce websites. The backend is built using Python, Django, and REST API Framework",
+    //   "Feb 2023 - Present",
+    //   "Remote",
+    // ],
     [
       "Backend Developer Intern",
       "./images/works/neyx_1.png",
@@ -179,7 +188,7 @@ export const achievements = {
       "Thakur College of Engineering",
       "Secured 1st Place from over 400+ pan India participants",
       "./images/achievements/hackanova.png",
-      "https://devfolio.co/projects/vlearn-visualizing-concepts-489d"
+      "https://devfolio.co/projects/vlearn-visualizing-concepts-489d",
     ],
     [
       "Winner at Cloudathon",
