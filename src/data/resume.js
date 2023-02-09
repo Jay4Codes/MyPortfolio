@@ -157,7 +157,7 @@ export const works = {
       "./images/works/neyx_1.png",
       "NeyX",
       "https://neyx.in",
-      "Developing a scalable backend for a Chatbot that has the ability to bargain on e-commerce websites. The backend is built using Python, Django, and REST API Framework",
+      "Worked within an Agile Scrum-based methodology to develop Django REST framework-based APIs for an ecommerce bargaining chatbot's dashbaord. I learned how to design and implement scalable and efficient API endpoints with role-based access control, database design, and testing API endpoints using various backend tools, including Digital Ocean Cloud, PostgreSQL database, and Postman.",
       "Dec 2022 - Feb 2023",
       "Remote",
     ],
