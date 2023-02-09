@@ -157,7 +157,7 @@ export const works = {
       "NeyX",
       "https://neyx.in",
       "Developing a scalable backend for a Chatbot that has the ability to bargain on e-commerce websites. The backend is built using Python, Django, and REST API Framework",
-      "Dec 2022 - Present",
+      "Dec 2022 - Feb 2023",
       "Remote",
     ],
     [
