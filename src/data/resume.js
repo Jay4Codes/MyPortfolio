@@ -91,12 +91,12 @@ export const skills = {
 export const projects = {
   project: [
     [
-      "GetFit",
-      "ReactJS | TensorflowJS | GCP | Django",
-      "Virtual Yoga and exercise sessions, Classification of food calories from images, Maintaining dietary plans, and displaying statistics of the user to help them track their fitness.",
-      "./images/projects/getfit.jpg",
-      "https://youtu.be/8BVNeJUq-vE",
-      "https://github.com/Jay4Codes/GetFit",
+      "Newsify",
+      "ReactJS | Flutter | GCP | Django",
+      "Newsify is software that allows users to watch or read news in a variety of ways, with location-based filtering that recommends all relevant content.",
+      "./images/projects/newsify.png",
+      "https://newsify-teal.vercel.app/",
+      "https://github.com/Jay4Codes/Newsify",
     ],
     [
       "VLearn: Visualizing Algorithms",
@@ -137,6 +137,14 @@ export const projects = {
       "./images/projects/adobeanalytics.jpg",
       "",
       "https://drive.google.com/file/d/1loSIA2QQPdo3JyzGIpqqane6tU4uY8W7/view?usp=sharing",
+    ],
+    [
+      "GetFit",
+      "ReactJS | TensorflowJS | GCP | Django",
+      "Virtual Yoga and exercise sessions, Classification of food calories from images, Maintaining dietary plans, and displaying statistics of the user to help them track their fitness.",
+      "./images/projects/getfit.jpg",
+      "https://youtu.be/8BVNeJUq-vE",
+      "https://github.com/Jay4Codes/GetFit",
     ],
   ],
 };
@@ -184,6 +192,13 @@ export const works = {
 
 export const achievements = {
   prize: [
+    [
+      "1st Place at HackNiche 1.0",
+      "Google Developer Student Clubs",
+      "Secured 1st Place from over 1200+ pan India participants",
+      "./images/achievements/hackaniche.png",
+      "",
+    ],
     [
       "1st Place at Hackanova 2.0",
       "Thakur College of Engineering",
