@@ -196,7 +196,7 @@ export const achievements = {
       "1st Place at HackNiche 1.0",
       "Google Developer Student Clubs",
       "Secured 1st Place from over 1200+ pan India participants",
-      "./images/achievements/hackaniche.png",
+      "./images/achievements/hackniche.png",
       "",
     ],
     [
