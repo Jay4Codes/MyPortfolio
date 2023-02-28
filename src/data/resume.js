@@ -161,6 +161,15 @@ export const works = {
     //   "Remote",
     // ],
     [
+      "Data Analyst Intern",
+      "./images/works/bakerhughes_1.jpg",
+      "Baker Hughes",
+      "https://www.bakerhughes.com/",
+      "Working on multiple projects including meta data extraction, optical character recognition and data analysis",
+      "Feb 2023 - Present",
+      "Hybrid",
+    ],
+    [
       "Backend Developer Intern",
       "./images/works/neyx_1.png",
       "NeyX",
