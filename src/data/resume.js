@@ -91,6 +91,14 @@ export const skills = {
 export const projects = {
   project: [
     [
+      "SmartSight",
+      "ReactJS | Computer Vision | GCP | Django",
+      "With our API, you can easily integrate face detection and recognition functionality into your applications, enabling them to analyze and interpret visual data in real-time. Start exploring our API today and see how it can transform the way you build your applications.",
+      "./images/projects/smartsight.png",
+      "https://smart-sight.vercel.app/",
+      "https://github.com/Jay4Codes/SmartSight",
+    ],
+    [
       "Newsify",
       "ReactJS | Flutter | GCP | Django",
       "Newsify is software that allows users to watch or read news in a variety of ways, with location-based filtering that recommends all relevant content.",
@@ -202,11 +210,18 @@ export const works = {
 export const achievements = {
   prize: [
     [
+      "1st Place in AI/ML domain at Clash of Codes",
+      "DJSCE Trinity",
+      "Secured 1st Place in the AI/ML Domain from over 400+ participants",
+      "./images/achievements/coc.png",
+      "",
+    ],
+    [
       "1st Place at HackNiche 1.0",
       "Google Developer Student Clubs",
       "Secured 1st Place from over 1200+ pan India participants",
       "./images/achievements/hackniche.png",
-      "",
+      "https://www.instagram.com/p/CpiAAZ_t_eB/?utm_source=ig_web_copy_link",
     ],
     [
       "1st Place at Hackanova 2.0",
