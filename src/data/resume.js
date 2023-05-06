@@ -271,6 +271,27 @@ export const achievements = {
 export const courses = {
   course: [
     [
+      "AWS Data Analytics",
+      "AWS Academy",
+      "Hands on experience with various AWS services for data handling, analysis and visualization",
+      "./images/courses/aws_da.png",
+      "https://www.credly.com/badges/ba66babf-cd1b-4e85-a36a-ea36218ecd75/public_url",
+    ],
+    [
+      "AWS Data Engineering",
+      "AWS Academy",
+      "Gained knowledge about AWS Data Engineering services for Big Data Handling and Analytics",
+      "./images/courses/aws_de.png",
+      "https://www.credly.com/badges/c07d8380-1931-4d61-a416-24687c81e93e/public_url",
+    ],
+    [
+      "AWS Cloud Architecting",
+      "AWS Academy",
+      "Explored design and implementation of AWS Cloud Architecture planning and optimization",
+      "./images/courses/aws_ca.png",
+      "https://www.credly.com/badges/a99e0edf-bf5a-4ae2-9392-b4ce6c3b7ada/public_url",
+    ],
+    [
       "Google Cloud Practitioner",
       "Google Cloud",
       "Completed Google Cloud's Career Practitioner's Certifications",
