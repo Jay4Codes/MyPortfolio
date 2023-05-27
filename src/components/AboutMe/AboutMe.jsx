@@ -39,8 +39,7 @@ const AboutMe = () => {
                 <p className="about-info">
                   I am currently pursuing CSE Data Science B.Tech in DJ Sanghvi
                   College of Engineering. Interests in fields of Cloud
-                  Development & Machine Learning. I'm 20 years old SOFTWARE
-                  DEVELOPER based in Mumbai, India specializing in Development
+                  Development & Machine Learning. I'm 21 years old and based in Mumbai, India specializing in Development
                   and Data Analysis.
                 </p>
               </div>
@@ -59,8 +58,7 @@ const AboutMe = () => {
                 <h3>Hobbies</h3>
               </div>
               <p className="about-info hobbies">
-                Podcasts &nbsp; | &nbsp; Design &nbsp; | &nbsp; Music &nbsp; |
-                &nbsp; Dance &nbsp; | &nbsp; Video Games
+                &nbsp; Design &nbsp; | &nbsp; Music &nbsp; | Podcasts &nbsp; | &nbsp; Dance &nbsp; | &nbsp; Video Games
               </p>
             </div>
           </div>

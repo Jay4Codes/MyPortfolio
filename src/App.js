@@ -34,8 +34,8 @@ function App() {
               <>
                 <Navbar />
                 <Home />
-                <Projects />
                 <Experience />
+                <Projects />
                 <Skills />
                 <Education />
                 <Achievements />

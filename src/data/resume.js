@@ -95,14 +95,6 @@ export const skills = {
 export const projects = {
   project: [
     [
-      "SmartSight",
-      "ReactJS | Computer Vision | GCP | Django",
-      "With our API, you can easily integrate face detection and recognition functionality into your applications, enabling them to analyze and interpret visual data in real-time. Start exploring our API today and see how it can transform the way you build your applications.",
-      "./images/projects/smartsight.png",
-      "https://smart-sight.vercel.app/",
-      "https://github.com/Jay4Codes/SmartSight",
-    ],
-    [
       "Newsify",
       "ReactJS | Flutter | GCP | Django",
       "Newsify is software that allows users to watch or read news in a variety of ways, with location-based filtering that recommends all relevant content.",
@@ -119,12 +111,28 @@ export const projects = {
       "https://github.com/Jay4Codes/VLearn",
     ],
     [
+      "Adobe: Analytics Challenge",
+      "Customer Journey Analytics | Data Science | Python | Tableau",
+      "A complete data analysis, visualization, and storytelling for real-time Hilton Hotels UX data on Adobe's Customer Journey Analytics platform to fetch useful insights to promote Hilton's digital services.",
+      "./images/projects/adobeanalytics.jpg",
+      "",
+      "https://drive.google.com/file/d/1loSIA2QQPdo3JyzGIpqqane6tU4uY8W7/view?usp=sharing",
+    ],
+    [
       "Baker Hughes: Data Visualization",
       "Streamlit | Python | Excel",
       "Developed an interactive data visualization dashboard and analysis for a Gas Turbine dataset using python libraries including matplotlib, pandas, plotly, streamlit, pydeck, etc.",
       "./images/projects/bakerhughes.png",
       "https://jay4codes-tamu-datathon-main-orrlds.streamlit.app/",
       "https://github.com/Jay4Codes/BakerHughes-DataViz",
+    ],
+    [
+      "SmartSight",
+      "ReactJS | Computer Vision | GCP | Django",
+      "With our API, you can easily integrate face detection and recognition functionality into your applications, enabling them to analyze and interpret visual data in real-time. Start exploring our API today and see how it can transform the way you build your applications.",
+      "./images/projects/smartsight.png",
+      "https://smart-sight.vercel.app/",
+      "https://github.com/Jay4Codes/SmartSight",
     ],
     [
       "EnhanceAI: Enhancing Images",
@@ -141,14 +149,6 @@ export const projects = {
       "./images/projects/airtouch.png",
       "",
       "https://github.com/Jay4Codes/AirTouch",
-    ],
-    [
-      "Adobe: Analytics Challenge",
-      "Customer Journey Analytics | Data Science | Python | Tableau",
-      "A complete data analysis, visualization, and storytelling for real-time Hilton Hotels UX data on Adobe's Customer Journey Analytics platform to fetch useful insights to promote Hilton's digital services.",
-      "./images/projects/adobeanalytics.jpg",
-      "",
-      "https://drive.google.com/file/d/1loSIA2QQPdo3JyzGIpqqane6tU4uY8W7/view?usp=sharing",
     ],
     [
       "GetFit",

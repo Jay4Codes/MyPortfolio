@@ -45,10 +45,10 @@ const ContactMe = () => {
                       <a href="#home">Home</a>
                     </li>
                     <li>
-                      <a href="#work">Projects</a>
+                      <a href="#experience">Experience</a>
                     </li>
                     <li>
-                      <a href="#experience">Experience</a>
+                      <a href="#work">Projects</a>
                     </li>
                     <li>
                       <a href="#skills">Skills</a>
