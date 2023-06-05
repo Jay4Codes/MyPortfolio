@@ -214,6 +214,13 @@ export const works = {
 export const achievements = {
   prize: [
     [
+      "ET Campus Star 6.0",
+      "The Economic Times",
+      "Honored as the winner from more than 35,000 students hailing from 2,000 colleges in India",
+      "./images/achievements/et.png",
+      "https://economictimes.indiatimes.com/spotlight/etcampusstars/winnerannouncement",
+    ],
+    [
       "1st Place in AI/ML domain at Clash of Codes",
       "DJSCE Trinity",
       "Secured 1st Place in the AI/ML Domain from over 400+ participants",
