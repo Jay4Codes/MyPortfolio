@@ -242,6 +242,13 @@ export const achievements = {
       "https://devfolio.co/projects/vlearn-visualizing-concepts-489d",
     ],
     [
+      "Honourable Mention at Tri-NIT Hackathon",
+      "ACM NITK, Spider-NIT Trichy, and CSEA-NIT Warangal",
+      "Recieved an honourable mention (4th Position Overall) from over 4000+ participants, over 400 colleges and 2000 teams",
+      "./images/achievements/tri-nit.png",
+      "https://youtu.be/F6lvSsq_rIQ",
+    ],
+    [
       "Winner at Cloudathon",
       "Google Developer Student Clubs",
       "Secured 1st place in the cloud innovation hackathon based on the Google Cloud Platform",
