@@ -62,7 +62,7 @@ export const skills = {
   data_science: [
     ["Excel", "./icons/excel.png"],
     ["Tableau", "./icons/tableau.svg"],
-    ["Power BI", "./icons/powerbi.svg"],
+    ["Power BI", "./icons/powerbi.png"],
     ["Pandas", "./icons/pandas.png"],
     ["NumPy", "./icons/numpy.png"],
     ["Scikit-Learn", "./icons/scikit.png"],
