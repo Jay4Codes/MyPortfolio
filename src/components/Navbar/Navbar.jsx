@@ -26,20 +26,20 @@ const Navbar = () => {
                   >
                     <a href="#home">Home</a>
                   </li>
-                  <li data-aos="fade-down" data-aos-duration="900">
-                    <a href="#work">Projects</a>
-                  </li>
                   <li data-aos="fade-down" data-aos-duration="1200">
                     <a href="#experience">Experience</a>
+                  </li>
+                  <li data-aos="fade-down" data-aos-duration="900">
+                    <a href="#work">Projects</a>
                   </li>
                   <li data-aos="fade-down" data-aos-duration="1500">
                     <a href="#skills">Skills</a>
                   </li>
-                  <li data-aos="fade-down" data-aos-duration="1800">
-                    <a href="#education">Education</a>
-                  </li>
                   <li data-aos="fade-down" data-aos-duration="2100">
                     <a href="#achievements">Achievements</a>
+                  </li>
+                  <li data-aos="fade-down" data-aos-duration="1800">
+                    <a href="#education">Education</a>
                   </li>
                   <li data-aos="fade-down" data-aos-duration="2400">
                     <a href="#about">About</a>
