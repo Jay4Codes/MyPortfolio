@@ -23,7 +23,7 @@ const Footer = () => {
           <div className="footer-info">
             <div className="copywrite">
               <p>
-                Copyright ©2022 All rights reserved | Made with ❤️ by Jay Jain
+                Made with ❤️ by Jay Jain
               </p>
             </div>
           </div>
