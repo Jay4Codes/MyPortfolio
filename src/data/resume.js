@@ -2,7 +2,7 @@ export const education = {
   degree: [
     [
       "University Of Mumbai",
-      "9.35/10",
+      "9.13/10",
       "B.Tech Computer Science & Engineering Data Science",
       "2020 - 2024",
       "Mumbai, India",
@@ -177,7 +177,7 @@ export const works = {
       "./images/works/bakerhughes_1.jpg",
       "Baker Hughes",
       "https://www.bakerhughes.com/",
-      "Working on multiple projects including meta data extraction, optical character recognition and data analysis",
+      "Automated state-of-the-art data extraction techniques from various file formats and migration from cloud databases that saved revenue for the organization from external vendors. Developed analytics dashboards for portals and sales. revenue reports querying data from various sources namely Salesforce, SharePoint, Azure, and other connections. Developed numerous software pipelines using tools namely Power Apps, Automate, BI, SharePoint, Tensorflow, etc.",
       "Feb 2023 - Present",
       "Hybrid",
     ],
