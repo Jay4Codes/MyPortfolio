@@ -214,6 +214,13 @@ export const works = {
 export const achievements = {
   prize: [
     [
+      "Top 10 Finalist and 1st Place in our Problem Statement at HackRx 4.0",
+      "Bajaj Finserv",
+      "Secured 1st Place in our problem statement from over 20,000+ participants and ended up as the top 10 finalists in the hackathon",
+      "./images/achievements/bajaj.png",
+      "https://www.linkedin.com/posts/jay-ra-jain_i-recently-had-the-opportunity-to-put-my-activity-7089584055913988097-f9jF?utm_source=share&utm_medium=member_desktop",
+    ],
+    [
       "ET Campus Star 6.0",
       "The Economic Times",
       "Honored as the winner from more than 35,000 students hailing from 2,000 colleges in India",
