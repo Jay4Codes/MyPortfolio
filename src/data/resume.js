@@ -217,7 +217,7 @@ export const achievements = {
       "Top 10 Finalist and 1st Place in our Problem Statement at HackRx 4.0",
       "Bajaj Finserv",
       "Secured 1st Place in our problem statement from over 20,000+ participants and ended up as the top 10 finalists in the hackathon",
-      "./images/achievements/bajaj.png",
+      "./images/achievements/bajaj.jpg",
       "https://www.linkedin.com/posts/jay-ra-jain_i-recently-had-the-opportunity-to-put-my-activity-7089584055913988097-f9jF?utm_source=share&utm_medium=member_desktop",
     ],
     [
