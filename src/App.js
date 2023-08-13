@@ -16,6 +16,8 @@ import Footer from "./components/Footer/Footer";
 import Skills from "./components/Skills/Skills";
 // import Timeline from "./components/Timeline/Timeline";
 
+import { Analytics } from '@vercel/analytics/react';
+
 function App() {
   useEffect(() => {
     AOS.init({
@@ -32,6 +34,7 @@ function App() {
             path="/"
             element={
               <>
+                <Analytics />
                 <Navbar />
                 <Home />
                 <Experience />
