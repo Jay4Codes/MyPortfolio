@@ -40,9 +40,9 @@ const Skills = () => {
                   </div>
                 ))}
               </div>
-              <h4>Development</h4>
+              <h4>Cloud Technologies</h4>
               <div className="lang">
-                {Object.entries(skills.development).map(([key, value]) => (
+                {Object.entries(skills.cloud).map(([key, value]) => (
                   <div className="lang-info" key={key}>
                     <div className="skill-img">
                       <img src={value[1]} alt={value[0]} />
@@ -51,9 +51,9 @@ const Skills = () => {
                   </div>
                 ))}
               </div>
-              <h4>Databases</h4>
+              <h4>Frameworks & Databases</h4>
               <div className="lang">
-                {Object.entries(skills.databases).map(([key, value]) => (
+                {Object.entries(skills.frameworks_and_databases).map(([key, value]) => (
                   <div className="lang-info" key={key}>
                     <div className="skill-img">
                       <img src={value[1]} alt={value[0]} />
