@@ -40,7 +40,7 @@ const Skills = () => {
                   </div>
                 ))}
               </div>
-              <h4>Cloud Technologies</h4>
+              <h4>Cloud</h4>
               <div className="lang">
                 {Object.entries(skills.cloud).map(([key, value]) => (
                   <div className="lang-info" key={key}>
@@ -51,7 +51,7 @@ const Skills = () => {
                   </div>
                 ))}
               </div>
-              <h4>Frameworks & Databases</h4>
+              <h4>Frameworks and Databases</h4>
               <div className="lang">
                 {Object.entries(skills.frameworks_and_databases).map(([key, value]) => (
                   <div className="lang-info" key={key}>

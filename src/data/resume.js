@@ -155,17 +155,17 @@ export const skills = {
     ["C++", "./icons/cpp.svg"],
     ["SQL", "./icons/sql.png"],
     ["JavaScript", "./icons/js.svg"],
-    ["Prolog", "./icons/prolog.svg"]
+    ["Prolog", "./icons/prolog.svg"],
   ],
   cloud: [
     ["AWS", "./icons/aws.svg"],
     ["GCP", "./icons/gcp.svg"],
     // ["Microsoft 365", "./icons/ms365.svg"],
     // ["Azure", "./icons/azure.svg"],
-    ["Firebase", "./icons/firebase.svg"]
+    ["Firebase", "./icons/firebase.svg"],
     ["SharePoint", "./icons/sharepoint.png"],
     ["Power Apps", "./icons/powerapps.png"],
-    ["Power Automate", "./icons/powerautomate.png"]
+    ["Power Automate", "./icons/powerautomate.png"],
   ],
   frameworks_and_databases: [
     ["React.js", "./icons/react.svg"],
@@ -178,7 +178,7 @@ export const skills = {
     ["MySQL", "./icons/mysql.svg"],
     ["NoSQL", "./icons/nosql.svg"],
     ["MongoDB", "./icons/mongodb-icon.svg"],
-    ["GraphQL", "./icons/graphql.svg"]
+    ["GraphQL", "./icons/graphql.svg"],
   ],
   data_science: [
     ["Excel", "./icons/excel.png"],
@@ -190,14 +190,14 @@ export const skills = {
     ["Scikit-Learn", "./icons/scikit.png"],
     ["Matplotlib", "./icons/matplotlib.svg"],
     ["Plotly", "./icons/plotly.svg"],
-    ["Selenium", "./icons/selenium.png"]
+    ["Selenium", "./icons/selenium.png"],
   ],
   machine_learning: [
     ["Computer Vision", "./icons/opencv.svg"],
     ["TensorFlow", "./icons/tensorflow.svg"],
     ["Time Series Analysis", "./icons/tsa.png"],
     ["Deep Learning", "./icons/dl.png"],
-    ["Natural Language Processing", "./icons/nlp.svg"]
+    ["Natural Language Processing", "./icons/nlp.svg"],
   ],
   others: [
     ["Git", "./icons/git-icon.svg"],
