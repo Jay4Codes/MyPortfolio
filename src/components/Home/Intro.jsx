@@ -22,7 +22,7 @@ const Intro = () => {
                   data-aos="fade-down"
                   data-aos-duration="1500"
                 >
-                  SOFTWARE DEVELOPER | DATA ANALYST
+                  DATA SCIENCE | SOFTWARE DEVELOPMENT
                 </h3>
                 <h3
                   className="name"

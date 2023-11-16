@@ -62,7 +62,7 @@ const Experience = () => {
               </div>
               <div className="date-posted">
                 <div className="who-post">
-                  <p className="admin">{value[2]}</p>
+                  <a href={value[3]} target="_blank" rel="noreferrer"><p className="admin">{value[2]}</p></a>
                 </div>
               </div>
               <div className="work-details">

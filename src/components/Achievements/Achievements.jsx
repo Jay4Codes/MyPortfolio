@@ -22,10 +22,11 @@ const Achievements = () => {
                   {value[3] ? <img src={value[3]} alt="img" /> : ""}
                 </a>
                 <h4 className="web">{value[0]}</h4>
+                <h6 className="achievement-info">by {value[1]}</h6>
                 <p className="achievement-info">{value[2]}</p>
                 {value[4] ? (
                   <a href={value[4]} target="_blank" rel="noreferrer">
-                    <h6 className="learn-more">Learn More</h6>
+                    <h6 className="ach-learn-more">Learn More</h6>
                   </a>
                 ) : (
                   ""

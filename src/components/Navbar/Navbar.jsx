@@ -49,15 +49,6 @@ const Navbar = () => {
                   </li>
                 </ul>
               </nav>
-              <div className="nav-social">
-                <a
-                  href="https://github.com/Jay4Codes/MyPortfolio.git"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  <i className="fa fa-github"></i>
-                </a>
-              </div>
               <div className="left-btns">
                 <div className=" " id="theme-button2">
                   <input id="toggle" className="toggle" type="checkbox"></input>

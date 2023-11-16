@@ -33,7 +33,7 @@ const ContactMe = () => {
             <div className="col-lg-10 col-md-12">
               <div className="work-togather-text">
                 <h2>Let's Work Together</h2>
-                <p>Let's Connect, give a call or email me any time.</p>
+                <p>Let's Connect, give a call or drop me an email.</p>
               </div>
             </div>
             <div className="row row-2">
@@ -67,7 +67,7 @@ const ContactMe = () => {
                     </li>
                     <li>
                       <a
-                        href="https://github.com/Jay4Codes/MyPortfolio.git"
+                        href="https://github.com/Jay4Codes"
                         rel="noreferrer"
                         target="_blank"
                       >

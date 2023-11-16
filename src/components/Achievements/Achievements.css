@@ -60,7 +60,7 @@
 }
 
 .achievement-info {
-  margin-bottom: 30px;
+  margin: 10px 0px 10px 0px;
   font-size: 13px;
   font-weight: 400;
   color: #adadad;
@@ -68,6 +68,10 @@
 
 .achievement-title {
   margin-bottom: 60px;
+}
+
+.ach-learn-more {
+  margin-top: 10px;
 }
 
 .achievement-title h2 {
