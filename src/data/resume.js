@@ -83,6 +83,14 @@ export const works = {
 export const projects = {
   project: [
     [
+      "Time Series Comparative Analysis",
+      "Python | TensorFlow | LSTM | CNN",
+      "Comprehensive research analysis on the efficacy of time series models and recurrent neural networks for stock price prediction, using Python and TensorFlow to implement and back-test ARIMA, ARCH, GARCH, LSTM, and CNN models.",
+      "./images/projects/tsa.png",
+      "https://docs.google.com/document/d/1Ani2Ea5eGSqCaOAj7O6z0tg58DrO64JHsmYQq4ybmD0/edit?usp=sharing",
+      "https://github.com/Jay4Codes/Time-Series-Comparative-Analysis",
+    ],
+    [
       "Newsify",
       "ReactJS | Flutter | GCP | Django",
       "Newsify is software that allows users to watch or read news in a variety of ways, with location-based filtering that recommends all relevant content.",
