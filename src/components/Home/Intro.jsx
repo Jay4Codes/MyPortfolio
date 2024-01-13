@@ -43,7 +43,7 @@ const Intro = () => {
                   data-aos="fade-down"
                   data-aos-duration="1800"
                 >
-                  Final Year Computer Science and Engineering (Data Science) Undegraduate from Mumbai, India.
+                  Final Year Computer Science and Engineering (Data Science) Undergraduate from Mumbai, India.
                 </p>
               </div>
               <div
