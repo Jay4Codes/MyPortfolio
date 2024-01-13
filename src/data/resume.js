@@ -140,8 +140,8 @@ export const projects = {
     ],
     [
       "Air Touch: Virtual Mouse",
-      "OpenCV | Object Detection | C++ | Python | JavaScript Browser Extension",
-      "Built a virtual mouse that performs traditional mouse operations using hand gestures.",
+      "Transfer Learning | Research | Gesture Detection | ML",
+      "This research presents an innovative approach to human-computer interaction through a transfer learning paradigm, leveraging YOLO for object detection. The study meticulously fine-tunes the model on a dataset leveraging transfer learning, emphasizing the intricacies of sensitivity control for accurate hand gesture recognition. The developed AI Hand Gesture mouse system showcases advancements, particularly excelling in unconstrained environments, signifying our contribution to the field of computer vision and human-computer interaction.",
       "./images/projects/airtouch.png",
       "",
       "https://github.com/Jay4Codes/AirTouch",
