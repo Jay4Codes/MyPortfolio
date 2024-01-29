@@ -44,7 +44,7 @@ const AboutMe = () => {
               </div>
               <div className="itscv">
                 <a
-                  href="https://docs.google.com/document/d/1Ep7OppV-X7o_bXbw_TiIAV-t1M0IGAudBJhZThfsxAI/edit?usp=sharing"
+                  href="https://docs.google.com/document/d/11fb99d5EqSbPfBgp03byBb3eQ46w1pFsfcebicIajZs/edit?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                 >
