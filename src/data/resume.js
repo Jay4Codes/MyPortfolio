@@ -43,7 +43,7 @@ export const works = {
     ],
     [
       "Data Science Intern",
-      "./images/works/bfhl.png",
+      "./images/works/bfhl.jpg",
       "Bajaj Finserv Health",
       "https://www.bajajfinserv.in/web-partners-bajajfinservhealth/",
       "• Engineered orchestration of LLMs and foundation models-based pipelines that extract and ingest data from claim documents to databases resulting in 39% automated data processing and resource savings.",
