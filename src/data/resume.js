@@ -2,7 +2,7 @@ export const education = {
   degree: [
     [
       "University Of Mumbai",
-      "9.13/10",
+      "9.07/10",
       "B.Tech Computer Science & Engineering Data Science",
       "2020 - 2024",
       "Mumbai, India",
@@ -39,6 +39,15 @@ export const works = {
       "https://www.bakerhughes.com/",
       "• Fostered machine learning pipelines that optimized auto-encoder-based bore-hole compression by 50%, predictive modelling on rig-well data for clients at Saudi Aramco, and extracted tabular data from geochemical reports by OCR. • Developed SaaS tools for team portals, automated workflows, wireline calculations, and BI dashboards using Microsoft Power Apps, Power Automate, SharePoint, and Power BI saving revenue from external vendors.",
       "Feb 2023 - Oct 2023",
+      "Pune, India",
+    ],
+    [
+      "Data Science Intern",
+      "./images/works/bfhl.png",
+      "Bajaj Finserv Health",
+      "https://www.bajajfinserv.in/web-partners-bajajfinservhealth/",
+      "• Engineered orchestration of LLMs and foundation models-based pipelines that extract and ingest data from claim documents to databases resulting in 39% automated data processing and resource savings.",
+      "Feb 2024 - May 2024",
       "Pune, India",
     ],
     // [
