@@ -22,7 +22,7 @@ const Intro = () => {
                   data-aos="fade-down"
                   data-aos-duration="1500"
                 >
-                  DATA SCIENCE | SOFTWARE DEVELOPMENT
+                  SOFTWARE DEVELOPMENT | DATA SCIENCE
                 </h3>
                 <h3
                   className="name"
@@ -43,7 +43,9 @@ const Intro = () => {
                   data-aos="fade-down"
                   data-aos-duration="1800"
                 >
-                  Final Year Computer Science and Engineering (Data Science) Undergraduate from Mumbai, India.
+                  Upcoming Software Developer at HFT Firm | Ex-Data Science Intern at Bajaj Finserv Health | Ex-Data Analyst Intern at Baker Hughes | CSE - Data Science Graduate | 10x Hackathon Winner | ET Campus Star'23
+                  <br />
+                  Mumbai, India
                 </p>
               </div>
               <div
