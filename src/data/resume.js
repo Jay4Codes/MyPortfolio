@@ -33,13 +33,13 @@ export const education = {
 export const works = {
   work: [
     [
-      "Data Analyst Intern",
-      "./images/works/bh.png",
-      "Baker Hughes",
-      "https://www.bakerhughes.com/",
-      "• Fostered machine learning pipelines that optimized auto-encoder-based bore-hole compression by 50%, predictive modelling on rig-well data for clients at Saudi Aramco, and extracted tabular data from geochemical reports by OCR. • Developed SaaS tools for team portals, automated workflows, wireline calculations, and BI dashboards using Microsoft Power Apps, Power Automate, SharePoint, and Power BI saving revenue from external vendors.",
-      "Feb 2023 - Oct 2023",
-      "Pune, India",
+      "Software Developer",
+      "./images/works/dc.png",
+      "Dolat Capital",
+      "https://www.dolatcapital.com/",
+      "",
+      "June 2024 - Present",
+      "Mumbai, India",
     ],
     [
       "Data Science Intern",
@@ -50,15 +50,15 @@ export const works = {
       "Feb 2024 - May 2024",
       "Pune, India",
     ],
-    // [
-    //   "Software Engineer Intern",
-    //   "./images/works/neyx_1.png",
-    //   "ArbDossier",
-    //   "https://arbdossier.com/",
-    //   "Developing a scalable backend for a Chatbot that has the ability to bargain on e-commerce websites. The backend is built using Python, Django, and REST API Framework",
-    //   "Feb 2023 - Present",
-    //   "Remote",
-    // ],
+    [
+      "Data Analyst Intern",
+      "./images/works/bh.png",
+      "Baker Hughes",
+      "https://www.bakerhughes.com/",
+      "• Fostered machine learning pipelines that optimized auto-encoder-based bore-hole compression by 50%, predictive modelling on rig-well data for clients at Saudi Aramco, and extracted tabular data from geochemical reports by OCR. • Developed SaaS tools for team portals, automated workflows, wireline calculations, and BI dashboards using Microsoft Power Apps, Power Automate, SharePoint, and Power BI saving revenue from external vendors.",
+      "Feb 2023 - Oct 2023",
+      "Pune, India",
+    ],
     [
       "Backend Developer Intern",
       "./images/works/neyx_1.png",
