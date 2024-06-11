@@ -34,9 +34,9 @@ export const works = {
   work: [
     [
       "Software Developer",
-      "./images/works/dc.png",
-      "Dolat Capital",
-      "https://www.dolatcapital.com/",
+      "",
+      "Confidential HFT Firm",
+      "",
       "",
       "June 2024 - Present",
       "Mumbai, India",
