@@ -43,7 +43,7 @@ const Intro = () => {
                   data-aos="fade-down"
                   data-aos-duration="1800"
                 >
-                  Software Developer at Confidential HFT Firm | Ex-Data Science Intern at Bajaj Finserv Health | Ex-Data Analyst Intern at Baker Hughes | CSE - Data Science Graduate | 10x Hackathon Winner | ET Campus Star'23
+                  Quantitative Software Developer at Dolat Capital | Ex-Data Science Intern at Bajaj Finserv Health | Ex-Data Analyst Intern at Baker Hughes | CSE - Data Science Graduate | 10x Hackathon Winner | ET Campus Star'23
                   <br />
                   Mumbai, India
                 </p>
