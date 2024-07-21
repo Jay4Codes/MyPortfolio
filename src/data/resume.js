@@ -33,11 +33,11 @@ export const education = {
 export const works = {
   work: [
     [
-      "Software Developer",
+      "Quantitative Software Developer",
       "",
-      "Confidential HFT Firm",
-      "",
-      "",
+      "Dolat Capital",
+      "https://www.dolatcapital.com/",
+      "Working on development of vectorized machine learning models for predictive analytics to optimize algorithmic trading strategies using parallel computing techniques, resulting in real-time and accurate trading signal indications",
       "June 2024 - Present",
       "Mumbai, India",
     ],
